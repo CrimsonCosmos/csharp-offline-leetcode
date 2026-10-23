@@ -10,7 +10,10 @@ const store = {
 };
 async function api(path, opts) {
   const r = await fetch('/api' + path, opts);
-  if (!r.ok) throw new Error(r.status === 404 ? 'Not found' : 'Server error ' + r.status);
+  if (!r.ok) {
+    const detail = r.status === 404 ? '' : (await r.text().catch(() => '')).slice(0, 400);
+    throw new Error(r.status === 404 ? 'Not found' : 'Server error ' + r.status + (detail ? ': ' + detail : ''));
+  }
   return r.status === 204 ? null : (r.headers.get('content-type') || '').includes('json') ? r.json() : r.text();
 }
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 1800); }

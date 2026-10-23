@@ -38,6 +38,19 @@ builder.WebHost.UseUrls($"http://127.0.0.1:{port}");
 builder.Services.ConfigureHttpJsonOptions(o => o.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase);
 var app = builder.Build();
 
+// Show unexpected server errors in the console and return their message to the page instead of a bare "500".
+app.Use(async (ctx, next) => {
+    try { await next(); }
+    catch (Exception e) {
+        Console.WriteLine($"\n[error] {ctx.Request.Method} {ctx.Request.Path}\n{e}\n");
+        if (!ctx.Response.HasStarted) {
+            ctx.Response.StatusCode = 500;
+            ctx.Response.ContentType = "text/plain";
+            await ctx.Response.WriteAsync($"{e.GetType().Name}: {e.Message}");
+        }
+    }
+});
+
 var store = new Store(root, dataDir);
 
 var web = Path.Combine(root, "web");
@@ -228,7 +241,11 @@ static class Runner {
     static readonly SemaphoreSlim Slots = new(2);
     static readonly Regex ErrorLine = new(@"Solution\.cs\((\d+),(\d+)\):\s*error\s+(\w+):\s*(.*?)(\s*\[[^\]]*\])?$", RegexOptions.Compiled);
 
+    static readonly System.Collections.Concurrent.ConcurrentDictionary<string, SemaphoreSlim> FolderLocks = new();
+
     public static async Task<JsonNode> Run(string root, string data, string folder, string code, bool submit, bool unordered) {
+        var folderLock = FolderLocks.GetOrAdd(folder, _ => new SemaphoreSlim(1));
+        await folderLock.WaitAsync();       // two runs of the same problem would fight over its build folder
         await Slots.WaitAsync();
         try {
             var build = Path.Combine(data, "build", folder);
@@ -292,7 +309,7 @@ static class Runner {
             res["status"] = status;
             res["submit"] = submit;
             return res;
-        } finally { Slots.Release(); }
+        } finally { Slots.Release(); folderLock.Release(); }
     }
 
     record Proc(int ExitCode, string Out, string Err);
