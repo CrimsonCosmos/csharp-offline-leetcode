@@ -1,0 +1,35 @@
+# 3528. Unit Conversion I
+**Difficulty:** Medium  
+**Topics:** Depth-First Search, Breadth-First Search, Graph
+**Link (online only):** https://leetcode.com/problems/unit-conversion-i/
+
+There are n types of units indexed from 0 to n - 1. You are given a 2D integer array conversions of length n - 1, where conversions[i] = [sourceUniti, targetUniti, conversionFactori]. This indicates that a single unit of type sourceUniti is equivalent to conversionFactori units of type targetUniti.
+Return an array baseUnitConversion of length n, where baseUnitConversion[i] is the number of units of type i equivalent to a single unit of type 0. Since the answer may be large, return each baseUnitConversion[i] modulo 109 + 7.
+
+**Example 1:**
+```
+Input: conversions = [[0,1,2],[1,2,3]]
+Output: [1,2,6]
+Explanation:
+```
+
+**Example 2:**
+```
+Input: conversions = [[0,1,2],[0,2,3],[1,3,4],[1,4,5],[2,5,2],[4,6,3],[5,7,4]]
+Output: [1,2,3,8,10,6,30,24]
+Explanation:
+```
+
+**Constraints:**
+- 2 <= n <= 105
+- conversions.length == n - 1
+- 0 <= sourceUniti, targetUniti < n
+- 1 <= conversionFactori <= 109
+- It is guaranteed that unit 0 can be converted into any other unit through a unique combination of conversions without using any conversions in the opposite direction.
+
+<details><summary>Hints</summary>
+
+1. The input is a weighted directed tree rooted at 0.
+2. Launch a BFS from node 0 and multiply the weights on the path.
+
+</details>

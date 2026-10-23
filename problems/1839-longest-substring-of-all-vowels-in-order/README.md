@@ -1,0 +1,41 @@
+# 1839. Longest Substring Of All Vowels in Order
+**Difficulty:** Medium  
+**Topics:** String, Sliding Window
+**Link (online only):** https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/
+
+A string is considered beautiful if it satisfies the following conditions:
+For example, strings "aeiou" and "aaaaaaeiiiioou" are considered beautiful, but "uaeio", "aeoiu", and "aaaeeeooo" are not beautiful.
+Given a string word consisting of English vowels, return the length of the longest beautiful substring of word. If no such substring exists, return 0.
+A substring is a contiguous sequence of characters in a string.
+
+**Example 1:**
+```
+Input: word = "aeiaaioaaaaeiiiiouuuooaauuaeiu"
+Output: 13
+Explanation: The longest beautiful substring in word is "aaaaeiiiiouuu" of length 13.
+```
+
+**Example 2:**
+```
+Input: word = "aeeeiiiioooauuuaeiou"
+Output: 5
+Explanation: The longest beautiful substring in word is "aeiou" of length 5.
+```
+
+**Example 3:**
+```
+Input: word = "a"
+Output: 0
+Explanation: There is no beautiful substring, so return 0.
+```
+
+**Constraints:**
+- 1 <= word.length <= 5 * 105
+- word consists of characters 'a', 'e', 'i', 'o', and 'u'.
+
+<details><summary>Hints</summary>
+
+1. Start from each 'a' and find the longest beautiful substring starting at that index.
+2. Based on the current character decide if you should include the next character in the beautiful substring.
+
+</details>

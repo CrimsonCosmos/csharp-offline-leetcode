@@ -1,0 +1,1 @@
+{"slug":"longest-absolute-file-path","method":"lengthLongestPath","params":["input"],"inplace":false,"tests":[{"a":["dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"],"e":20},{"a":["dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"],"e":32},{"a":["a"],"e":0},{"a":["file1.txt\nfile2.txt\nlongfile.txt"],"e":12}]}

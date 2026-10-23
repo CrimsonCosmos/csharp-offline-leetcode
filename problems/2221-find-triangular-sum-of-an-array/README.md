@@ -1,0 +1,35 @@
+# 2221. Find Triangular Sum of an Array
+**Difficulty:** Medium  
+**Topics:** Array, Math, Simulation, Combinatorics
+**Link (online only):** https://leetcode.com/problems/find-triangular-sum-of-an-array/
+
+You are given a 0-indexed integer array nums, where nums[i] is a digit between 0 and 9 (inclusive).
+The triangular sum of nums is the value of the only element present in nums after the following process terminates:
+Return the triangular sum of nums.
+
+**Example 1:**
+```
+Input: nums = [1,2,3,4,5]
+Output: 8
+Explanation:
+The above diagram depicts the process from which we obtain the triangular sum of the array.
+```
+
+**Example 2:**
+```
+Input: nums = [5]
+Output: 5
+Explanation:
+Since there is only one element in nums, the triangular sum is the value of that element itself.
+```
+
+**Constraints:**
+- 1 <= nums.length <= 1000
+- 0 <= nums[i] <= 9
+
+<details><summary>Hints</summary>
+
+1. Try simulating the entire process.
+2. To reduce space, use a temporary array to update nums in every step instead of creating a new array at each step.
+
+</details>

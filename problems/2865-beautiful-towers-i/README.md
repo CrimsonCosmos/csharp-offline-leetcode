@@ -1,0 +1,43 @@
+# 2865. Beautiful Towers I
+**Difficulty:** Medium  
+**Topics:** Array, Stack, Monotonic Stack
+**Link (online only):** https://leetcode.com/problems/beautiful-towers-i/
+
+You are given an array heights of n integers representing the number of bricks in n consecutive towers. Your task is to remove some bricks to form a mountain-shaped tower arrangement. In this arrangement, the tower heights are non-decreasing, reaching a maximum peak value with one or multiple consecutive towers and then non-increasing.
+Return the maximum possible sum of heights of a mountain-shaped tower arrangement.
+
+**Example 1:**
+```
+Input: heights = [5,3,4,1,1]
+Output: 13
+Explanation:
+We remove some bricks to make heights = [5,3,3,1,1] , the peak is at index 0.
+```
+
+**Example 2:**
+```
+Input: heights = [6,5,3,9,2,7]
+Output: 22
+Explanation:
+We remove some bricks to make heights = [3,3,3,9,2,2] , the peak is at index 3.
+```
+
+**Example 3:**
+```
+Input: heights = [3,2,5,5,2,3]
+Output: 18
+Explanation:
+We remove some bricks to make heights = [2,2,5,5,2,2] , the peak is at index 2 or 3.
+```
+
+**Constraints:**
+- 1 <= n == heights.length <= 103
+- 1 <= heights[i] <= 109
+
+<details><summary>Hints</summary>
+
+1. Try all the possible indices <code>i</code> as the peak.
+2. If <code>i</code> is the peak, <code>i-1<sup>th</sup></code> element, and <code>heights[j] = min(heights[j], heights[j + 1])</code> for <code>0 <= j < i </code>
+3. If <code>i</code> is the peak, start from <code>i+1<sup>th</sup></code> element, heights[j] = min(heights[j], heights[j - 1]) for <code>i < j < heights.size()</code>
+
+</details>

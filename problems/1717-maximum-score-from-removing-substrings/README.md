@@ -1,0 +1,37 @@
+# 1717. Maximum Score From Removing Substrings
+**Difficulty:** Medium  
+**Topics:** String, Stack, Greedy
+**Link (online only):** https://leetcode.com/problems/maximum-score-from-removing-substrings/
+
+You are given a string s and two integers x and y. You can perform two types of operations any number of times.
+Return the maximum points you can gain after applying the above operations on s.
+
+**Example 1:**
+```
+Input: s = "cdbcbbaaabab", x = 4, y = 5
+Output: 19
+Explanation:
+- Remove the "ba" underlined in "cdbcbbaaabab". Now, s = "cdbcbbaaab" and 5 points are added to the score.
+- Remove the "ab" underlined in "cdbcbbaaab". Now, s = "cdbcbbaa" and 4 points are added to the score.
+- Remove the "ba" underlined in "cdbcbbaa". Now, s = "cdbcba" and 5 points are added to the score.
+- Remove the "ba" underlined in "cdbcba". Now, s = "cdbc" and 5 points are added to the score.
+Total score = 5 + 4 + 5 + 5 = 19.
+```
+
+**Example 2:**
+```
+Input: s = "aabbaaxybbaabb", x = 5, y = 4
+Output: 20
+```
+
+**Constraints:**
+- 1 <= s.length <= 105
+- 1 <= x, y <= 104
+- s consists of lowercase English letters.
+
+<details><summary>Hints</summary>
+
+1. Note that it is always more optimal to take one type of substring before another
+2. You can use a stack to handle erasures
+
+</details>

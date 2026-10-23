@@ -1,0 +1,1 @@
+{"slug":"count-good-numbers","method":"countGoodNumbers","params":["n"],"inplace":false,"tests":[{"a":[1],"e":5},{"a":[4],"e":400},{"a":[50],"e":564908303}]}

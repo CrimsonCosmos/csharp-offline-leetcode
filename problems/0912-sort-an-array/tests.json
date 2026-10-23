@@ -1,0 +1,1 @@
+{"slug":"sort-an-array","method":"sortArray","params":["nums"],"inplace":false,"tests":[{"a":[[0]],"e":[0]},{"a":[[-1]],"e":[-1]},{"a":[[50000]],"e":[50000]},{"a":[[-50000]],"e":[-50000]},{"a":[[1]],"e":[1]}]}
