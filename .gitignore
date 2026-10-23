@@ -5,3 +5,4 @@ __pycache__/
 tools/testaudit/report/new/
 tools/testaudit/report/*_partial.json
 tools/testaudit/report/generate_run1.json
+/csharp-offline-leetcode.zip
