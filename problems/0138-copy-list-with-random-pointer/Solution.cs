@@ -1,4 +1,3 @@
-/*
 // Definition for a Node.
 public class Node {
     public int val;
@@ -11,7 +10,6 @@ public class Node {
         random = null;
     }
 }
-*/
 
 public class Solution {
     public Node CopyRandomList(Node head) {

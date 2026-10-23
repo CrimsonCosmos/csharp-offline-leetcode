@@ -1,4 +1,3 @@
-/*
 // Definition for a Node.
 public class Node {
     public int val;
@@ -19,7 +18,6 @@ public class Node {
         next = _next;
     }
 }
-*/
 
 public class Solution {
     public Node Connect(Node root) {

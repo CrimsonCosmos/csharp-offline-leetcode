@@ -1,4 +1,3 @@
-/*
 // Definition for a Node.
 public class Node {
     public int val;
@@ -15,7 +14,6 @@ public class Node {
         children = _children;
     }
 }
-*/
 
 public class Solution {
     public IList<IList<int>> LevelOrder(Node root) {
