@@ -1,0 +1,1 @@
+{"slug":"super-pow","method":"SuperPow","params":["a","b"],"inplace":false,"tests":[{"a":[2,[3]],"e":8,"g":"example"},{"a":[2,[1,0]],"e":1024,"g":"example"},{"a":[1,[4,3,3,8,5,2]],"e":1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

@@ -1,0 +1,1 @@
+{"slug":"design-an-atm-machine","design":true,"class":"ATM","inplace":false,"method":"","params":[],"tests":[{"ops":["ATM","deposit","withdraw","deposit","withdraw","withdraw"],"a":[[],[[0,0,1,2,1]],[600],[[0,1,0,1,1]],[600],[550]],"e":[null,null,[0,0,1,0,1],null,[-1],[0,1,0,0,1]],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

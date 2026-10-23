@@ -1,0 +1,1 @@
+{"slug":"count-the-number-of-computer-unlocking-permutations","method":"CountPermutations","params":["complexity"],"inplace":false,"tests":[{"a":[[1,2,3]],"e":2,"g":"example"},{"a":[[3,3,3,4,4,4]],"e":0,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

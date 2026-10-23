@@ -1,0 +1,1 @@
+{"slug":"inverse-coin-change","method":"FindCoins","params":["numWays"],"inplace":false,"tests":[{"a":[[0,1,0,2,0,3,0,4,0,5]],"e":[2,4,6],"g":"example"},{"a":[[1,2,2,3,4]],"e":[1,2,5],"g":"example"},{"a":[[1,2,3,4,15]],"e":[],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

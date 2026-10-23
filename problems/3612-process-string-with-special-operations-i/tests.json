@@ -1,0 +1,1 @@
+{"slug":"process-string-with-special-operations-i","method":"ProcessStr","params":["s"],"inplace":false,"tests":[{"a":["a#b%*"],"e":"ba","g":"example"},{"a":["z*#"],"e":"","g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

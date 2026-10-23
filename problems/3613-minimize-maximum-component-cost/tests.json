@@ -1,0 +1,1 @@
+{"slug":"minimize-maximum-component-cost","method":"MinCost","params":["n","edges","k"],"inplace":false,"tests":[{"a":[5,[[0,1,4],[1,2,3],[1,3,2],[3,4,6]],2],"e":4,"g":"example"},{"a":[4,[[0,1,5],[1,2,5],[2,3,5]],1],"e":5,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

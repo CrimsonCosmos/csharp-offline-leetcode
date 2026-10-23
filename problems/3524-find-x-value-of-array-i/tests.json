@@ -1,0 +1,1 @@
+{"slug":"find-x-value-of-array-i","method":"ResultArray","params":["nums","k"],"inplace":false,"tests":[{"a":[[1,2,3,4,5],3],"e":[9,2,4],"g":"example"},{"a":[[1,2,4,8,16,32],4],"e":[18,1,2,0],"g":"example"},{"a":[[1,1,2,1,1],2],"e":[9,6],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

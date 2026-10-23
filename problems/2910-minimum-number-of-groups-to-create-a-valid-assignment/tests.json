@@ -1,0 +1,1 @@
+{"slug":"minimum-number-of-groups-to-create-a-valid-assignment","method":"MinGroupsForValidAssignment","params":["balls"],"inplace":false,"tests":[{"a":[[3,2,3,2,3]],"e":2,"g":"example"},{"a":[[10,10,10,3,1,1]],"e":4,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

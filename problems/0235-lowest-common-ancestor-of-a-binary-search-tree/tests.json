@@ -1,0 +1,1 @@
+{"slug":"lowest-common-ancestor-of-a-binary-search-tree","method":"LowestCommonAncestor","params":["root","p","q"],"inplace":false,"tests":[{"a":[[6,2,8,0,4,7,9,null,null,3,5],2,8],"e":6,"g":"example"},{"a":[[6,2,8,0,4,7,9,null,null,3,5],2,4],"e":2,"g":"example"},{"a":[[2,1],2,1],"e":2,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

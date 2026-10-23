@@ -1,0 +1,1 @@
+{"slug":"count-islands-with-total-value-divisible-by-k","method":"CountIslands","params":["grid","k"],"inplace":false,"tests":[{"a":[[[0,2,1,0,0],[0,5,0,0,5],[0,0,1,0,0],[0,1,4,7,0],[0,2,0,0,8]],5],"e":2,"g":"example"},{"a":[[[3,0,3,0],[0,3,0,3],[3,0,3,0]],3],"e":6,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

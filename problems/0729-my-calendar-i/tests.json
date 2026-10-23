@@ -1,0 +1,1 @@
+{"slug":"my-calendar-i","design":true,"class":"MyCalendar","inplace":false,"method":"","params":[],"tests":[{"ops":["MyCalendar","book","book","book"],"a":[[],[10,20],[15,25],[20,30]],"e":[null,true,false,true],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

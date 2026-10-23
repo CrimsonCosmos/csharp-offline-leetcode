@@ -1,0 +1,1 @@
+{"slug":"count-number-of-trapezoids-i","method":"CountTrapezoids","params":["points"],"inplace":false,"tests":[{"a":[[[1,0],[2,0],[3,0],[2,2],[3,2]]],"e":3,"g":"example"},{"a":[[[0,0],[1,0],[0,1],[2,1]]],"e":1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

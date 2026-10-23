@@ -1,0 +1,1 @@
+{"slug":"range-sum-query-mutable","design":true,"class":"NumArray","inplace":false,"method":"","params":[],"tests":[{"ops":["NumArray","sumRange","update","sumRange"],"a":[[[1,3,5]],[0,2],[1,2],[0,2]],"e":[null,9,null,8],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

@@ -1,0 +1,1 @@
+{"slug":"longest-uploaded-prefix","design":true,"class":"LUPrefix","inplace":false,"method":"","params":[],"tests":[{"ops":["LUPrefix","upload","longest","upload","longest","upload","longest"],"a":[[4],[3],[],[1],[],[2],[]],"e":[null,null,0,null,1,null,3],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

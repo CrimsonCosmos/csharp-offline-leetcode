@@ -1,0 +1,1 @@
+{"slug":"count-covered-buildings","method":"CountCoveredBuildings","params":["n","buildings"],"inplace":false,"tests":[{"a":[3,[[1,2],[2,2],[3,2],[2,1],[2,3]]],"e":1,"g":"example"},{"a":[3,[[1,1],[1,2],[2,1],[2,2]]],"e":0,"g":"example"},{"a":[5,[[1,3],[3,2],[3,3],[3,5],[5,3]]],"e":1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

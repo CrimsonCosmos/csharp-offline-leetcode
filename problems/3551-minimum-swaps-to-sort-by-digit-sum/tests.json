@@ -1,0 +1,1 @@
+{"slug":"minimum-swaps-to-sort-by-digit-sum","method":"MinSwaps","params":["nums"],"inplace":false,"tests":[{"a":[[37,100]],"e":1,"g":"example"},{"a":[[22,14,33,7]],"e":0,"g":"example"},{"a":[[18,43,34,16]],"e":2,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

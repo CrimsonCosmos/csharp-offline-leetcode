@@ -1,0 +1,1 @@
+{"slug":"longest-common-prefix-between-adjacent-strings-after-removals","method":"LongestCommonPrefix","params":["words"],"inplace":false,"tests":[{"a":[["jump","run","run","jump","run"]],"e":[3,0,0,3,3],"g":"example"},{"a":[["dog","racer","car"]],"e":[0,0,0],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

@@ -1,0 +1,1 @@
+{"slug":"my-calendar-ii","design":true,"class":"MyCalendarTwo","inplace":false,"method":"","params":[],"tests":[{"ops":["MyCalendarTwo","book","book","book","book","book","book"],"a":[[],[10,20],[50,60],[10,40],[5,15],[5,10],[25,55]],"e":[null,true,true,true,false,true,true],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

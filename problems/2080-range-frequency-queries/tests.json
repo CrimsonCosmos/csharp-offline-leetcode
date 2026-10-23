@@ -1,0 +1,1 @@
+{"slug":"range-frequency-queries","design":true,"class":"RangeFreqQuery","inplace":false,"method":"","params":[],"tests":[{"ops":["RangeFreqQuery","query","query"],"a":[[[12,33,4,56,22,2,34,33,22,12,34,56]],[1,2,4],[0,11,33]],"e":[null,1,2],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

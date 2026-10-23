@@ -1,0 +1,1 @@
+{"slug":"find-maximum-area-of-a-triangle","method":"MaxArea","params":["coords"],"inplace":false,"tests":[{"a":[[[1,1],[1,2],[3,2],[3,3]]],"e":2,"g":"example"},{"a":[[[1,1],[2,2],[3,3]]],"e":-1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

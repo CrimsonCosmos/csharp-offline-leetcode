@@ -1,0 +1,1 @@
+{"slug":"minimum-absolute-difference-in-sliding-submatrix","method":"MinAbsDiff","params":["grid","k"],"inplace":false,"tests":[{"a":[[[1,8],[3,-2]],2],"e":[[2]],"g":"example"},{"a":[[[3,-1]],1],"e":[[0,0]],"g":"example"},{"a":[[[1,-2,3],[2,3,5]],2],"e":[[1,2]],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

@@ -1,0 +1,1 @@
+{"slug":"minimum-removals-to-balance-array","method":"MinRemoval","params":["nums","k"],"inplace":false,"tests":[{"a":[[2,1,5],2],"e":1,"g":"example"},{"a":[[1,6,2,9],3],"e":2,"g":"example"},{"a":[[4,6],2],"e":0,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

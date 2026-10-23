@@ -1,0 +1,1 @@
+{"slug":"count-collisions-of-monkeys-on-a-polygon","method":"MonkeyMove","params":["n"],"inplace":false,"tests":[{"a":[3],"e":6,"g":"example"},{"a":[4],"e":14,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

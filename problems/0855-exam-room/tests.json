@@ -1,0 +1,1 @@
+{"slug":"exam-room","design":true,"class":"ExamRoom","inplace":false,"method":"","params":[],"tests":[{"ops":["ExamRoom","seat","seat","seat","seat","leave","seat"],"a":[[10],[],[],[],[],[4],[]],"e":[null,0,9,4,2,null,5],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

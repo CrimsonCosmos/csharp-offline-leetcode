@@ -1,0 +1,1 @@
+{"slug":"minimum-adjacent-swaps-to-alternate-parity","method":"MinSwaps","params":["nums"],"inplace":false,"tests":[{"a":[[2,4,6,5,7]],"e":3,"g":"example"},{"a":[[2,4,5,7]],"e":1,"g":"example"},{"a":[[1,2,3]],"e":0,"g":"example"},{"a":[[4,5,6,8]],"e":-1,"g":"example"}],"examplesOnly":true,"unordered":true,"audit":{"source":"README examples","added_generated":4}}

@@ -1,0 +1,1 @@
+{"slug":"number-of-ways-to-assign-edge-weights-i","method":"AssignEdgeWeights","params":["edges"],"inplace":false,"tests":[{"a":[[[1,2]]],"e":1,"g":"example"},{"a":[[[1,2],[1,3],[3,4],[3,5]]],"e":2,"g":"example"}],"examplesOnly":true,"unordered":true,"audit":{"source":"README examples","added_generated":2}}

@@ -168,6 +168,13 @@ class Store {
         var readme = File.ReadAllText(Path.Combine(dir, "README.md"));
         var starter = File.ReadAllText(Path.Combine(dir, "Solution.cs"));
         var codeFile = Path.Combine(codeDir, folder + ".cs");
+        var unordered = false; var examplesOnly = false;
+        var testsFile = Path.Combine(dir, "tests.json");
+        if (File.Exists(testsFile)) {
+            using var td = JsonDocument.Parse(File.ReadAllText(testsFile));
+            unordered = td.RootElement.TryGetProperty("unordered", out var u) && u.GetBoolean();
+            examplesOnly = td.RootElement.TryGetProperty("examplesOnly", out var eo) && eo.GetBoolean();
+        }
         lock (gate) {
             progress.TryGetValue(folder, out var pr);
             return new {
@@ -175,6 +182,7 @@ class Store {
                 Link = Regex.Match(readme, @"\*\*Link \(online only\):\*\*\s*(\S+)").Groups[1].Value,
                 Readme = readme, Starter = starter,
                 Code = File.Exists(codeFile) ? File.ReadAllText(codeFile) : null,
+                Unordered = unordered, ExamplesOnly = examplesOnly,
                 HasEditorial = File.Exists(Path.Combine(dir, "EDITORIAL_SPOILERS.md")),
                 Status = pr?.Status, Submissions = pr?.Submissions ?? new List<Submission>(),
             };

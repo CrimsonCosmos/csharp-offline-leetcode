@@ -1,0 +1,1 @@
+{"slug":"partition-array-into-two-equal-product-subsets","method":"CheckEqualPartitions","params":["nums","target"],"inplace":false,"tests":[{"a":[[3,1,6,8,4],24],"e":true,"g":"example"},{"a":[[2,5,3,7],15],"e":false,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

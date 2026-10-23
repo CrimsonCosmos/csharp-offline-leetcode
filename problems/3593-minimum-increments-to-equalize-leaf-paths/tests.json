@@ -1,0 +1,1 @@
+{"slug":"minimum-increments-to-equalize-leaf-paths","method":"MinIncrease","params":["n","edges","cost"],"inplace":false,"tests":[{"a":[3,[[0,1],[0,2]],[2,1,3]],"e":1,"g":"example"},{"a":[3,[[0,1],[1,2]],[5,1,4]],"e":0,"g":"example"},{"a":[5,[[0,4],[0,1],[1,2],[1,3]],[3,4,1,1,7]],"e":1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

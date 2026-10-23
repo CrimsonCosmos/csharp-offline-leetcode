@@ -1,0 +1,1 @@
+{"slug":"split-array-by-prime-indices","method":"SplitArray","params":["nums"],"inplace":false,"tests":[{"a":[[2,3,4]],"e":1,"g":"example"},{"a":[[-1,5,7,0]],"e":3,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

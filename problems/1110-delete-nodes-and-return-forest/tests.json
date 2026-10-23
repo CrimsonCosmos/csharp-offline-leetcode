@@ -1,0 +1,1 @@
+{"slug":"delete-nodes-and-return-forest","method":"DelNodes","params":["root","to_delete"],"inplace":false,"tests":[{"a":[[1,2,3,4,5,6,7],[3,5]],"e":[[1,2,null,4],[6],[7]],"g":"example"},{"a":[[1,2,4,null,3],[3]],"e":[[1,2,4]],"g":"example"}],"examplesOnly":true,"unordered":true,"audit":{"source":"README examples","added_generated":2}}

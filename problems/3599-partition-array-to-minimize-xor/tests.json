@@ -1,0 +1,1 @@
+{"slug":"partition-array-to-minimize-xor","method":"MinXor","params":["nums","k"],"inplace":false,"tests":[{"a":[[1,2,3],2],"e":1,"g":"example"},{"a":[[2,3,3,2],3],"e":2,"g":"example"},{"a":[[1,1,2,3,1],2],"e":0,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

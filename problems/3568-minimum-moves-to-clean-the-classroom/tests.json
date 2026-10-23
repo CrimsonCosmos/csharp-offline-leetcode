@@ -1,0 +1,1 @@
+{"slug":"minimum-moves-to-clean-the-classroom","method":"MinMoves","params":["classroom","energy"],"inplace":false,"tests":[{"a":[["S.","XL"],2],"e":2,"g":"example"},{"a":[["LS","RL"],4],"e":3,"g":"example"},{"a":[["L.S","RXL"],3],"e":-1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

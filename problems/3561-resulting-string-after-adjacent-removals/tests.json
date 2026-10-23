@@ -1,0 +1,1 @@
+{"slug":"resulting-string-after-adjacent-removals","method":"ResultingString","params":["s"],"inplace":false,"tests":[{"a":["abc"],"e":"c","g":"example"},{"a":["adcb"],"e":"","g":"example"},{"a":["zadb"],"e":"db","g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

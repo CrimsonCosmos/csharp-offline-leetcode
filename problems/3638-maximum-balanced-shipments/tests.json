@@ -1,0 +1,1 @@
+{"slug":"maximum-balanced-shipments","method":"MaxBalancedShipments","params":["weight"],"inplace":false,"tests":[{"a":[[2,5,1,4,3]],"e":2,"g":"example"},{"a":[[4,4]],"e":0,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

@@ -172,7 +172,8 @@ async function problemPage(folder) {
   const showDesc = () => {
     body.innerHTML = `<h1>${p.id}. ${esc(p.title)}</h1>
       <div class="meta"><span class="chip diff">Medium</span>${statusChip()}${p.topics.map(t => `<span class="chip">${esc(t)}</span>`).join('')}
-      ${p.tests ? '' : '<span class="chip">no test suite — check the examples by hand</span>'}</div>
+      ${p.tests ? '' : '<span class="chip">no test suite — check the examples by hand</span>'}
+      ${p.examplesOnly ? '<span class="chip" title="The dataset has no tests for this problem, so the tests are the examples from the statement. Passing them is a smoke test, not proof of correctness.">examples only</span>' : ''}</div>
       <div class="md">${bodyMd(p.readme)}</div>
       <p class="hint" style="margin-top:24px">${p.tests ? `${p.tests} automated test cases · ` : ''}<a href="${esc(p.link)}" target="_blank" rel="noopener">Open on leetcode.com ↗</a>
       ${p.tests ? '' : ` · <a href="#" id="mark">${p.status === 'solved' ? 'Mark as unsolved' : 'Mark as solved'}</a>`}</p>`;
@@ -211,7 +212,7 @@ async function problemPage(folder) {
   });
   const model = editor.getModel();
   $('#fontsize').onchange = e => { const n = +e.target.value; store.set('fontSize', n); editor.updateOptions({ fontSize: n }); };
-  $('#unordered').checked = store.get('unordered:' + folder, false);
+  $('#unordered').checked = store.get('unordered:' + folder, !!p.unordered);   // statements that accept any order default to on
   $('#unordered').onchange = e => store.set('unordered:' + folder, e.target.checked);
   $('#reset').onclick = async () => {
     if (!confirm('Reset to the starter code? Your current code will be discarded.')) return;
@@ -264,7 +265,7 @@ async function problemPage(folder) {
       out.innerHTML = `<div class="result-title bad">Runtime Error</div><div class="box err">${esc(r.raw)}</div>`; return;
     }
     if (r.status === 'timeout') {
-      out.innerHTML = `<div class="result-title bad">Time Limit Exceeded</div><div class="result-sub">${r.passed} test(s) passed before test #${r.timeout.i} took over 10 s.</div>
+      out.innerHTML = `<div class="result-title bad">Time Limit Exceeded</div><div class="result-sub">${r.passed} test(s) passed before test #${r.timeout.i} took over ${r.timeout.limit || 10} s.</div>
         <div class="lbl">Last input</div><div class="box">${esc(r.timeout.input)}</div>${stdoutBlock(r)}`; return;
     }
     const total = r.total, ok = r.status === 'accepted';
@@ -284,7 +285,7 @@ async function problemPage(folder) {
       const showCase = i => {
         cases.forEach(c => c.classList.toggle('active', +c.dataset.i === i));
         const f = r.failures[i];
-        $('#case').innerHTML = `<div class="lbl">Input</div><div class="box">${esc(f.input)}</div>` + (f.error
+        $('#case').innerHTML = `<div class="lbl">Input</div><div class="box">${esc(f.input)}</div>${f.step ? `<div class="lbl">Failed at</div><div class="box">${esc(f.step)}</div>` : ''}` + (f.error
           ? `<div class="lbl">Error</div><div class="box err">${esc(f.error)}</div>`
           : `<div class="lbl">Output</div><div class="box err">${esc(f.got)}</div><div class="lbl">Expected</div><div class="box">${esc(f.expected)}</div>${f.orderOnly ? '<div class="hint">Same elements, different order.</div>' : ''}`);
       };

@@ -1,0 +1,1 @@
+{"slug":"minimum-time-for-k-connected-components","method":"MinTime","params":["n","edges","k"],"inplace":false,"tests":[{"a":[2,[[0,1,3]],2],"e":3,"g":"example"},{"a":[3,[[0,1,2],[1,2,4]],3],"e":4,"g":"example"},{"a":[3,[[0,2,5]],2],"e":0,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

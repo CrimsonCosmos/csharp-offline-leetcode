@@ -1,0 +1,1 @@
+{"slug":"maximum-median-sum-of-subsequences-of-size-3","method":"MaximumMedianSum","params":["nums"],"inplace":false,"tests":[{"a":[[2,1,3,2,1,3]],"e":5,"g":"example"},{"a":[[1,1,10,10,10,10]],"e":20,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}
