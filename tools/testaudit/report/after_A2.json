@@ -43,7 +43,7 @@
 "const-@L6",
 "const-@L7"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0006-zigzag-conversion",
@@ -57,7 +57,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0007-reverse-integer",
@@ -123,7 +123,7 @@
 "cmp@L8",
 "cmp@L5"
 ],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "0012-integer-to-roman",
@@ -159,7 +159,7 @@
 "const-@L6",
 "bin@L20"
 ],
-"secs": 2.3
+"secs": 2.4
 },
 {
 "folder": "0016-3sum-closest",
@@ -223,7 +223,7 @@
 "mutants": 0,
 "killed": 0,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0022-generate-parentheses",
@@ -276,7 +276,7 @@
 "cmp@L36",
 "cmp@L34"
 ],
-"secs": 1.7
+"secs": 1.8
 },
 {
 "folder": "0031-next-permutation",
@@ -292,7 +292,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0033-search-in-rotated-sorted-array",
@@ -320,11 +320,11 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0036-valid-sudoku",
-"tests": 30,
+"tests": 29,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -343,7 +343,7 @@
 "const+@L5",
 "const+@L5"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "0038-count-and-say",
@@ -371,7 +371,7 @@
 "mutants": 10,
 "killed": 10,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0040-combination-sum-ii",
@@ -402,7 +402,7 @@
 "const+@L12",
 "const-@L12"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "0045-jump-game-ii",
@@ -416,7 +416,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0046-permutations",
@@ -433,7 +433,7 @@
 "const+@L16",
 "const-@L16"
 ],
-"secs": 0.4
+"secs": 0.5
 },
 {
 "folder": "0047-permutations-ii",
@@ -451,7 +451,7 @@
 "const-@L18",
 "const+@L18"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "0048-rotate-image",
@@ -528,7 +528,7 @@
 "const-@L3",
 "const-@L12"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0055-jump-game",
@@ -570,7 +570,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0059-spiral-matrix-ii",
@@ -605,7 +605,7 @@
 },
 {
 "folder": "0062-unique-paths",
-"tests": 32,
+"tests": 24,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -631,7 +631,7 @@
 "survivors": [
 "const-@L11"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0064-minimum-path-sum",
@@ -681,7 +681,7 @@
 "const+@L4",
 "const-@L5"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "0073-set-matrix-zeroes",
@@ -713,7 +713,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 2.7
+"secs": 2.6
 },
 {
 "folder": "0075-sort-colors",
@@ -741,7 +741,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "0078-subsets",
@@ -755,7 +755,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 1.7
+"secs": 1.5
 },
 {
 "folder": "0079-word-search",
@@ -787,7 +787,7 @@
 "mutants": 14,
 "killed": 14,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0081-search-in-rotated-sorted-array-ii",
@@ -822,7 +822,7 @@
 },
 {
 "folder": "0086-partition-list",
-"tests": 97,
+"tests": 96,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -864,7 +864,7 @@
 },
 {
 "folder": "0091-decode-ways",
-"tests": 176,
+"tests": 140,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -874,7 +874,7 @@
 "mutants": 33,
 "killed": 33,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0092-reverse-linked-list-ii",
@@ -892,7 +892,7 @@
 "bool@L10",
 "const-@L12"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "0093-restore-ip-addresses",
@@ -914,7 +914,7 @@
 "const-@L6",
 "const+@L12"
 ],
-"secs": 0.8
+"secs": 0.6
 },
 {
 "folder": "0096-unique-binary-search-trees",
@@ -942,11 +942,11 @@
 "mutants": 29,
 "killed": 29,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0098-validate-binary-search-tree",
-"tests": 98,
+"tests": 96,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -960,7 +960,7 @@
 },
 {
 "folder": "0099-recover-binary-search-tree",
-"tests": 66,
+"tests": 65,
 "inplace": true,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -1000,7 +1000,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "0105-construct-binary-tree-from-preorder-and-inorder-traversal",
@@ -1070,7 +1070,7 @@
 "mutants": 7,
 "killed": 7,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0114-flatten-binary-tree-to-linked-list",
@@ -1163,7 +1163,7 @@
 "const-@L4",
 "bin@L8"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "0131-palindrome-partitioning",
@@ -1213,7 +1213,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "0139-word-break",
@@ -1227,7 +1227,7 @@
 "mutants": 9,
 "killed": 9,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0143-reorder-list",
@@ -1274,11 +1274,11 @@
 "survivors": [
 "cmp@L20"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "0150-evaluate-reverse-polish-notation",
-"tests": 97,
+"tests": 96,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -1332,7 +1332,7 @@
 "survivors": [
 "cmp@L3"
 ],
-"secs": 2.7
+"secs": 2.6
 },
 {
 "folder": "0162-find-peak-element",
@@ -1346,7 +1346,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 2.1
+"secs": 11.3
 },
 {
 "folder": "0164-maximum-gap",
@@ -1364,7 +1364,7 @@
 "const+@L8",
 "bin@L7"
 ],
-"secs": 2.4
+"secs": 2.3
 },
 {
 "folder": "0165-compare-version-numbers",
@@ -1401,7 +1401,7 @@
 "cmp@L6",
 "const-@L6"
 ],
-"secs": 1.3
+"secs": 1.2
 },
 {
 "folder": "0167-two-sum-ii-input-array-is-sorted",
@@ -1483,7 +1483,7 @@
 "survivors": [
 "cmp@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0198-house-robber",
@@ -1497,7 +1497,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0199-binary-tree-right-side-view",
@@ -1559,7 +1559,7 @@
 "survivors": [
 "bin@L8"
 ],
-"secs": 14.3
+"secs": 16.0
 },
 {
 "folder": "0207-course-schedule",
@@ -1605,7 +1605,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0213-house-robber-ii",
@@ -1656,7 +1656,7 @@
 "cmp@L8",
 "len-@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0221-maximal-square",
@@ -1692,7 +1692,7 @@
 },
 {
 "folder": "0227-basic-calculator-ii",
-"tests": 171,
+"tests": 170,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -1702,7 +1702,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0229-majority-element-ii",
@@ -1722,7 +1722,7 @@
 },
 {
 "folder": "0230-kth-smallest-element-in-a-bst",
-"tests": 80,
+"tests": 67,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -1741,7 +1741,7 @@
 },
 {
 "folder": "0238-product-of-array-except-self",
-"tests": 67,
+"tests": 55,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -1754,7 +1754,7 @@
 "const+@L4",
 "const-@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0240-search-a-2d-matrix-ii",
@@ -1865,7 +1865,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 7.1
+"secs": 7.7
 },
 {
 "folder": "0287-find-the-duplicate-number",
@@ -1879,7 +1879,7 @@
 "mutants": 3,
 "killed": 3,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0289-game-of-life",
@@ -1895,7 +1895,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "0299-bulls-and-cows",
@@ -1943,7 +1943,7 @@
 "const-@L15",
 "const+@L8"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "0309-best-time-to-buy-and-sell-stock-with-cooldown",
@@ -1999,7 +1999,7 @@
 "bin@L5",
 "bin@L9"
 ],
-"secs": 10.9
+"secs": 11.5
 },
 {
 "folder": "0316-remove-duplicate-letters",
@@ -2064,7 +2064,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 1.5
+"secs": 1.4
 },
 {
 "folder": "0324-wiggle-sort-ii",
@@ -2108,7 +2108,7 @@
 "survivors": [
 "const-@L9"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0334-increasing-triplet-subsequence",
@@ -2159,7 +2159,7 @@
 "const-@L5",
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0347-top-k-frequent-elements",
@@ -2273,7 +2273,7 @@
 "const+@L3",
 "const+@L6"
 ],
-"secs": 9.2
+"secs": 9.5
 },
 {
 "folder": "0376-wiggle-subsequence",
@@ -2289,11 +2289,11 @@
 "survivors": [
 "const-@L7"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0377-combination-sum-iv",
-"tests": 83,
+"tests": 70,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2374,7 +2374,7 @@
 "const+@L12",
 "if-swap@L12"
 ],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "0393-utf-8-validation",
@@ -2422,7 +2422,7 @@
 "cmp@L11",
 "cmp@L10"
 ],
-"secs": 3.3
+"secs": 3.5
 },
 {
 "folder": "0396-rotate-function",
@@ -2608,7 +2608,7 @@
 "const+@L4",
 "const-@L4"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0424-longest-repeating-character-replacement",
@@ -2622,7 +2622,7 @@
 "mutants": 21,
 "killed": 21,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0433-minimum-genetic-mutation",
@@ -2678,7 +2678,7 @@
 "mutants": 26,
 "killed": 26,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0442-find-all-duplicates-in-an-array",
@@ -2692,7 +2692,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 2.2
+"secs": 2.1
 },
 {
 "folder": "0443-string-compression",
@@ -2708,7 +2708,7 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "0445-add-two-numbers-ii",
@@ -2722,11 +2722,11 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 1.9
+"secs": 1.8
 },
 {
 "folder": "0447-number-of-boomerangs",
-"tests": 102,
+"tests": 101,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2740,7 +2740,7 @@
 },
 {
 "folder": "0450-delete-node-in-a-bst",
-"tests": 140,
+"tests": 138,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2768,7 +2768,7 @@
 },
 {
 "folder": "0452-minimum-number-of-arrows-to-burst-balloons",
-"tests": 107,
+"tests": 106,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2782,7 +2782,7 @@
 },
 {
 "folder": "0453-minimum-moves-to-equal-array-elements",
-"tests": 73,
+"tests": 70,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2846,7 +2846,7 @@
 },
 {
 "folder": "0462-minimum-moves-to-equal-array-elements-ii",
-"tests": 73,
+"tests": 70,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -2870,12 +2870,11 @@
 "second_mismatch_n": 0,
 "mutation_sites": 36,
 "mutants": 36,
-"killed": 34,
+"killed": 35,
 "survivors": [
-"const+@L13",
-"const+@L11"
+"const+@L13"
 ],
-"secs": 38.7
+"secs": 37.4
 },
 {
 "folder": "0467-unique-substrings-in-wraparound-string",
@@ -2892,7 +2891,7 @@
 "const+@L4",
 "const-@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0468-validate-ip-address",
@@ -2926,7 +2925,7 @@
 "const+@L7",
 "const+@L18"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "0474-ones-and-zeroes",
@@ -2944,7 +2943,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0475-heaters",
@@ -2995,7 +2994,7 @@
 "len-@L5",
 "cmp@L5"
 ],
-"secs": 0.6
+"secs": 0.8
 },
 {
 "folder": "0486-predict-the-winner",
@@ -3026,7 +3025,7 @@
 "const+@L16",
 "const-@L16"
 ],
-"secs": 0.6
+"secs": 0.5
 },
 {
 "folder": "0494-target-sum",
@@ -3103,7 +3102,7 @@
 },
 {
 "folder": "0513-find-bottom-left-tree-value",
-"tests": 85,
+"tests": 84,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -3134,7 +3133,7 @@
 },
 {
 "folder": "0516-longest-palindromic-subsequence",
-"tests": 100,
+"tests": 99,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -3150,7 +3149,7 @@
 },
 {
 "folder": "0518-coin-change-ii",
-"tests": 106,
+"tests": 71,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -3163,7 +3162,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 1.1
+"secs": 0.4
 },
 {
 "folder": "0522-longest-uncommon-subsequence-ii",
@@ -3209,7 +3208,7 @@
 "survivors": [
 "cmp@L14"
 ],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "0525-contiguous-array",
@@ -3243,7 +3242,7 @@
 "const+@L17",
 "const+@L22"
 ],
-"secs": 2.0
+"secs": 1.7
 },
 {
 "folder": "0529-minesweeper",
@@ -3259,7 +3258,7 @@
 "survivors": [
 "const-@L18"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "0532-k-diff-pairs-in-an-array",
@@ -3320,7 +3319,7 @@
 "const-@L3",
 "cmp@L3"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0540-single-element-in-a-sorted-array",
@@ -3461,7 +3460,7 @@
 "mutants": 30,
 "killed": 30,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0576-out-of-boundary-paths",
@@ -3481,7 +3480,7 @@
 "bin@L13",
 "const-@L8"
 ],
-"secs": 7.2
+"secs": 6.8
 },
 {
 "folder": "0581-shortest-unsorted-continuous-subarray",
@@ -3531,7 +3530,7 @@
 "mutants": 43,
 "killed": 43,
 "survivors": [],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "0593-valid-square",
@@ -3621,7 +3620,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0624-maximum-distance-in-arrays",
@@ -3671,7 +3670,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0638-shopping-offers",
@@ -3687,7 +3686,7 @@
 "survivors": [
 "const+@L18"
 ],
-"secs": 6.0
+"secs": 5.7
 },
 {
 "folder": "0640-solve-the-equation",
@@ -3705,7 +3704,7 @@
 "const+@L4",
 "cmp@L9"
 ],
-"secs": 0.7
+"secs": 0.9
 },
 {
 "folder": "0646-maximum-length-of-pair-chain",
@@ -3786,7 +3785,7 @@
 "survivors": [
 "bin@L8"
 ],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "0654-maximum-binary-tree",
@@ -3820,7 +3819,7 @@
 },
 {
 "folder": "0658-find-k-closest-elements",
-"tests": 125,
+"tests": 124,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -3844,7 +3843,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0662-maximum-width-of-binary-tree",
@@ -3880,7 +3879,7 @@
 "len-@L6",
 "const+@L7"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0667-beautiful-arrangement-ii",
@@ -3898,7 +3897,7 @@
 },
 {
 "folder": "0669-trim-a-binary-search-tree",
-"tests": 30,
+"tests": 27,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -3922,7 +3921,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0672-bulb-switcher-ii",
@@ -4056,7 +4055,7 @@
 "bin@L11",
 "bin@L11"
 ],
-"secs": 4.5
+"secs": 3.6
 },
 {
 "folder": "0692-top-k-frequent-words",
@@ -4102,11 +4101,11 @@
 "mutants": 23,
 "killed": 23,
 "survivors": [],
-"secs": 0.7
+"secs": 0.5
 },
 {
 "folder": "0701-insert-into-a-binary-search-tree",
-"tests": 94,
+"tests": 89,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -4336,7 +4335,7 @@
 "mutants": 28,
 "killed": 28,
 "survivors": [],
-"secs": 4.0
+"secs": 3.9
 },
 {
 "folder": "0754-reach-a-number",
@@ -4397,7 +4396,7 @@
 "mutants": 29,
 "killed": 29,
 "survivors": [],
-"secs": 4.8
+"secs": 5.1
 },
 {
 "folder": "0767-reorganize-string",
@@ -4499,7 +4498,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0785-is-graph-bipartite",
@@ -4515,7 +4514,7 @@
 "survivors": [
 "const+@L13"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0786-k-th-smallest-prime-fraction",
@@ -4533,7 +4532,7 @@
 "cmp@L7",
 "bin@L7"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0787-cheapest-flights-within-k-stops",
@@ -4575,7 +4574,7 @@
 "const+@L16",
 "const-@L15"
 ],
-"secs": 1.5
+"secs": 1.4
 },
 {
 "folder": "0789-escape-the-ghosts",
@@ -4611,7 +4610,7 @@
 "const+@L7",
 "const-@L6"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0791-custom-sort-string",
@@ -4671,7 +4670,7 @@
 },
 {
 "folder": "0797-all-paths-from-source-to-target",
-"tests": 72,
+"tests": 71,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -4681,7 +4680,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "0799-champagne-tower",
@@ -4716,7 +4715,7 @@
 "const-@L4",
 "const+@L4"
 ],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "0807-max-increase-to-keep-city-skyline",
@@ -4859,7 +4858,7 @@
 "survivors": [
 "const+@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0822-card-flipping-game",
@@ -4887,7 +4886,7 @@
 "mutants": 22,
 "killed": 22,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0825-friends-of-appropriate-ages",
@@ -4909,7 +4908,7 @@
 "const+@L3",
 "const+@L9"
 ],
-"secs": 1.6
+"secs": 1.2
 },
 {
 "folder": "0826-most-profit-assigning-work",
@@ -4923,7 +4922,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "0831-masking-personal-information",
@@ -5100,7 +5099,7 @@
 "mutants": 16,
 "killed": 16,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0849-maximize-distance-to-closest-person",
@@ -5246,7 +5245,7 @@
 "cmp@L23",
 "const+@L20"
 ],
-"secs": 101.9
+"secs": 98.7
 },
 {
 "folder": "0869-reordered-power-of-2",
@@ -5286,7 +5285,7 @@
 "const-@L6",
 "const+@L6"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0873-length-of-longest-fibonacci-subsequence",
@@ -5350,7 +5349,7 @@
 "mutants": 22,
 "killed": 22,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0880-decoded-string-at-index",
@@ -5378,7 +5377,7 @@
 "mutants": 21,
 "killed": 21,
 "survivors": [],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "0885-spiral-matrix-iii",
@@ -5396,7 +5395,7 @@
 "bin@L6",
 "const+@L6"
 ],
-"secs": 13.4
+"secs": 13.5
 },
 {
 "folder": "0886-possible-bipartition",
@@ -5413,7 +5412,7 @@
 "const+@L18",
 "const+@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0889-construct-binary-tree-from-preorder-and-postorder-traversal",
@@ -5455,7 +5454,7 @@
 "const-@L4",
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0893-groups-of-special-equivalent-strings",
@@ -5537,7 +5536,7 @@
 "const-@L5",
 "const+@L5"
 ],
-"secs": 0.7
+"secs": 0.8
 },
 {
 "folder": "0910-smallest-range-ii",
@@ -5553,7 +5552,7 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0912-sort-an-array",
@@ -5682,7 +5681,7 @@
 "const-@L3",
 "const-@L3"
 ],
-"secs": 1.7
+"secs": 1.9
 },
 {
 "folder": "0926-flip-string-to-monotone-increasing",
@@ -5741,7 +5740,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.5
+"secs": 0.3
 },
 {
 "folder": "0934-shortest-bridge",
@@ -5826,7 +5825,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0946-validate-stack-sequences",
@@ -5861,7 +5860,7 @@
 "aug@L17",
 "cmp@L15"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0948-bag-of-tokens",
@@ -5875,7 +5874,7 @@
 "mutants": 27,
 "killed": 27,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0949-largest-time-for-given-digits",
@@ -5889,7 +5888,7 @@
 "mutants": 51,
 "killed": 51,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "0950-reveal-cards-in-increasing-order",
@@ -5919,7 +5918,7 @@
 "survivors": [
 "bool@L10"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0954-array-of-doubled-pairs",
@@ -5935,7 +5934,7 @@
 "survivors": [
 "const-@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0955-delete-columns-to-make-sorted-ii",
@@ -5956,7 +5955,7 @@
 "const-@L7",
 "bin@L9"
 ],
-"secs": 0.2
+"secs": 0.4
 },
 {
 "folder": "0957-prison-cells-after-n-days",
@@ -5972,7 +5971,7 @@
 "survivors": [
 "const+@L15"
 ],
-"secs": 1.7
+"secs": 1.8
 },
 {
 "folder": "0958-check-completeness-of-a-binary-tree",
@@ -6040,7 +6039,7 @@
 "const-@L11",
 "len-@L4"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "0966-vowel-spellchecker",
@@ -6117,7 +6116,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0973-k-closest-points-to-origin",
@@ -6147,7 +6146,7 @@
 "survivors": [
 "bin@L6"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0978-longest-turbulent-subarray",
@@ -6175,7 +6174,7 @@
 "mutants": 12,
 "killed": 12,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "0983-minimum-cost-for-tickets",
@@ -6217,7 +6216,7 @@
 "mutants": 23,
 "killed": 23,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0986-interval-list-intersections",
@@ -6231,7 +6230,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 1.3
+"secs": 1.2
 },
 {
 "folder": "0988-smallest-string-starting-from-leaf",
@@ -6263,7 +6262,7 @@
 "survivors": [
 "const+@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "0991-broken-calculator",
@@ -6398,7 +6397,7 @@
 "survivors": [
 "const-@L4"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1011-capacity-to-ship-packages-within-d-days",
@@ -6447,7 +6446,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1016-binary-string-with-substrings-representing-1-to-n",
@@ -6516,7 +6515,7 @@
 "const+@L7",
 "bin@L6"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1023-camelcase-matching",
@@ -6583,7 +6582,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1029-two-city-scheduling",
@@ -6615,7 +6614,7 @@
 "const-@L11",
 "const+@L4"
 ],
-"secs": 1.5
+"secs": 1.3
 },
 {
 "folder": "1033-moving-stones-until-consecutive",
@@ -6629,7 +6628,7 @@
 "mutants": 30,
 "killed": 30,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1034-coloring-a-border",
@@ -6664,7 +6663,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1038-binary-search-tree-to-greater-sum-tree",
@@ -6708,7 +6707,7 @@
 "survivors": [
 "const+@L11"
 ],
-"secs": 0.7
+"secs": 0.8
 },
 {
 "folder": "1041-robot-bounded-in-circle",
@@ -6742,11 +6741,11 @@
 "mutants": 14,
 "killed": 14,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1043-partition-array-for-maximum-sum",
-"tests": 102,
+"tests": 100,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -6784,7 +6783,7 @@
 "const-@L16",
 "const+@L13"
 ],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "1049-last-stone-weight-ii",
@@ -6812,7 +6811,7 @@
 "mutants": 14,
 "killed": 14,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1053-previous-permutation-with-one-swap",
@@ -6846,7 +6845,7 @@
 "const-@L6",
 "const+@L6"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1061-lexicographically-smallest-equivalent-string",
@@ -6881,7 +6880,7 @@
 "cmp@L5",
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1073-adding-two-negabinary-numbers",
@@ -6911,7 +6910,7 @@
 "mutants": 16,
 "killed": 16,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1080-insufficient-nodes-in-root-to-leaf-paths",
@@ -6925,7 +6924,7 @@
 "mutants": 8,
 "killed": 8,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1081-smallest-subsequence-of-distinct-characters",
@@ -6976,7 +6975,7 @@
 "const-@L6",
 "const-@L6"
 ],
-"secs": 2.4
+"secs": 2.3
 },
 {
 "folder": "1093-statistics-from-a-large-sample",
@@ -6997,7 +6996,7 @@
 "const+@L10",
 "cmp@L19"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1094-car-pooling",
@@ -7030,7 +7029,7 @@
 "const-@L7",
 "const+@L7"
 ],
-"secs": 2.2
+"secs": 2.1
 },
 {
 "folder": "1105-filling-bookcase-shelves",
@@ -7080,7 +7079,7 @@
 "aug@L10",
 "const-@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1123-lowest-common-ancestor-of-deepest-leaves",
@@ -7193,7 +7192,7 @@
 "const+@L6",
 "const-@L3"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "1140-stone-game-ii",
@@ -7228,7 +7227,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1144-decrease-elements-to-make-array-zigzag",
@@ -7242,7 +7241,7 @@
 "mutants": 34,
 "killed": 34,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1145-binary-tree-coloring-game",
@@ -7275,7 +7274,7 @@
 "const+@L3",
 "const-@L6"
 ],
-"secs": 3.3
+"secs": 3.6
 },
 {
 "folder": "1156-swap-for-longest-repeated-character-substring",
@@ -7325,7 +7324,7 @@
 "bin@L13",
 "const-@L6"
 ],
-"secs": 1.3
+"secs": 1.2
 },
 {
 "folder": "1169-invalid-transactions",
@@ -7390,7 +7389,7 @@
 "const-@L4",
 "aug@L7"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "1186-maximum-subarray-sum-with-one-deletion",
@@ -7493,7 +7492,7 @@
 "const+@L14",
 "const-@L12"
 ],
-"secs": 6.3
+"secs": 7.7
 },
 {
 "folder": "1209-remove-all-adjacent-duplicates-in-string-ii",
@@ -7535,7 +7534,7 @@
 "mutants": 32,
 "killed": 32,
 "survivors": [],
-"secs": 35.7
+"secs": 35.4
 },
 {
 "folder": "1222-queens-that-can-attack-the-king",
@@ -7586,7 +7585,7 @@
 "cmp@L7",
 "len-@L6"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1234-replace-the-substring-for-balanced-string",
@@ -7600,7 +7599,7 @@
 "mutants": 30,
 "killed": 30,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1238-circular-permutation-in-binary-representation",
@@ -7631,7 +7630,7 @@
 "bin@L6",
 "const-@L6"
 ],
-"secs": 0.8
+"secs": 0.9
 },
 {
 "folder": "1247-minimum-swaps-to-make-strings-equal",
@@ -7675,7 +7674,7 @@
 "mutants": 40,
 "killed": 40,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1253-reconstruct-a-2-row-binary-matrix",
@@ -7714,7 +7713,7 @@
 "bin@L7",
 "bin@L7"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "1262-greatest-sum-divisible-by-three",
@@ -7732,7 +7731,7 @@
 "const+@L4",
 "bin@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1267-count-servers-that-communicate",
@@ -7799,7 +7798,7 @@
 "const-@L3",
 "bool@L10"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1282-group-the-people-given-the-group-size-they-belong-to",
@@ -7907,7 +7906,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1300-sum-of-mutated-array-closest-to-target",
@@ -7925,7 +7924,7 @@
 "const+@L6",
 "const+@L5"
 ],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "1302-deepest-leaves-sum",
@@ -7943,7 +7942,7 @@
 },
 {
 "folder": "1305-all-elements-in-two-binary-search-trees",
-"tests": 96,
+"tests": 95,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -7953,7 +7952,7 @@
 "mutants": 24,
 "killed": 24,
 "survivors": [],
-"secs": 2.2
+"secs": 2.3
 },
 {
 "folder": "1306-jump-game-iii",
@@ -7984,7 +7983,7 @@
 "const+@L3",
 "const-@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1311-get-watched-videos-by-your-friends",
@@ -8039,7 +8038,7 @@
 },
 {
 "folder": "1318-minimum-flips-to-make-a-or-b-equal-to-c",
-"tests": 93,
+"tests": 90,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -8105,7 +8104,7 @@
 "mutants": 23,
 "killed": 23,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "1329-sort-the-matrix-diagonally",
@@ -8121,7 +8120,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1333-filter-restaurants-by-vegan-friendly-price-and-distance",
@@ -8135,7 +8134,7 @@
 "mutants": 9,
 "killed": 9,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
@@ -8183,11 +8182,11 @@
 "survivors": [
 "cmp@L19"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
-"tests": 99,
+"tests": 94,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -8243,7 +8242,7 @@
 "const+@L11",
 "const+@L4"
 ],
-"secs": 0.7
+"secs": 1.1
 },
 {
 "folder": "1358-number-of-substrings-containing-all-three-characters",
@@ -8271,7 +8270,7 @@
 "mutants": 16,
 "killed": 16,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1362-closest-divisors",
@@ -8353,7 +8352,7 @@
 "survivors": [
 "const-@L17"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1375-number-of-times-binary-string-is-prefix-aligned",
@@ -8385,7 +8384,7 @@
 },
 {
 "folder": "1382-balance-a-binary-search-tree",
-"tests": 67,
+"tests": 65,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -8395,7 +8394,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "1386-cinema-seat-allocation",
@@ -8409,7 +8408,7 @@
 "mutants": 27,
 "killed": 27,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1387-sort-integers-by-the-power-value",
@@ -8462,7 +8461,7 @@
 "const-@L12",
 "const-@L20"
 ],
-"secs": 0.5
+"secs": 0.6
 },
 {
 "folder": "1395-count-number-of-teams",
@@ -8478,7 +8477,7 @@
 "survivors": [
 "const-@L6"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1400-construct-k-palindrome-strings",
@@ -8634,7 +8633,7 @@
 "survivors": [
 "const+@L6"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1423-maximum-points-you-can-obtain-from-cards",
@@ -8798,7 +8797,7 @@
 "const+@L11",
 "aug@L11"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1456-maximum-number-of-vowels-in-a-substring-of-given-length",
@@ -8935,7 +8934,7 @@
 "const+@L13",
 "const-@L13"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1487-making-file-names-unique",
@@ -8999,7 +8998,7 @@
 "const-@L9",
 "const+@L4"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1497-check-if-array-pairs-are-divisible-by-k",
@@ -9015,7 +9014,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1498-number-of-subsequences-that-satisfy-the-given-sum-condition",
@@ -9035,7 +9034,7 @@
 "const+@L6",
 "const-@L6"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "1503-last-moment-before-all-ants-fall-out-of-a-plank",
@@ -9066,7 +9065,7 @@
 "const-@L3",
 "const-@L8"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1508-range-sum-of-sorted-subarray-sums",
@@ -9088,7 +9087,7 @@
 "const+@L10",
 "const-@L10"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1509-minimum-difference-between-largest-and-smallest-value-in-three-moves",
@@ -9104,7 +9103,7 @@
 "survivors": [
 "const-@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1513-number-of-substrings-with-only-1s",
@@ -9278,7 +9277,7 @@
 "bin@L7",
 "const+@L5"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1541-minimum-insertions-to-balance-a-parentheses-string",
@@ -9292,7 +9291,7 @@
 "mutants": 44,
 "killed": 44,
 "survivors": [],
-"secs": 1.6
+"secs": 1.7
 },
 {
 "folder": "1545-find-kth-bit-in-nth-binary-string",
@@ -9314,7 +9313,7 @@
 "const-@L9",
 "const+@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
@@ -9485,7 +9484,7 @@
 "const-@L14",
 "bin@L19"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "1574-shortest-subarray-to-be-removed-to-make-array-sorted",
@@ -9581,7 +9580,7 @@
 "bin@L8",
 "const-@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1589-maximum-sum-obtained-of-any-permutation",
@@ -9631,7 +9630,7 @@
 "const-@L16",
 "cmp@L5"
 ],
-"secs": 0.3
+"secs": 0.7
 },
 {
 "folder": "1594-maximum-non-negative-product-in-a-matrix",
@@ -9687,7 +9686,7 @@
 "const-@L5",
 "cmp@L9"
 ],
-"secs": 0.2
+"secs": 0.5
 },
 {
 "folder": "1605-find-valid-matrix-given-row-and-column-sums",
@@ -9704,7 +9703,7 @@
 "const-@L4",
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1609-even-odd-tree",
@@ -9720,7 +9719,7 @@
 "survivors": [
 "const-@L12"
 ],
-"secs": 0.8
+"secs": 1.2
 },
 {
 "folder": "1615-maximal-network-rank",
@@ -9773,7 +9772,7 @@
 "const-@L3",
 "const+@L7"
 ],
-"secs": 3.3
+"secs": 4.0
 },
 {
 "folder": "1621-number-of-sets-of-k-non-overlapping-line-segments",
@@ -9787,7 +9786,7 @@
 "mutants": 60,
 "killed": 60,
 "survivors": [],
-"secs": 7.9
+"secs": 8.5
 },
 {
 "folder": "1625-lexicographically-smallest-string-after-applying-operations",
@@ -9804,7 +9803,7 @@
 "cmp@L8",
 "bin@L11"
 ],
-"secs": 2.2
+"secs": 3.9
 },
 {
 "folder": "1626-best-team-with-no-conflicts",
@@ -9863,7 +9862,7 @@
 "const-@L46",
 "const+@L46"
 ],
-"secs": 0.5
+"secs": 0.4
 },
 {
 "folder": "1638-count-substrings-that-differ-by-one-character",
@@ -9877,7 +9876,7 @@
 "mutants": 54,
 "killed": 54,
 "survivors": [],
-"secs": 1.2
+"secs": 1.3
 },
 {
 "folder": "1641-count-sorted-vowel-strings",
@@ -9928,7 +9927,7 @@
 },
 {
 "folder": "1648-sell-diminishing-valued-colored-balls",
-"tests": 83,
+"tests": 79,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -9941,7 +9940,7 @@
 "const-@L10",
 "cmp@L16"
 ],
-"secs": 3.2
+"secs": 3.3
 },
 {
 "folder": "1653-minimum-deletions-to-make-string-balanced",
@@ -10042,7 +10041,7 @@
 "mutants": 54,
 "killed": 54,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1669-merge-in-between-linked-lists",
@@ -10088,7 +10087,7 @@
 "const+@L3",
 "cmp@L7"
 ],
-"secs": 1.4
+"secs": 1.6
 },
 {
 "folder": "1679-max-number-of-k-sum-pairs",
@@ -10120,11 +10119,11 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.6
+"secs": 0.4
 },
 {
 "folder": "1685-sum-of-absolute-differences-in-a-sorted-array",
-"tests": 61,
+"tests": 60,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -10148,7 +10147,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1689-partitioning-into-minimum-number-of-deci-binary-numbers",
@@ -10180,7 +10179,7 @@
 "const+@L11",
 "const-@L11"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1695-maximum-erasure-value",
@@ -10257,7 +10256,7 @@
 "cmp@L15",
 "cmp@L6"
 ],
-"secs": 1.0
+"secs": 0.8
 },
 {
 "folder": "1706-where-will-the-ball-fall",
@@ -10273,7 +10272,7 @@
 "survivors": [
 "const-@L16"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1711-count-good-meals",
@@ -10296,7 +10295,7 @@
 "const-@L3",
 "const+@L3"
 ],
-"secs": 4.8
+"secs": 5.3
 },
 {
 "folder": "1712-ways-to-split-array-into-three-subarrays",
@@ -10320,7 +10319,7 @@
 "const+@L3",
 "const-@L3"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "1717-maximum-score-from-removing-substrings",
@@ -10336,7 +10335,7 @@
 "survivors": [
 "cmp@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1718-construct-the-lexicographically-largest-valid-sequence",
@@ -10390,7 +10389,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1726-tuple-with-same-product",
@@ -10407,7 +10406,7 @@
 "const-@L4",
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1727-largest-submatrix-with-rearrangements",
@@ -10443,7 +10442,7 @@
 },
 {
 "folder": "1734-decode-xored-permutation",
-"tests": 112,
+"tests": 111,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -10524,7 +10523,7 @@
 "mutants": 12,
 "killed": 12,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1749-maximum-absolute-sum-of-any-subarray",
@@ -10577,7 +10576,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 2.1
+"secs": 2.2
 },
 {
 "folder": "1754-largest-merge-of-two-strings",
@@ -10635,7 +10634,7 @@
 "const+@L6",
 "const-@L6"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1764-form-array-by-concatenating-subarrays-of-another-array",
@@ -10651,7 +10650,7 @@
 "survivors": [
 "cmp@L5"
 ],
-"secs": 1.2
+"secs": 1.1
 },
 {
 "folder": "1765-map-of-highest-peak",
@@ -10701,7 +10700,7 @@
 "cmp@L26",
 "const-@L24"
 ],
-"secs": 4.7
+"secs": 4.5
 },
 {
 "folder": "1775-equal-sum-arrays-with-minimum-number-of-operations",
@@ -10795,7 +10794,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.9
+"secs": 0.6
 },
 {
 "folder": "1798-maximum-number-of-consecutive-values-you-can-make",
@@ -10826,7 +10825,7 @@
 "cmp@L18",
 "cmp@L8"
 ],
-"secs": 2.8
+"secs": 2.7
 },
 {
 "folder": "1802-maximum-value-at-a-given-index-in-a-bounded-array",
@@ -10999,7 +10998,7 @@
 "mutants": 10,
 "killed": 10,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1829-maximum-xor-for-each-query",
@@ -11027,7 +11026,7 @@
 "mutants": 4,
 "killed": 4,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1834-single-threaded-cpu",
@@ -11060,7 +11059,7 @@
 "const+@L11",
 "const+@L14"
 ],
-"secs": 9.0
+"secs": 6.3
 },
 {
 "folder": "1839-longest-substring-of-all-vowels-in-order",
@@ -11074,7 +11073,7 @@
 "mutants": 51,
 "killed": 51,
 "survivors": [],
-"secs": 1.3
+"secs": 1.5
 },
 {
 "folder": "1846-maximum-element-after-decreasing-and-rearranging",
@@ -11090,7 +11089,7 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1849-splitting-a-string-into-descending-consecutive-values",
@@ -11108,7 +11107,7 @@
 "const+@L14",
 "const+@L7"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1850-minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
@@ -11181,7 +11180,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 3.2
+"secs": 3.1
 },
 {
 "folder": "1861-rotating-the-box",
@@ -11214,7 +11213,7 @@
 "survivors": [
 "cmp@L12"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1870-minimum-speed-to-arrive-on-time",
@@ -11254,7 +11253,7 @@
 "const+@L4",
 "const-@L9"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1877-minimize-maximum-pair-sum-in-array",
@@ -11268,7 +11267,7 @@
 "mutants": 8,
 "killed": 8,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1878-get-biggest-three-rhombus-sums-in-a-grid",
@@ -11295,7 +11294,7 @@
 "const-@L19",
 "const+@L19"
 ],
-"secs": 0.4
+"secs": 0.5
 },
 {
 "folder": "1881-maximum-value-after-insertion",
@@ -11309,7 +11308,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "1882-process-tasks-using-servers",
@@ -11323,7 +11322,7 @@
 "mutants": 9,
 "killed": 9,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1884-egg-drop-with-2-eggs-and-n-floors",
@@ -11342,7 +11341,7 @@
 "const-@L4",
 "const-@L3"
 ],
-"secs": 3.9
+"secs": 3.3
 },
 {
 "folder": "1887-reduction-operations-to-make-the-array-elements-equal",
@@ -11411,7 +11410,7 @@
 "const-@L38",
 "const-@L13"
 ],
-"secs": 0.6
+"secs": 0.5
 },
 {
 "folder": "1898-maximum-number-of-removable-characters",
@@ -11471,7 +11470,7 @@
 "mutants": 26,
 "killed": 26,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "1905-count-sub-islands",
@@ -11512,7 +11511,7 @@
 "const-@L4",
 "const-@L15"
 ],
-"secs": 2.4
+"secs": 2.2
 },
 {
 "folder": "1910-remove-all-occurrences-of-a-substring",
@@ -11605,11 +11604,11 @@
 "mutants": 38,
 "killed": 38,
 "survivors": [],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "1926-nearest-exit-from-entrance-in-maze",
-"tests": 10,
+"tests": 8,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -11617,23 +11616,39 @@
 "second_mismatch_n": 0,
 "mutation_sites": 57,
 "mutants": 57,
-"killed": 42,
+"killed": 26,
 "survivors": [
-"const-@L15",
-"cmp@L14",
-"bin@L13",
-"const-@L3",
+"cmp@L15",
 "const+@L12",
 "const-@L15",
+"len-@L3",
+"cmp@L14",
+"bin@L13",
+"const-@L14",
+"const-@L3",
+"const+@L12",
+"cmp@L15",
+"const+@L12",
+"const-@L12",
+"const+@L12",
+"const-@L15",
+"const-@L12",
 "const-@L14",
 "const-@L12",
+"const+@L15",
 "const+@L14",
 "const-@L12",
 "bin@L13",
+"const-@L12",
 "const+@L12",
+"const-@L12",
+"cmp@L15",
 "const+@L12",
 "const-@L15",
-"bin@L15"
+"const+@L15",
+"bin@L15",
+"const+@L12",
+"const+@L15"
 ],
 "secs": 0.8
 },
@@ -11669,7 +11684,7 @@
 "bin@L6",
 "cmp@L6"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "1936-add-minimum-number-of-rungs",
@@ -11762,7 +11777,7 @@
 "const+@L19",
 "const-@L19"
 ],
-"secs": 1.9
+"secs": 2.1
 },
 {
 "folder": "1953-maximum-number-of-weeks-for-which-you-can-work",
@@ -11799,7 +11814,7 @@
 },
 {
 "folder": "1958-check-if-move-is-legal",
-"tests": 32,
+"tests": 23,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -11815,7 +11830,7 @@
 "cmp@L11",
 "const-@L10"
 ],
-"secs": 3.8
+"secs": 3.7
 },
 {
 "folder": "1959-minimum-total-space-wasted-with-k-resizing-operations",
@@ -11833,7 +11848,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 1.3
+"secs": 1.1
 },
 {
 "folder": "1962-remove-stones-to-minimize-the-total",
@@ -11847,7 +11862,7 @@
 "mutants": 5,
 "killed": 5,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "1963-minimum-number-of-swaps-to-make-the-string-balanced",
@@ -11977,7 +11992,7 @@
 "const+@L10",
 "const-@L5"
 ],
-"secs": 170.9
+"secs": 176.9
 },
 {
 "folder": "1992-find-all-groups-of-farmland",
@@ -12060,7 +12075,7 @@
 "const-@L16",
 "const+@L5"
 ],
-"secs": 12.6
+"secs": 14.3
 },
 {
 "folder": "2007-find-original-array-from-doubled-array",
@@ -12088,7 +12103,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2012-sum-of-beauty-in-the-array",
@@ -12104,7 +12119,7 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2017-grid-game",
@@ -12135,7 +12150,7 @@
 "const-@L19",
 "const+@L19"
 ],
-"secs": 0.3
+"secs": 0.5
 },
 {
 "folder": "2023-number-of-pairs-of-strings-with-concatenation-equal-to-target",
@@ -12241,7 +12256,7 @@
 "cmp@L6",
 "cmp@L8"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2039-the-time-when-the-network-becomes-idle",
@@ -12269,7 +12284,7 @@
 "mutants": 22,
 "killed": 22,
 "survivors": [],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "2048-next-greater-numerically-balanced-number",
@@ -12285,7 +12300,7 @@
 "survivors": [
 "const+@L5"
 ],
-"secs": 28.4
+"secs": 28.2
 },
 {
 "folder": "2049-count-nodes-with-the-highest-score",
@@ -12303,11 +12318,11 @@
 "const-@L25",
 "const-@L24"
 ],
-"secs": 0.4
+"secs": 0.5
 },
 {
 "folder": "2054-two-best-non-overlapping-events",
-"tests": 98,
+"tests": 96,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -12320,7 +12335,7 @@
 "const-@L8",
 "const+@L8"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2055-plates-between-candles",
@@ -12365,7 +12380,7 @@
 "const-@L19",
 "const+@L10"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2059-minimum-operations-to-convert-number",
@@ -12382,7 +12397,7 @@
 "const-@L16",
 "const+@L7"
 ],
-"secs": 1.7
+"secs": 1.8
 },
 {
 "folder": "2063-vowels-of-all-substrings",
@@ -12415,11 +12430,11 @@
 "const-@L6",
 "const-@L6"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2070-most-beautiful-item-for-each-query",
-"tests": 105,
+"tests": 104,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -12432,7 +12447,7 @@
 "const-@L5",
 "const+@L5"
 ],
-"secs": 1.0
+"secs": 0.8
 },
 {
 "folder": "2074-reverse-nodes-in-even-length-groups",
@@ -12451,7 +12466,7 @@
 "const-@L25",
 "cmp@L28"
 ],
-"secs": 0.5
+"secs": 0.6
 },
 {
 "folder": "2075-decode-the-slanted-ciphertext",
@@ -12517,7 +12532,7 @@
 "cmp@L12",
 "cmp@L16"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2090-k-radius-subarray-averages",
@@ -12535,7 +12550,7 @@
 },
 {
 "folder": "2091-removing-minimum-and-maximum-from-array",
-"tests": 102,
+"tests": 101,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -12547,7 +12562,7 @@
 "survivors": [
 "cmp@L9"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2095-delete-the-middle-node-of-a-linked-list",
@@ -12597,7 +12612,7 @@
 },
 {
 "folder": "2101-detonate-the-maximum-bombs",
-"tests": 115,
+"tests": 113,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -12811,7 +12826,7 @@
 "survivors": [
 "bin@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2135-count-words-obtained-after-adding-a-letter",
@@ -12825,7 +12840,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2139-minimum-moves-to-reach-target-score",
@@ -12871,7 +12886,7 @@
 "aug@L5",
 "const+@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2146-k-highest-ranked-items-within-a-price-range",
@@ -12894,7 +12909,7 @@
 "bin@L20",
 "const+@L16"
 ],
-"secs": 2.3
+"secs": 2.4
 },
 {
 "folder": "2149-rearrange-array-elements-by-sign",
@@ -12911,7 +12926,7 @@
 "const-@L3",
 "const+@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2150-find-all-lonely-numbers-in-the-array",
@@ -12994,7 +13009,7 @@
 "const+@L3",
 "const+@L5"
 ],
-"secs": 0.7
+"secs": 0.8
 },
 {
 "folder": "2170-minimum-operations-to-make-the-array-alternating",
@@ -13068,7 +13083,7 @@
 "mutants": 6,
 "killed": 6,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2182-construct-string-with-repeat-limit",
@@ -13087,7 +13102,7 @@
 "const-@L16",
 "const+@L10"
 ],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "2186-minimum-number-of-steps-to-make-two-strings-anagram-ii",
@@ -13115,7 +13130,7 @@
 "mutants": 2,
 "killed": 2,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2191-sort-the-jumbled-numbers",
@@ -13213,7 +13228,7 @@
 "const+@L10",
 "const-@L10"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2207-maximize-number-of-subsequences-in-a-string",
@@ -13231,7 +13246,7 @@
 },
 {
 "folder": "2208-minimum-operations-to-halve-array-sum",
-"tests": 77,
+"tests": 74,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -13241,7 +13256,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 1.2
+"secs": 1.1
 },
 {
 "folder": "2211-count-collisions-on-a-road",
@@ -13275,7 +13290,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 3.5
+"secs": 3.3
 },
 {
 "folder": "2216-minimum-deletions-to-make-array-beautiful",
@@ -13291,7 +13306,7 @@
 "survivors": [
 "bin@L11"
 ],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "2217-find-palindrome-with-fixed-length",
@@ -13321,7 +13336,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2222-number-of-ways-to-select-buildings",
@@ -13365,7 +13380,7 @@
 "survivors": [
 "const+@L5"
 ],
-"secs": 5.4
+"secs": 5.1
 },
 {
 "folder": "2232-minimize-result-by-adding-parentheses-to-expression",
@@ -13407,7 +13422,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "2244-minimum-rounds-to-complete-all-tasks",
@@ -13459,7 +13474,7 @@
 "const+@L7",
 "const+@L6"
 ],
-"secs": 2.0
+"secs": 1.7
 },
 {
 "folder": "2250-count-number-of-rectangles-containing-each-point",
@@ -13578,7 +13593,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2266-count-number-of-texts",
@@ -13597,7 +13612,7 @@
 "const+@L4",
 "const+@L2"
 ],
-"secs": 2.3
+"secs": 2.4
 },
 {
 "folder": "2270-number-of-ways-to-split-array",
@@ -13676,7 +13691,7 @@
 },
 {
 "folder": "2280-minimum-lines-to-represent-a-line-chart",
-"tests": 107,
+"tests": 106,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -13705,7 +13720,7 @@
 "cmp@L8",
 "const-@L6"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2285-maximum-total-importance-of-roads",
@@ -13809,7 +13824,7 @@
 "const+@L3",
 "const-@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2305-fair-distribution-of-cookies",
@@ -13942,7 +13957,7 @@
 "const+@L7",
 "const-@L7"
 ],
-"secs": 12.3
+"secs": 11.5
 },
 {
 "folder": "2332-the-latest-time-to-catch-a-bus",
@@ -13975,7 +13990,7 @@
 "const+@L9",
 "const-@L9"
 ],
-"secs": 6.6
+"secs": 6.1
 },
 {
 "folder": "2337-move-pieces-to-obtain-a-string",
@@ -14144,7 +14159,7 @@
 "mutants": 59,
 "killed": 59,
 "survivors": [],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "2370-longest-ideal-subsequence",
@@ -14199,7 +14214,7 @@
 "cmp@L12",
 "const+@L22"
 ],
-"secs": 0.7
+"secs": 0.8
 },
 {
 "folder": "2380-time-needed-to-rearrange-a-binary-string",
@@ -14326,7 +14341,7 @@
 "const-@L8",
 "const+@L9"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "2400-number-of-ways-to-reach-a-position-after-exactly-k-steps",
@@ -14345,7 +14360,7 @@
 "const+@L8",
 "const-@L8"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "2401-longest-nice-subarray",
@@ -14375,7 +14390,7 @@
 "survivors": [
 "bin@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2406-divide-intervals-into-minimum-number-of-groups",
@@ -14457,7 +14472,7 @@
 "cmp@L14",
 "aug@L22"
 ],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "2419-longest-subarray-with-maximum-bitwise-and",
@@ -14639,7 +14654,7 @@
 "survivors": [
 "const+@L3"
 ],
-"secs": 0.9
+"secs": 1.2
 },
 {
 "folder": "2447-number-of-subarrays-with-gcd-equal-to-k",
@@ -14714,7 +14729,7 @@
 "mutants": 36,
 "killed": 36,
 "survivors": [],
-"secs": 10.0
+"secs": 9.9
 },
 {
 "folder": "2461-maximum-sum-of-distinct-subarrays-with-length-k",
@@ -14781,7 +14796,7 @@
 "minmax@L7",
 "const+@L37"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "2470-number-of-subarrays-with-lcm-equal-to-k",
@@ -14799,7 +14814,7 @@
 },
 {
 "folder": "2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level",
-"tests": 95,
+"tests": 94,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -14826,7 +14841,7 @@
 "const-@L25",
 "cmp@L24"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2477-minimum-fuel-cost-to-report-to-the-capital",
@@ -14840,7 +14855,7 @@
 "mutants": 12,
 "killed": 12,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2482-difference-between-ones-and-zeros-in-row-and-column",
@@ -14923,7 +14938,7 @@
 "mutants": 27,
 "killed": 27,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2492-minimum-score-of-a-path-between-two-cities",
@@ -15030,7 +15045,7 @@
 "const-@L14",
 "const+@L17"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2513-minimize-the-maximum-of-two-arrays",
@@ -15062,7 +15077,7 @@
 "mutants": 23,
 "killed": 23,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "2517-maximum-tastiness-of-candy-basket",
@@ -15094,7 +15109,7 @@
 "mutants": 22,
 "killed": 22,
 "survivors": [],
-"secs": 2.7
+"secs": 2.6
 },
 {
 "folder": "2522-partition-string-into-substrings-with-values-at-most-k",
@@ -15108,7 +15123,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2523-closest-prime-numbers-in-range",
@@ -15130,7 +15145,7 @@
 "const+@L12",
 "bin@L5"
 ],
-"secs": 37.2
+"secs": 36.3
 },
 {
 "folder": "2527-find-xor-beauty-of-array",
@@ -15272,7 +15287,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2555-maximize-win-from-two-segments",
@@ -15310,7 +15325,7 @@
 "const+@L11",
 "const+@L14"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "2559-count-vowel-strings-in-ranges",
@@ -15354,7 +15369,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2564-substring-xor-queries",
@@ -15423,7 +15438,7 @@
 },
 {
 "folder": "2572-count-the-number-of-square-free-subsets",
-"tests": 55,
+"tests": 0,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -15431,11 +15446,70 @@
 "second_mismatch_n": 0,
 "mutation_sites": 99,
 "mutants": 60,
-"killed": 59,
+"killed": 0,
 "survivors": [
-"const-@L9"
+"const+@L3",
+"const+@L10",
+"const+@L8",
+"const+@L10",
+"bin@L16",
+"const+@L10",
+"len-@L6",
+"const-@L10",
+"cmp@L17",
+"bin@L18",
+"const-@L5",
+"const-@L12",
+"bool@L10",
+"const-@L10",
+"cmp@L10",
+"const+@L8",
+"bin@L7",
+"const-@L10",
+"bin@L14",
+"const+@L14",
+"bin@L19",
+"const-@L10",
+"bin@L15",
+"const-@L10",
+"bin@L19",
+"const-@L3",
+"const+@L3",
+"const-@L14",
+"cmp@L14",
+"const+@L3",
+"const-@L8",
+"cmp@L10",
+"bin@L18",
+"bin@L5",
+"const-@L16",
+"const-@L9",
+"bin@L7",
+"const-@L8",
+"const+@L16",
+"const+@L3",
+"const+@L8",
+"const+@L3",
+"const-@L3",
+"const-@L3",
+"const-@L3",
+"bin@L17",
+"bin@L10",
+"const+@L9",
+"const+@L5",
+"const-@L9",
+"const-@L3",
+"const+@L16",
+"const+@L16",
+"const+@L10",
+"const+@L3",
+"const-@L3",
+"if-swap@L10",
+"bin@L18",
+"const+@L19",
+"if-swap@L17"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "2575-find-the-divisibility-array-of-a-string",
@@ -15465,7 +15539,7 @@
 "mutants": 20,
 "killed": 20,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2579-count-total-number-of-colored-cells",
@@ -15493,7 +15567,7 @@
 "mutants": 12,
 "killed": 12,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "2587-rearrange-array-to-maximize-prefix-score",
@@ -15521,7 +15595,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2592-maximize-greatness-of-an-array",
@@ -15595,7 +15669,7 @@
 "survivors": [
 "bin@L9"
 ],
-"secs": 1.6
+"secs": 1.4
 },
 {
 "folder": "2598-smallest-missing-non-negative-integer-after-operations",
@@ -15611,7 +15685,7 @@
 "survivors": [
 "const+@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2601-prime-subtraction-operation",
@@ -15730,7 +15804,7 @@
 "mutants": 31,
 "killed": 31,
 "survivors": [],
-"secs": 1.4
+"secs": 1.2
 },
 {
 "folder": "2640-find-the-score-of-all-prefixes-of-an-array",
@@ -15750,7 +15824,7 @@
 "const-@L4",
 "const-@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2641-cousins-in-binary-tree-ii",
@@ -15766,7 +15840,7 @@
 "survivors": [
 "len-@L12"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "2645-minimum-additions-to-make-valid-string",
@@ -15780,7 +15854,7 @@
 "mutants": 32,
 "killed": 32,
 "survivors": [],
-"secs": 1.7
+"secs": 1.6
 },
 {
 "folder": "2653-sliding-subarray-beauty",
@@ -15813,7 +15887,7 @@
 "survivors": [
 "const+@L7"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2657-find-the-prefix-common-array-of-two-arrays",
@@ -15863,7 +15937,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2662-minimum-cost-of-a-path-with-special-roads",
@@ -15970,7 +16044,7 @@
 "const-@L3",
 "const+@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2685-count-the-number-of-complete-components",
@@ -16000,7 +16074,7 @@
 "survivors": [
 "const-@L17"
 ],
-"secs": 0.6
+"secs": 0.5
 },
 {
 "folder": "2707-extra-characters-in-a-string",
@@ -16031,7 +16105,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "2711-difference-of-number-of-distinct-values-on-diagonals",
@@ -16142,7 +16216,7 @@
 "const+@L4",
 "bin@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2740-find-the-value-of-the-partition",
@@ -16173,7 +16247,7 @@
 "bin@L9",
 "const-@L7"
 ],
-"secs": 29.9
+"secs": 27.9
 },
 {
 "folder": "2745-construct-the-longest-new-string",
@@ -16187,7 +16261,7 @@
 "mutants": 29,
 "killed": 29,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2746-decremental-string-concatenation",
@@ -16201,7 +16275,7 @@
 "mutants": 40,
 "killed": 40,
 "survivors": [],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "2747-count-zero-request-servers",
@@ -16328,7 +16402,7 @@
 "mutants": 50,
 "killed": 50,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2770-maximum-number-of-jumps-to-reach-the-last-index",
@@ -16358,7 +16432,7 @@
 "mutants": 46,
 "killed": 46,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2772-apply-operations-to-make-all-array-elements-equal-to-zero",
@@ -16456,7 +16530,7 @@
 "survivors": [
 "const+@L13"
 ],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "2789-largest-element-in-an-array-after-merge-operations",
@@ -16504,7 +16578,7 @@
 "len-@L8",
 "len-@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2807-insert-greatest-common-divisors-in-linked-list",
@@ -16532,7 +16606,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2811-check-if-it-is-possible-to-split-array",
@@ -16550,7 +16624,7 @@
 "const-@L14",
 "const+@L14"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2812-find-the-safest-path-in-a-grid",
@@ -16576,7 +16650,7 @@
 "aug@L20",
 "const-@L55"
 ],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "2816-double-a-number-represented-as-a-linked-list",
@@ -16604,11 +16678,11 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2825-make-string-a-subsequence-using-cyclic-increments",
-"tests": 152,
+"tests": 137,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -16664,7 +16738,7 @@
 "mutants": 20,
 "killed": 20,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2831-find-the-longest-equal-subarray",
@@ -16697,7 +16771,7 @@
 "survivors": [
 "cmp@L5"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2840-check-if-strings-can-be-made-equal-with-operations-ii",
@@ -16725,7 +16799,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2844-minimum-operations-to-make-a-special-number",
@@ -16741,7 +16815,7 @@
 "survivors": [
 "bin@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "2845-count-of-interesting-subarrays",
@@ -16755,7 +16829,7 @@
 "mutants": 16,
 "killed": 16,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2849-determine-if-a-cell-is-reachable-at-a-given-time",
@@ -16791,7 +16865,7 @@
 "cmp@L17",
 "const+@L17"
 ],
-"secs": 16.9
+"secs": 15.3
 },
 {
 "folder": "2856-minimum-array-length-after-pair-removals",
@@ -16805,7 +16879,7 @@
 "mutants": 22,
 "killed": 22,
 "survivors": [],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "2857-count-pairs-of-points-with-distance-k",
@@ -16835,7 +16909,7 @@
 "mutants": 19,
 "killed": 19,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2861-maximum-number-of-alloys",
@@ -16994,7 +17068,7 @@
 "cmp@L5",
 "bin@L9"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "2901-longest-unequal-adjacent-groups-subsequence-ii",
@@ -17086,7 +17160,7 @@
 "const+@L4",
 "const-@L5"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2914-minimum-number-of-changes-to-make-binary-string-beautiful",
@@ -17119,7 +17193,7 @@
 "const+@L4",
 "const-@L11"
 ],
-"secs": 0.5
+"secs": 0.4
 },
 {
 "folder": "2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros",
@@ -17181,7 +17255,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "2929-distribute-candies-among-children-ii",
@@ -17215,7 +17289,7 @@
 "const+@L8",
 "const+@L10"
 ],
-"secs": 0.4
+"secs": 0.5
 },
 {
 "folder": "2933-high-access-employees",
@@ -17292,7 +17366,7 @@
 "survivors": [
 "const-@L8"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "2944-minimum-number-of-coins-for-fruits",
@@ -17352,7 +17426,7 @@
 "mutants": 20,
 "killed": 20,
 "survivors": [],
-"secs": 1.7
+"secs": 1.6
 },
 {
 "folder": "2957-remove-adjacent-almost-equal-characters",
@@ -17437,7 +17511,7 @@
 "const+@L2",
 "cmp@L18"
 ],
-"secs": 16.4
+"secs": 16.0
 },
 {
 "folder": "2971-find-polygon-with-the-largest-perimeter",
@@ -17486,7 +17560,7 @@
 "const+@L10",
 "const+@L12"
 ],
-"secs": 1.1
+"secs": 1.2
 },
 {
 "folder": "2981-find-longest-special-substring-that-occurs-thrice-i",
@@ -17522,7 +17596,7 @@
 "const+@L17",
 "const-@L7"
 ],
-"secs": 11.8
+"secs": 12.5
 },
 {
 "folder": "2997-minimum-number-of-operations-to-make-array-xor-equal-to-k",
@@ -17550,7 +17624,7 @@
 "mutants": 60,
 "killed": 60,
 "survivors": [],
-"secs": 0.4
+"secs": 0.5
 },
 {
 "folder": "3001-minimum-moves-to-capture-the-queen",
@@ -17577,7 +17651,7 @@
 "const-@L9",
 "const+@L5"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "3002-maximum-size-of-a-set-after-removals",
@@ -17591,7 +17665,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3006-find-beautiful-indices-in-the-given-array-i",
@@ -17607,7 +17681,7 @@
 "survivors": [
 "cmp@L42"
 ],
-"secs": 5.5
+"secs": 5.4
 },
 {
 "folder": "3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k",
@@ -17797,7 +17871,7 @@
 "survivors": [
 "cmp@L4"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3035-maximum-palindromes-after-operations",
@@ -17815,7 +17889,7 @@
 "bin@L7",
 "const+@L7"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3039-apply-operations-to-make-string-empty",
@@ -17846,7 +17920,7 @@
 "mutants": 60,
 "killed": 60,
 "survivors": [],
-"secs": 0.5
+"secs": 0.3
 },
 {
 "folder": "3043-find-the-length-of-the-longest-common-prefix",
@@ -17860,7 +17934,7 @@
 "mutants": 11,
 "killed": 11,
 "survivors": [],
-"secs": 1.5
+"secs": 1.4
 },
 {
 "folder": "3044-most-frequent-prime",
@@ -17880,7 +17954,7 @@
 "const+@L20",
 "const-@L6"
 ],
-"secs": 4.1
+"secs": 4.0
 },
 {
 "folder": "3047-find-the-largest-area-of-square-inside-two-rectangles",
@@ -17914,7 +17988,7 @@
 "const-@L20",
 "const+@L20"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3066-minimum-operations-to-exceed-threshold-value-ii",
@@ -17965,7 +18039,7 @@
 "const+@L3",
 "const+@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3071-minimum-operations-to-write-the-letter-y-on-a-grid",
@@ -18051,7 +18125,7 @@
 },
 {
 "folder": "3084-count-substrings-starting-and-ending-with-given-character",
-"tests": 106,
+"tests": 104,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -18092,7 +18166,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3092-most-frequent-ids",
@@ -18106,7 +18180,7 @@
 "mutants": 20,
 "killed": 20,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3096-minimum-levels-to-gain-more-points",
@@ -18120,7 +18194,7 @@
 "mutants": 26,
 "killed": 26,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3097-shortest-subarray-with-or-at-least-k-ii",
@@ -18142,7 +18216,7 @@
 "const+@L5",
 "const-@L15"
 ],
-"secs": 2.0
+"secs": 2.9
 },
 {
 "folder": "3100-water-bottles-ii",
@@ -18241,7 +18315,7 @@
 },
 {
 "folder": "3115-maximum-prime-difference",
-"tests": 39,
+"tests": 37,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -18303,7 +18377,7 @@
 "survivors": [
 "const-@L4"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3129-find-all-possible-stable-binary-arrays-i",
@@ -18320,7 +18394,7 @@
 "const+@L17",
 "const+@L22"
 ],
-"secs": 5.7
+"secs": 6.3
 },
 {
 "folder": "3132-find-the-integer-added-to-array-ii",
@@ -18334,7 +18408,7 @@
 "mutants": 29,
 "killed": 29,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "3133-minimum-array-end",
@@ -18412,7 +18486,7 @@
 "cmp@L5",
 "const+@L15"
 ],
-"secs": 0.7
+"secs": 0.6
 },
 {
 "folder": "3147-taking-maximum-energy-from-the-mystic-dungeon",
@@ -18426,7 +18500,7 @@
 "mutants": 10,
 "killed": 10,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3148-maximum-difference-score-in-a-grid",
@@ -18445,7 +18519,7 @@
 "const+@L3",
 "const+@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3152-special-array-ii",
@@ -18515,7 +18589,7 @@
 "mutants": 6,
 "killed": 6,
 "survivors": [],
-"secs": 0.6
+"secs": 0.7
 },
 {
 "folder": "3164-find-the-number-of-good-pairs-ii",
@@ -18611,7 +18685,7 @@
 "mutants": 20,
 "killed": 20,
 "survivors": [],
-"secs": 0.5
+"secs": 0.6
 },
 {
 "folder": "3180-maximum-total-reward-using-operations-i",
@@ -18625,7 +18699,7 @@
 "mutants": 7,
 "killed": 7,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3185-count-pairs-that-form-a-complete-day-ii",
@@ -18639,7 +18713,7 @@
 "mutants": 18,
 "killed": 18,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3186-maximum-total-damage-with-spell-casting",
@@ -18669,7 +18743,7 @@
 "mutants": 29,
 "killed": 29,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3192-minimum-operations-to-make-binary-array-elements-equal-to-one-ii",
@@ -18683,7 +18757,7 @@
 "mutants": 13,
 "killed": 13,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3195-find-the-minimum-area-to-cover-all-ones-i",
@@ -18697,7 +18771,7 @@
 "mutants": 17,
 "killed": 17,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3196-maximize-total-cost-of-alternating-subarrays",
@@ -18733,7 +18807,7 @@
 "const+@L5",
 "const-@L5"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "3202-find-the-maximum-length-of-valid-subsequence-ii",
@@ -18766,7 +18840,7 @@
 "mutants": 24,
 "killed": 24,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3208-alternating-groups-ii",
@@ -18953,7 +19027,7 @@
 "const+@L7",
 "const+@L10"
 ],
-"secs": 0.7
+"secs": 0.8
 },
 {
 "folder": "3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i",
@@ -18969,7 +19043,7 @@
 "survivors": [
 "const-@L3"
 ],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii",
@@ -19023,7 +19097,7 @@
 "const+@L23",
 "const-@L23"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3254-find-the-power-of-k-size-subarrays-i",
@@ -19055,7 +19129,7 @@
 "survivors": [
 "const-@L5"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3259-maximum-energy-boost-from-two-drinks",
@@ -19133,7 +19207,7 @@
 "const+@L14",
 "const-@L12"
 ],
-"secs": 8.5
+"secs": 8.9
 },
 {
 "folder": "3282-reach-end-of-array-with-max-score",
@@ -19260,7 +19334,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3302-find-the-lexicographically-smallest-valid-sequence",
@@ -19281,7 +19355,7 @@
 "const-@L6",
 "const-@L10"
 ],
-"secs": 0.8
+"secs": 0.9
 },
 {
 "folder": "3305-count-of-substrings-containing-every-vowel-and-k-consonants-i",
@@ -19358,7 +19432,7 @@
 "const-@L8",
 "const+@L8"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3316-find-maximum-removals-from-source-string",
@@ -19374,7 +19448,7 @@
 "const+@L4",
 "const+@L4"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3319-k-th-largest-perfect-subtree-size-in-binary-tree",
@@ -19391,7 +19465,7 @@
 "const+@L14",
 "const-@L13"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3324-find-the-sequence-of-strings-appeared-on-the-screen",
@@ -19441,7 +19515,7 @@
 "const+@L1",
 "const+@L1"
 ],
-"secs": 24.0
+"secs": 22.6
 },
 {
 "folder": "3331-find-subtree-sizes-after-changes",
@@ -19507,7 +19581,7 @@
 "const+@L10",
 "const+@L4"
 ],
-"secs": 9.8
+"secs": 9.9
 },
 {
 "folder": "3341-find-minimum-time-to-reach-last-room-i",
@@ -19529,7 +19603,7 @@
 "const-@L6",
 "bin@L15"
 ],
-"secs": 0.8
+"secs": 0.9
 },
 {
 "folder": "3342-find-minimum-time-to-reach-last-room-ii",
@@ -19554,7 +19628,7 @@
 "const+@L3",
 "const+@L7"
 ],
-"secs": 1.2
+"secs": 1.4
 },
 {
 "folder": "3346-maximum-frequency-of-an-element-after-performing-operations-i",
@@ -19582,7 +19656,7 @@
 "mutants": 23,
 "killed": 23,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3355-zero-array-transformation-i",
@@ -19598,7 +19672,7 @@
 "survivors": [
 "const+@L3"
 ],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3356-zero-array-transformation-ii",
@@ -19652,7 +19726,7 @@
 "mutants": 25,
 "killed": 25,
 "survivors": [],
-"secs": 0.1
+"secs": 0.2
 },
 {
 "folder": "3365-rearrange-k-substrings-to-form-target-string",
@@ -19734,7 +19808,7 @@
 "survivors": [
 "cmp@L15"
 ],
-"secs": 5.3
+"secs": 5.1
 },
 {
 "folder": "3377-digit-operations-to-make-two-integers-equal",
@@ -19758,7 +19832,7 @@
 "const+@L13",
 "const-@L13"
 ],
-"secs": 18.9
+"secs": 19.1
 },
 {
 "folder": "3380-maximum-area-rectangle-with-point-constraints-i",
@@ -19829,7 +19903,7 @@
 "const+@L5",
 "const+@L4"
 ],
-"secs": 0.5
+"secs": 0.4
 },
 {
 "folder": "3393-count-paths-with-the-given-xor-value",
@@ -19866,7 +19940,7 @@
 "cmp@L6",
 "const+@L6"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3397-maximum-number-of-distinct-elements-after-operations",
@@ -19912,7 +19986,7 @@
 "const-@L5",
 "const-@L12"
 ],
-"secs": 0.4
+"secs": 0.3
 },
 {
 "folder": "3409-longest-subsequence-with-decreasing-adjacent-difference",
@@ -19930,7 +20004,7 @@
 "const-@L9",
 "const+@L13"
 ],
-"secs": 1.4
+"secs": 0.9
 },
 {
 "folder": "3412-find-mirror-score-of-a-string",
@@ -19948,7 +20022,7 @@
 },
 {
 "folder": "3413-maximum-coins-from-k-consecutive-bags",
-"tests": 115,
+"tests": 114,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -19965,7 +20039,7 @@
 "const-@L21",
 "cmp@L22"
 ],
-"secs": 0.9
+"secs": 0.8
 },
 {
 "folder": "3418-maximum-amount-of-money-robot-can-earn",
@@ -19982,7 +20056,7 @@
 "const-@L14",
 "cmp@L10"
 ],
-"secs": 0.3
+"secs": 0.2
 },
 {
 "folder": "3419-minimize-the-maximum-edge-weight-of-graph",
@@ -20000,7 +20074,7 @@
 "const-@L9",
 "const-@L3"
 ],
-"secs": 3.8
+"secs": 3.7
 },
 {
 "folder": "3424-minimum-cost-to-make-arrays-identical",
@@ -20014,7 +20088,7 @@
 "mutants": 4,
 "killed": 4,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3428-maximum-and-minimum-sums-of-at-most-size-k-subsequences",
@@ -20035,7 +20109,7 @@
 "const+@L19",
 "bin@L27"
 ],
-"secs": 1.5
+"secs": 1.3
 },
 {
 "folder": "3429-paint-house-iv",
@@ -20071,7 +20145,7 @@
 "const+@L3",
 "const+@L5"
 ],
-"secs": 0.2
+"secs": 0.3
 },
 {
 "folder": "3434-maximum-frequency-after-subarray-operation",
@@ -20090,7 +20164,7 @@
 "const-@L12",
 "cmp@L19"
 ],
-"secs": 0.8
+"secs": 0.7
 },
 {
 "folder": "3439-reschedule-meetings-for-maximum-free-time-i",
@@ -20121,7 +20195,7 @@
 "const-@L17",
 "const-@L6"
 ],
-"secs": 0.3
+"secs": 0.4
 },
 {
 "folder": "3443-maximum-manhattan-distance-after-k-changes",
@@ -20180,7 +20254,7 @@
 },
 {
 "folder": "3453-separate-squares-i",
-"tests": 107,
+"tests": 100,
 "inplace": false,
 "duplicates": 0,
 "ref_mismatch": [],
@@ -20224,7 +20298,7 @@
 "const+@L5",
 "const+@L4"
 ],
-"secs": 0.5
+"secs": 0.4
 },
 {
 "folder": "3462-maximum-sum-with-at-most-k-elements",
@@ -20251,7 +20325,7 @@
 "mutants": 24,
 "killed": 24,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3469-find-minimum-cost-to-remove-array-elements",
@@ -20279,7 +20353,7 @@
 "mutants": 39,
 "killed": 39,
 "survivors": [],
-"secs": 2.6
+"secs": 2.9
 },
 {
 "folder": "3473-sum-of-k-subarrays-with-length-at-least-m",
@@ -20316,7 +20390,7 @@
 "const-@L8",
 "const+@L8"
 ],
-"secs": 1.3
+"secs": 1.4
 },
 {
 "folder": "3479-fruits-into-baskets-iii",
@@ -20332,7 +20406,7 @@
 "cmp@L28",
 "cmp@L17"
 ],
-"secs": 1.2
+"secs": 1.5
 },
 {
 "folder": "3488-closest-equal-element-queries",
@@ -20379,7 +20453,7 @@
 "mutants": 15,
 "killed": 15,
 "survivors": [],
-"secs": 0.2
+"secs": 0.1
 },
 {
 "folder": "3494-find-the-minimum-amount-of-time-to-brew-potions",
@@ -20429,6 +20503,6 @@
 "bin@L13",
 "const+@L4"
 ],
-"secs": 0.6
+"secs": 0.8
 }
 ]

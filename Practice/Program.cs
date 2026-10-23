@@ -16,7 +16,7 @@ public static class Program {
 
     const int MaxShownFailures = 3;
     const int TimeoutSeconds = 10;
-    const int PerfTimeoutSeconds = 4;   // tests tagged "g":"perf" are large on purpose: an O(n^2) solution should fail them
+    const int PerfTimeoutSeconds = 2;   // tests tagged "g":"perf" are large on purpose: an O(n^2) solution should fail them
 
     // --json: print one machine-readable result object (used by the web UI server) instead of text.
     // --limit=N: only run the first N tests.

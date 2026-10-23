@@ -74,16 +74,17 @@ def main():
     bad = [r for r in out if 'error' in r or r.get('skipped') or r.get('code') not in (0, None)]
     if apply:   # drop tests the runner would silently skip (value does not fit the C# type, e.g. an answer beyond int range)
         import gzip
-        log = {}
+        lp = os.path.join(engine.HERE, 'report', 'removed_untypeable.json.gz')
+        log = json.load(gzip.open(lp, 'rt')) if os.path.exists(lp) else {}
         for r in out:
             if r.get('skippedIdx'):
                 p = os.path.join(engine.ROOT, 'problems', r['folder'], 'tests.json')
                 m = json.load(open(p, encoding='utf-8')); drop = set(r['skippedIdx'])
-                log[r['folder']] = [t for i, t in enumerate(m['tests'], 1) if i in drop]
+                log.setdefault(r['folder'], []).extend(t for i, t in enumerate(m['tests'], 1) if i in drop)
                 m['tests'] = [t for i, t in enumerate(m['tests'], 1) if i not in drop]
                 m.setdefault('audit', {})['removed_untypeable'] = len(drop)
                 json.dump(m, open(p, 'w', encoding='utf-8'), separators=(',', ':'))
-        with gzip.open(os.path.join(engine.HERE, 'report', 'removed_untypeable.json.gz'), 'wt') as f: json.dump(log, f)
+        with gzip.open(lp, 'wt') as f: json.dump(log, f)
         print('removed', sum(len(v) for v in log.values()), 'untypeable tests from', len(log), 'problems')
     print(len(out), 'problems checked;', len(bad), 'with a problem:')
     for r in bad[:40]: print(' ', r['folder'], r.get('error') or f"skipped {r.get('skipped')}/{r.get('total')} {r.get('message','')[:80]}")

@@ -166,7 +166,12 @@ async function problemPage(folder) {
   const body = $('#tabbody');
   const bodyMd = md => {
     const stripped = md.replace(/^# .*\n/, '').replace(/^\*\*Difficulty:\*\*.*\n/m, '').replace(/^\*\*Topics:\*\*.*\n/m, '').replace(/^\*\*Link \(online only\):\*\*.*\n/m, '');
-    return marked.parse(stripped);
+    // The pack's statements lost their superscripts ("10^4" reads "104", "2^31 - 1" reads "231 - 1"). Restore the
+    // unambiguous forms in the Constraints list: 10^3..10^18 and 2^15/16/31/32/63.
+    const i = stripped.indexOf('**Constraints:**');
+    const fixed = i < 0 ? stripped : stripped.slice(0, i) + stripped.slice(i).split('\n').map(l => !/^\s*[-*]\s/.test(l) ? l :
+      l.replace(/(?<![\w.^])10(3|4|5|6|7|8|9|1[0-8])(?![\w.])/g, '10<sup>$1</sup>').replace(/(?<![\w.^])2(15|16|31|32|63)(?![\w.])/g, '2<sup>$1</sup>')).join('\n');
+    return marked.parse(fixed);
   };
   const statusChip = () => p.status === 'solved' ? '<span class="chip st-solved">✔ Solved</span>' : p.status === 'attempted' ? '<span class="chip">Attempted</span>' : '';
   const showDesc = () => {

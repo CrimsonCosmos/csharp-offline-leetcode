@@ -22,14 +22,16 @@ It starts the local server on a free port (5180 by default) and opens your defau
 - **Run** (`Ctrl+'`) checks the first 10 test cases; **Submit** (`Ctrl+Enter`) checks all of them. Compile errors show as squiggles in the editor; failures show input / output / expected; `Console.WriteLine` output appears under Stdout.
 - Code autosaves to `userdata/code/`; progress and submission history live in `userdata/progress.json` (git-ignored). Delete `userdata/` to start fresh.
 - Tick **ignore result order** for problems that accept answers in any order.
-- Problems without a test suite can be marked solved by hand.
+- Problems without a test suite can be marked solved by hand. Problems tagged *examples only* use the statement's examples as tests; design problems (e.g. LRU Cache) run the example operation sequences.
+- Known gaps: 10 problems that need a `Node` class (n-ary trees, quad trees, random-pointer lists, ...) and a few random/interactive problems have no tests and may not compile in the runner.
 
-The tests are LLM-generated from the open LeetCodeDataset, not LeetCode's hidden tests; see [PRACTICE_PACK_README.md](PRACTICE_PACK_README.md) for caveats. The original CLI (`./run.sh 2`, `.\run.ps1 2`) still works.
+The tests started as LLM-generated cases from the open LeetCodeDataset, not LeetCode's hidden tests. They have since been audited (invalid cases removed, large and generated cases added, in-place and design problems verified); see [TEST_QUALITY.md](TEST_QUALITY.md) for what was done and what it does and does not prove, and [PRACTICE_PACK_README.md](PRACTICE_PACK_README.md) for the original caveats. The original CLI (`./run.sh 2`, `.\run.ps1 2`) still works.
 
 ## Layout
 
 - `problems/` – statements, starter code, `tests.json`, editorials
 - `Practice/` – test runner (now with `--json` / `--limit=N` for the UI)
+- `tools/testaudit/` – Python tooling that audits and improves the test suites (development only)
 - `Server/` – ASP.NET minimal-API server (no NuGet packages needed): serves the UI, compiles and runs solutions
 - `web/` – the UI (plain HTML/CSS/JS)
 
