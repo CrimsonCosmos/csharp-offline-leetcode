@@ -1,0 +1,1 @@
+{"slug":"fill-a-special-grid","method":"SpecialGrid","params":["n"],"inplace":false,"tests":[{"a":[0],"e":[[0]],"g":"example"},{"a":[1],"e":[[3,0],[2,1]],"g":"example"},{"a":[2],"e":[[15,12,3,0],[14,13,2,1],[11,8,7,4],[10,9,6,5]],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

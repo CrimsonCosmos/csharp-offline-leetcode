@@ -1,0 +1,1 @@
+{"slug":"find-consecutive-integers-from-a-data-stream","design":true,"class":"DataStream","inplace":false,"method":"","params":[],"tests":[{"ops":["DataStream","consec","consec","consec","consec"],"a":[[4,3],[4],[4],[4],[3]],"e":[null,false,false,true,false],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

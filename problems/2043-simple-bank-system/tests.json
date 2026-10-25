@@ -1,0 +1,1 @@
+{"slug":"simple-bank-system","design":true,"class":"Bank","inplace":false,"method":"","params":[],"tests":[{"ops":["Bank","withdraw","transfer","deposit","transfer","withdraw"],"a":[[[10,100,20,50,30]],[3,10],[5,1,20],[5,20],[3,4,15],[10,50]],"e":[null,true,true,true,false,false],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

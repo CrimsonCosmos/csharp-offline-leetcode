@@ -1,0 +1,35 @@
+# 3091. Apply Operations to Make Sum of Array Greater Than or Equal to k
+**Difficulty:** Medium  
+**Topics:** Math, Greedy, Enumeration
+**Link (online only):** https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/
+
+You are given a positive integer k. Initially, you have an array nums = [1].
+You can perform any of the following operations on the array any number of times (possibly zero):
+Return the minimum number of operations required to make the sum of elements of the final array greater than or equal to k.
+
+**Example 1:**
+```
+Input: k = 11
+Output: 5
+Explanation:
+We can do the following operations on the array nums = [1] :
+The sum of the final array is 4 + 4 + 4 = 12 which is greater than or equal to k = 11 . The total number of operations performed is 3 + 2 = 5 .
+```
+
+**Example 2:**
+```
+Input: k = 1
+Output: 0
+Explanation:
+The sum of the original array is already greater than or equal to 1 , so no operations are needed.
+```
+
+**Constraints:**
+- 1 <= k <= 105
+
+<details><summary>Hints</summary>
+
+1. It is optimal to make all the increase operations first and all the duplicate operations last.
+2. Iterate over all possible number of increase operations that can be done and find the corresponding number of duplicate operations.
+
+</details>

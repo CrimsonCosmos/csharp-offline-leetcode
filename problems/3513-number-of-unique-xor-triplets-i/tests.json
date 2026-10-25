@@ -1,0 +1,1 @@
+{"slug":"number-of-unique-xor-triplets-i","method":"UniqueXorTriplets","params":["nums"],"inplace":false,"tests":[{"a":[[1,2]],"e":2,"g":"example"},{"a":[[3,1,2]],"e":4,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

@@ -1,0 +1,1 @@
+{"slug":"smallest-palindromic-rearrangement-i","method":"SmallestPalindrome","params":["s"],"inplace":false,"tests":[{"a":["z"],"e":"z","g":"example"},{"a":["babab"],"e":"abbba","g":"example"},{"a":["daccad"],"e":"acddca","g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

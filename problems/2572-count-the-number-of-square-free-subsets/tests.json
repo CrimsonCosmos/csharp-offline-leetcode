@@ -1,0 +1,1 @@
+{"slug":"count-the-number-of-square-free-subsets","method":"squareFreeSubsets","params":["nums"],"inplace":false,"tests":[],"audit":{"removed_invalid":46,"removed_duplicates":2,"removed_untypeable":55}}

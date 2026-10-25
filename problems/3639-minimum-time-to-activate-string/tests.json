@@ -1,0 +1,1 @@
+{"slug":"minimum-time-to-activate-string","method":"MinTime","params":["s","order","k"],"inplace":false,"tests":[{"a":["abc",[1,0,2],2],"e":0,"g":"example"},{"a":["cat",[0,2,1],6],"e":2,"g":"example"},{"a":["xy",[0,1],4],"e":-1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

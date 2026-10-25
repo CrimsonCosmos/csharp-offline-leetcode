@@ -1,0 +1,1 @@
+{"slug":"min-stack","design":true,"class":"MinStack","inplace":false,"method":"","params":[],"tests":[{"ops":["MinStack","push","push","push","getMin","pop","top","getMin"],"a":[[],[-2],[0],[-3],[],[],[],[]],"e":[null,null,null,null,-3,null,0,-2],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

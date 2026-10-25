@@ -1,0 +1,1 @@
+{"slug":"earliest-finish-time-for-land-and-water-rides-ii","method":"EarliestFinishTime","params":["landStartTime","landDuration","waterStartTime","waterDuration"],"inplace":false,"tests":[{"a":[[2,8],[4,1],[6],[3]],"e":9,"g":"example"},{"a":[[5],[3],[1],[10]],"e":14,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

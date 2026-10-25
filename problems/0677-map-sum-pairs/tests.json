@@ -1,0 +1,1 @@
+{"slug":"map-sum-pairs","design":true,"class":"MapSum","inplace":false,"method":"","params":[],"tests":[{"ops":["MapSum","insert","sum","insert","sum"],"a":[[],["apple",3],["ap"],["app",2],["ap"]],"e":[null,null,3,null,5],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

@@ -1,0 +1,1 @@
+{"slug":"count-prime-gap-balanced-subarrays","method":"PrimeSubarray","params":["nums","k"],"inplace":false,"tests":[{"a":[[1,2,3],1],"e":2,"g":"example"},{"a":[[2,3,5,7],3],"e":4,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

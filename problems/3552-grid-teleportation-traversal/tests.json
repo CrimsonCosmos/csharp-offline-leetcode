@@ -1,0 +1,1 @@
+{"slug":"grid-teleportation-traversal","method":"MinMoves","params":["matrix"],"inplace":false,"tests":[{"a":[["A..",".A.","..."]],"e":2,"g":"example"},{"a":[[".#...",".#.#.",".#.#.","...#."]],"e":13,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

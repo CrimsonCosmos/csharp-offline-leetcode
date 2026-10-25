@@ -1,0 +1,1 @@
+{"slug":"iterator-for-combination","design":true,"class":"CombinationIterator","inplace":false,"method":"","params":[],"tests":[{"ops":["CombinationIterator","next","hasNext","next","hasNext","next","hasNext"],"a":[["abc",2],[],[],[],[],[],[]],"e":[null,"ab",true,"ac",true,"bc",false],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":1}}

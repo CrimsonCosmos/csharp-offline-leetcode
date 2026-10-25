@@ -1,0 +1,1 @@
+{"slug":"minimum-cost-path-with-alternating-directions-ii","method":"MinCost","params":["m","n","waitCost"],"inplace":false,"tests":[{"a":[1,2,[[1,2]]],"e":3,"g":"example"},{"a":[2,2,[[3,5],[2,4]]],"e":9,"g":"example"},{"a":[2,3,[[6,1,4],[3,2,5]]],"e":16,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

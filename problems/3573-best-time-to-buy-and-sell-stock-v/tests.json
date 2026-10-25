@@ -1,0 +1,1 @@
+{"slug":"best-time-to-buy-and-sell-stock-v","method":"MaximumProfit","params":["prices","k"],"inplace":false,"tests":[{"a":[[1,7,9,8,2],2],"e":14,"g":"example"},{"a":[[12,16,19,19,8,1,19,13,9],3],"e":36,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

@@ -1,0 +1,1 @@
+{"slug":"delete-node-in-a-linked-list","method":"DeleteNode","params":["node"],"inplace":false,"tests":[],"examplesOnly":true,"audit":{"source":"README examples","removed_untypeable":2}}

@@ -1,0 +1,1 @@
+{"slug":"find-maximum-number-of-non-intersecting-substrings","method":"MaxSubstrings","params":["word"],"inplace":false,"tests":[{"a":["abcdeafdef"],"e":2,"g":"example"},{"a":["bcdaaaab"],"e":1,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

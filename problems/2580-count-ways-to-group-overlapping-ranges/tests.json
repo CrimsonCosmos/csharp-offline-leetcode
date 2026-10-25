@@ -1,0 +1,1 @@
+{"slug":"count-ways-to-group-overlapping-ranges","method":"CountWays","params":["ranges"],"inplace":false,"tests":[{"a":[[[6,10],[5,15]]],"e":2,"g":"example"},{"a":[[[1,3],[10,20],[2,5],[4,8]]],"e":4,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

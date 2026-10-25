@@ -1,0 +1,1 @@
+{"slug":"make-array-non-decreasing","method":"MaximumPossibleSize","params":["nums"],"inplace":false,"tests":[{"a":[[4,2,5,3,5]],"e":3,"g":"example"},{"a":[[1,2,3]],"e":3,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

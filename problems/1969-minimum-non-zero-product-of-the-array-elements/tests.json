@@ -1,0 +1,1 @@
+{"slug":"minimum-non-zero-product-of-the-array-elements","method":"MinNonZeroProduct","params":["p"],"inplace":false,"tests":[{"a":[1],"e":1,"g":"example"},{"a":[2],"e":6,"g":"example"},{"a":[3],"e":1512,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

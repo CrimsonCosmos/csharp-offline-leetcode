@@ -1,0 +1,1 @@
+{"slug":"sum-of-largest-prime-substrings","method":"SumOfLargestPrimes","params":["s"],"inplace":false,"tests":[{"a":["12234"],"e":1469,"g":"example"},{"a":["111"],"e":11,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}

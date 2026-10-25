@@ -1,0 +1,1 @@
+{"slug":"count-special-triplets","method":"SpecialTriplets","params":["nums"],"inplace":false,"tests":[{"a":[[6,3,6]],"e":1,"g":"example"},{"a":[[0,1,0,0]],"e":1,"g":"example"},{"a":[[8,4,2,8,4]],"e":2,"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":3}}

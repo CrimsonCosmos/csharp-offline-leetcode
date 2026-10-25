@@ -1,0 +1,6292 @@
+{
+"0002-add-two-numbers": {
+"rules": 2,
+"violations": []
+},
+"0003-longest-substring-without-repeating-characters": {
+"rules": 1,
+"violations": []
+},
+"0005-longest-palindromic-substring": {
+"rules": 1,
+"violations": []
+},
+"0006-zigzag-conversion": {
+"rules": 2,
+"violations": []
+},
+"0007-reverse-integer": {
+"rules": 1,
+"violations": []
+},
+"0008-string-to-integer-atoi": {
+"rules": 1,
+"violations": []
+},
+"0011-container-with-most-water": {
+"rules": 3,
+"violations": []
+},
+"0012-integer-to-roman": {
+"rules": 1,
+"violations": []
+},
+"0015-3sum": {
+"rules": 2,
+"violations": []
+},
+"0016-3sum-closest": {
+"rules": 3,
+"violations": []
+},
+"0017-letter-combinations-of-a-phone-number": {
+"rules": 1,
+"violations": []
+},
+"0018-4sum": {
+"rules": 3,
+"violations": []
+},
+"0019-remove-nth-node-from-end-of-list": {
+"rules": 1,
+"violations": []
+},
+"0022-generate-parentheses": {
+"rules": 1,
+"violations": []
+},
+"0024-swap-nodes-in-pairs": {
+"rules": 2,
+"violations": []
+},
+"0029-divide-two-integers": {
+"rules": 2,
+"violations": []
+},
+"0031-next-permutation": {
+"rules": 2,
+"violations": []
+},
+"0033-search-in-rotated-sorted-array": {
+"rules": 5,
+"violations": [
+{
+"i": 7,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 50,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 59,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 74,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 76,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 106,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 111,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 121,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 131,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+}
+]
+},
+"0034-find-first-and-last-position-of-element-in-sorted-array": {
+"rules": 4,
+"violations": [
+{
+"i": 131,
+"why": [
+"nums not sorted (non-decreasing)"
+]
+}
+]
+},
+"0036-valid-sudoku": {
+"rules": 2,
+"violations": []
+},
+"0038-count-and-say": {
+"rules": 1,
+"violations": []
+},
+"0039-combination-sum": {
+"rules": 4,
+"violations": []
+},
+"0040-combination-sum-ii": {
+"rules": 3,
+"violations": []
+},
+"0043-multiply-strings": {
+"rules": 2,
+"violations": []
+},
+"0045-jump-game-ii": {
+"rules": 2,
+"violations": []
+},
+"0046-permutations": {
+"rules": 3,
+"violations": []
+},
+"0047-permutations-ii": {
+"rules": 2,
+"violations": []
+},
+"0048-rotate-image": {
+"rules": 3,
+"violations": []
+},
+"0049-group-anagrams": {
+"rules": 3,
+"violations": []
+},
+"0050-powx-n": {
+"rules": 1,
+"violations": []
+},
+"0053-maximum-subarray": {
+"rules": 2,
+"violations": []
+},
+"0054-spiral-matrix": {
+"rules": 5,
+"violations": []
+},
+"0055-jump-game": {
+"rules": 2,
+"violations": []
+},
+"0056-merge-intervals": {
+"rules": 2,
+"violations": []
+},
+"0057-insert-interval": {
+"rules": 4,
+"violations": []
+},
+"0059-spiral-matrix-ii": {
+"rules": 1,
+"violations": []
+},
+"0061-rotate-list": {
+"rules": 3,
+"violations": []
+},
+"0062-unique-paths": {
+"rules": 2,
+"violations": []
+},
+"0063-unique-paths-ii": {
+"rules": 4,
+"violations": []
+},
+"0064-minimum-path-sum": {
+"rules": 5,
+"violations": []
+},
+"0071-simplify-path": {
+"rules": 1,
+"violations": []
+},
+"0072-edit-distance": {
+"rules": 4,
+"violations": []
+},
+"0073-set-matrix-zeroes": {
+"rules": 2,
+"violations": []
+},
+"0074-search-a-2d-matrix": {
+"rules": 6,
+"violations": []
+},
+"0075-sort-colors": {
+"rules": 2,
+"violations": []
+},
+"0077-combinations": {
+"rules": 2,
+"violations": []
+},
+"0078-subsets": {
+"rules": 2,
+"violations": []
+},
+"0079-word-search": {
+"rules": 2,
+"violations": []
+},
+"0080-remove-duplicates-from-sorted-array-ii": {
+"rules": 3,
+"violations": []
+},
+"0081-search-in-rotated-sorted-array-ii": {
+"rules": 4,
+"violations": [
+{
+"i": 17,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 62,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 69,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+}
+]
+},
+"0082-remove-duplicates-from-sorted-list-ii": {
+"rules": 3,
+"violations": [
+{
+"i": 7,
+"why": [
+"head not sorted (non-decreasing)"
+]
+}
+]
+},
+"0086-partition-list": {
+"rules": 3,
+"violations": []
+},
+"0089-gray-code": {
+"rules": 1,
+"violations": []
+},
+"0090-subsets-ii": {
+"rules": 2,
+"violations": []
+},
+"0091-decode-ways": {
+"rules": 1,
+"violations": []
+},
+"0092-reverse-linked-list-ii": {
+"rules": 1,
+"violations": []
+},
+"0093-restore-ip-addresses": {
+"rules": 1,
+"violations": []
+},
+"0096-unique-binary-search-trees": {
+"rules": 1,
+"violations": []
+},
+"0097-interleaving-string": {
+"rules": 3,
+"violations": []
+},
+"0098-validate-binary-search-tree": {
+"rules": 2,
+"violations": []
+},
+"0099-recover-binary-search-tree": {
+"rules": 2,
+"violations": []
+},
+"0102-binary-tree-level-order-traversal": {
+"rules": 2,
+"violations": []
+},
+"0103-binary-tree-zigzag-level-order-traversal": {
+"rules": 2,
+"violations": []
+},
+"0105-construct-binary-tree-from-preorder-and-inorder-traversal": {
+"rules": 4,
+"violations": []
+},
+"0106-construct-binary-tree-from-inorder-and-postorder-traversal": {
+"rules": 4,
+"violations": []
+},
+"0107-binary-tree-level-order-traversal-ii": {
+"rules": 2,
+"violations": []
+},
+"0109-convert-sorted-list-to-binary-search-tree": {
+"rules": 1,
+"violations": []
+},
+"0113-path-sum-ii": {
+"rules": 3,
+"violations": []
+},
+"0114-flatten-binary-tree-to-linked-list": {
+"rules": 2,
+"violations": []
+},
+"0120-triangle": {
+"rules": 2,
+"violations": []
+},
+"0122-best-time-to-buy-and-sell-stock-ii": {
+"rules": 2,
+"violations": []
+},
+"0128-longest-consecutive-sequence": {
+"rules": 2,
+"violations": []
+},
+"0129-sum-root-to-leaf-numbers": {
+"rules": 2,
+"violations": []
+},
+"0130-surrounded-regions": {
+"rules": 4,
+"violations": []
+},
+"0131-palindrome-partitioning": {
+"rules": 1,
+"violations": []
+},
+"0134-gas-station": {
+"rules": 4,
+"violations": []
+},
+"0137-single-number-ii": {
+"rules": 2,
+"violations": []
+},
+"0139-word-break": {
+"rules": 4,
+"violations": []
+},
+"0143-reorder-list": {
+"rules": 1,
+"violations": []
+},
+"0147-insertion-sort-list": {
+"rules": 2,
+"violations": []
+},
+"0148-sort-list": {
+"rules": 1,
+"violations": []
+},
+"0150-evaluate-reverse-polish-notation": {
+"rules": 1,
+"violations": []
+},
+"0151-reverse-words-in-a-string": {
+"rules": 1,
+"violations": []
+},
+"0152-maximum-product-subarray": {
+"rules": 2,
+"violations": []
+},
+"0153-find-minimum-in-rotated-sorted-array": {
+"rules": 5,
+"violations": [
+{
+"i": 3,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 4,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 9,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 65,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 84,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 90,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 91,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 95,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 96,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+},
+{
+"i": 97,
+"why": [
+"nums is not a rotation of a sorted array"
+]
+}
+]
+},
+"0162-find-peak-element": {
+"rules": 3,
+"violations": [
+{
+"i": 2,
+"why": [
+"nums has equal neighbours"
+]
+},
+{
+"i": 93,
+"why": [
+"nums has equal neighbours"
+]
+},
+{
+"i": 94,
+"why": [
+"nums has equal neighbours"
+]
+}
+]
+},
+"0164-maximum-gap": {
+"rules": 2,
+"violations": []
+},
+"0165-compare-version-numbers": {
+"rules": 2,
+"violations": []
+},
+"0166-fraction-to-recurring-decimal": {
+"rules": 2,
+"violations": []
+},
+"0167-two-sum-ii-input-array-is-sorted": {
+"rules": 4,
+"violations": []
+},
+"0172-factorial-trailing-zeroes": {
+"rules": 1,
+"violations": []
+},
+"0179-largest-number": {
+"rules": 2,
+"violations": []
+},
+"0187-repeated-dna-sequences": {
+"rules": 1,
+"violations": []
+},
+"0189-rotate-array": {
+"rules": 3,
+"violations": []
+},
+"0198-house-robber": {
+"rules": 2,
+"violations": []
+},
+"0199-binary-tree-right-side-view": {
+"rules": 2,
+"violations": []
+},
+"0200-number-of-islands": {
+"rules": 4,
+"violations": []
+},
+"0201-bitwise-and-of-numbers-range": {
+"rules": 1,
+"violations": []
+},
+"0204-count-primes": {
+"rules": 1,
+"violations": []
+},
+"0207-course-schedule": {
+"rules": 4,
+"violations": []
+},
+"0209-minimum-size-subarray-sum": {
+"rules": 3,
+"violations": []
+},
+"0210-course-schedule-ii": {
+"rules": 3,
+"violations": []
+},
+"0213-house-robber-ii": {
+"rules": 2,
+"violations": []
+},
+"0215-kth-largest-element-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"0216-combination-sum-iii": {
+"rules": 2,
+"violations": []
+},
+"0221-maximal-square": {
+"rules": 4,
+"violations": []
+},
+"0223-rectangle-area": {
+"rules": 4,
+"violations": []
+},
+"0227-basic-calculator-ii": {
+"rules": 1,
+"violations": []
+},
+"0229-majority-element-ii": {
+"rules": 2,
+"violations": []
+},
+"0230-kth-smallest-element-in-a-bst": {
+"rules": 1,
+"violations": []
+},
+"0236-lowest-common-ancestor-of-a-binary-tree": {
+"error": "TypeError(\"'int' object is not iterable\")"
+},
+"0238-product-of-array-except-self": {
+"rules": 2,
+"violations": []
+},
+"0240-search-a-2d-matrix-ii": {
+"rules": 6,
+"violations": []
+},
+"0241-different-ways-to-add-parentheses": {
+"rules": 1,
+"violations": []
+},
+"0260-single-number-iii": {
+"rules": 2,
+"violations": []
+},
+"0264-ugly-number-ii": {
+"rules": 1,
+"violations": []
+},
+"0274-h-index": {
+"rules": 3,
+"violations": []
+},
+"0275-h-index-ii": {
+"rules": 4,
+"violations": []
+},
+"0279-perfect-squares": {
+"rules": 1,
+"violations": []
+},
+"0287-find-the-duplicate-number": {
+"rules": 0,
+"violations": []
+},
+"0289-game-of-life": {
+"rules": 4,
+"violations": []
+},
+"0299-bulls-and-cows": {
+"rules": 3,
+"violations": []
+},
+"0300-longest-increasing-subsequence": {
+"rules": 2,
+"violations": []
+},
+"0306-additive-number": {
+"rules": 2,
+"violations": []
+},
+"0309-best-time-to-buy-and-sell-stock-with-cooldown": {
+"rules": 2,
+"violations": []
+},
+"0310-minimum-height-trees": {
+"rules": 3,
+"violations": []
+},
+"0313-super-ugly-number": {
+"rules": 3,
+"violations": []
+},
+"0316-remove-duplicate-letters": {
+"rules": 2,
+"violations": []
+},
+"0318-maximum-product-of-word-lengths": {
+"rules": 3,
+"violations": []
+},
+"0319-bulb-switcher": {
+"rules": 1,
+"violations": []
+},
+"0322-coin-change": {
+"rules": 3,
+"violations": []
+},
+"0324-wiggle-sort-ii": {
+"rules": 2,
+"violations": []
+},
+"0328-odd-even-linked-list": {
+"rules": 2,
+"violations": []
+},
+"0331-verify-preorder-serialization-of-a-binary-tree": {
+"rules": 1,
+"violations": []
+},
+"0334-increasing-triplet-subsequence": {
+"rules": 2,
+"violations": []
+},
+"0337-house-robber-iii": {
+"rules": 2,
+"violations": []
+},
+"0343-integer-break": {
+"rules": 1,
+"violations": []
+},
+"0347-top-k-frequent-elements": {
+"rules": 2,
+"violations": []
+},
+"0357-count-numbers-with-unique-digits": {
+"rules": 1,
+"violations": []
+},
+"0365-water-and-jug-problem": {
+"rules": 3,
+"violations": []
+},
+"0368-largest-divisible-subset": {
+"rules": 2,
+"violations": []
+},
+"0371-sum-of-two-integers": {
+"rules": 2,
+"violations": []
+},
+"0373-find-k-pairs-with-smallest-sums": {
+"rules": 5,
+"violations": []
+},
+"0375-guess-number-higher-or-lower-ii": {
+"rules": 1,
+"violations": []
+},
+"0376-wiggle-subsequence": {
+"rules": 2,
+"violations": []
+},
+"0377-combination-sum-iv": {
+"rules": 4,
+"violations": []
+},
+"0378-kth-smallest-element-in-a-sorted-matrix": {
+"rules": 3,
+"violations": []
+},
+"0386-lexicographical-numbers": {
+"rules": 1,
+"violations": []
+},
+"0388-longest-absolute-file-path": {
+"rules": 1,
+"violations": []
+},
+"0390-elimination-game": {
+"rules": 1,
+"violations": []
+},
+"0393-utf-8-validation": {
+"rules": 2,
+"violations": []
+},
+"0394-decode-string": {
+"rules": 1,
+"violations": []
+},
+"0395-longest-substring-with-at-least-k-repeating-characters": {
+"rules": 3,
+"violations": []
+},
+"0396-rotate-function": {
+"rules": 3,
+"violations": []
+},
+"0397-integer-replacement": {
+"rules": 1,
+"violations": []
+},
+"0399-evaluate-division": {
+"rules": 5,
+"violations": []
+},
+"0400-nth-digit": {
+"rules": 1,
+"violations": []
+},
+"0402-remove-k-digits": {
+"rules": 2,
+"violations": []
+},
+"0406-queue-reconstruction-by-height": {
+"rules": 1,
+"violations": []
+},
+"0413-arithmetic-slices": {
+"rules": 2,
+"violations": []
+},
+"0416-partition-equal-subset-sum": {
+"rules": 2,
+"violations": []
+},
+"0417-pacific-atlantic-water-flow": {
+"rules": 5,
+"violations": []
+},
+"0419-battleships-in-a-board": {
+"rules": 4,
+"violations": []
+},
+"0421-maximum-xor-of-two-numbers-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"0423-reconstruct-original-digits-from-english": {
+"rules": 1,
+"violations": []
+},
+"0424-longest-repeating-character-replacement": {
+"rules": 3,
+"violations": []
+},
+"0433-minimum-genetic-mutation": {
+"rules": 2,
+"violations": []
+},
+"0435-non-overlapping-intervals": {
+"rules": 2,
+"violations": []
+},
+"0437-path-sum-iii": {
+"rules": 3,
+"violations": []
+},
+"0438-find-all-anagrams-in-a-string": {
+"rules": 4,
+"violations": []
+},
+"0442-find-all-duplicates-in-an-array": {
+"rules": 3,
+"violations": []
+},
+"0443-string-compression": {
+"rules": 1,
+"violations": []
+},
+"0445-add-two-numbers-ii": {
+"rules": 2,
+"violations": []
+},
+"0447-number-of-boomerangs": {
+"rules": 4,
+"violations": []
+},
+"0450-delete-node-in-a-bst": {
+"rules": 4,
+"violations": [
+{
+"i": 11,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 13,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 15,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 16,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 17,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 19,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 20,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 21,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 22,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 23,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 24,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 26,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 27,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 29,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 30,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 33,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 34,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 35,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 37,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 39,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 40,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 41,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 42,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 43,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 44,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 45,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 46,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 48,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 49,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 50,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 51,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 52,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 55,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 58,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 59,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 60,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 62,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 63,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 64,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 65,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 66,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 67,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 68,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 70,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 71,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 72,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 73,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 83,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 84,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 86,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 91,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 92,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 93,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 96,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 97,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 98,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 99,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 101,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 103,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 104,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 105,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 106,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 109,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 111,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 115,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 116,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 117,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 119,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 122,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 125,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 126,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 128,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 130,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 133,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 134,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 135,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 136,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 137,
+"why": [
+"tree is not a valid BST"
+]
+}
+]
+},
+"0451-sort-characters-by-frequency": {
+"rules": 1,
+"violations": []
+},
+"0452-minimum-number-of-arrows-to-burst-balloons": {
+"rules": 2,
+"violations": []
+},
+"0453-minimum-moves-to-equal-array-elements": {
+"rules": 3,
+"violations": []
+},
+"0454-4sum-ii": {
+"rules": 9,
+"violations": []
+},
+"0456-132-pattern": {
+"rules": 3,
+"violations": []
+},
+"0457-circular-array-loop": {
+"rules": 2,
+"violations": []
+},
+"0462-minimum-moves-to-equal-array-elements-ii": {
+"rules": 3,
+"violations": []
+},
+"0464-can-i-win": {
+"rules": 2,
+"violations": []
+},
+"0467-unique-substrings-in-wraparound-string": {
+"rules": 2,
+"violations": []
+},
+"0468-validate-ip-address": {
+"rules": 0,
+"violations": []
+},
+"0473-matchsticks-to-square": {
+"rules": 2,
+"violations": []
+},
+"0474-ones-and-zeroes": {
+"rules": 4,
+"violations": []
+},
+"0475-heaters": {
+"rules": 4,
+"violations": []
+},
+"0477-total-hamming-distance": {
+"rules": 2,
+"violations": []
+},
+"0481-magical-string": {
+"rules": 1,
+"violations": []
+},
+"0486-predict-the-winner": {
+"rules": 2,
+"violations": []
+},
+"0491-non-decreasing-subsequences": {
+"rules": 2,
+"violations": []
+},
+"0494-target-sum": {
+"rules": 3,
+"violations": []
+},
+"0498-diagonal-traverse": {
+"rules": 5,
+"violations": []
+},
+"0503-next-greater-element-ii": {
+"rules": 2,
+"violations": []
+},
+"0508-most-frequent-subtree-sum": {
+"rules": 2,
+"violations": []
+},
+"0513-find-bottom-left-tree-value": {
+"rules": 2,
+"violations": []
+},
+"0515-find-largest-value-in-each-tree-row": {
+"rules": 2,
+"violations": []
+},
+"0516-longest-palindromic-subsequence": {
+"rules": 2,
+"violations": []
+},
+"0518-coin-change-ii": {
+"rules": 4,
+"violations": []
+},
+"0522-longest-uncommon-subsequence-ii": {
+"rules": 3,
+"violations": []
+},
+"0523-continuous-subarray-sum": {
+"rules": 3,
+"violations": []
+},
+"0524-longest-word-in-dictionary-through-deleting": {
+"rules": 3,
+"violations": []
+},
+"0525-contiguous-array": {
+"rules": 2,
+"violations": []
+},
+"0526-beautiful-arrangement": {
+"rules": 1,
+"violations": []
+},
+"0529-minesweeper": {
+"rules": 5,
+"violations": []
+},
+"0532-k-diff-pairs-in-an-array": {
+"rules": 3,
+"violations": []
+},
+"0537-complex-number-multiplication": {
+"rules": 0,
+"violations": []
+},
+"0538-convert-bst-to-greater-tree": {
+"rules": 4,
+"violations": [
+{
+"i": 19,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 20,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 23,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 24,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 26,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 31,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 32,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 33,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 35,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 36,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 37,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 38,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 39,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 40,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 42,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 43,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 44,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 46,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 48,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 49,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 52,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 53,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 55,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 61,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 62,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 63,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 64,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 67,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 68,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 69,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 70,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 72,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 75,
+"why": [
+"node values not unique",
+"tree is not a valid BST"
+]
+},
+{
+"i": 77,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 80,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 84,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 86,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 88,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 89,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 90,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 91,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 92,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 95,
+"why": [
+"tree is not a valid BST"
+]
+}
+]
+},
+"0539-minimum-time-difference": {
+"rules": 1,
+"violations": []
+},
+"0540-single-element-in-a-sorted-array": {
+"rules": 2,
+"violations": []
+},
+"0542-01-matrix": {
+"rules": 5,
+"violations": []
+},
+"0547-number-of-provinces": {
+"rules": 4,
+"violations": []
+},
+"0553-optimal-division": {
+"rules": 2,
+"violations": []
+},
+"0554-brick-wall": {
+"rules": 4,
+"violations": []
+},
+"0556-next-greater-element-iii": {
+"rules": 1,
+"violations": []
+},
+"0560-subarray-sum-equals-k": {
+"rules": 3,
+"violations": []
+},
+"0565-array-nesting": {
+"rules": 3,
+"violations": []
+},
+"0567-permutation-in-string": {
+"rules": 4,
+"violations": []
+},
+"0576-out-of-boundary-paths": {
+"rules": 5,
+"violations": []
+},
+"0581-shortest-unsorted-continuous-subarray": {
+"rules": 2,
+"violations": []
+},
+"0583-delete-operation-for-two-strings": {
+"rules": 4,
+"violations": []
+},
+"0592-fraction-addition-and-subtraction": {
+"rules": 0,
+"violations": []
+},
+"0593-valid-square": {
+"rules": 1,
+"violations": []
+},
+"0606-construct-string-from-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"0609-find-duplicate-file-in-system": {
+"rules": 2,
+"violations": []
+},
+"0611-valid-triangle-number": {
+"rules": 2,
+"violations": []
+},
+"0621-task-scheduler": {
+"rules": 2,
+"violations": []
+},
+"0623-add-one-row-to-tree": {
+"rules": 3,
+"violations": []
+},
+"0624-maximum-distance-in-arrays": {
+"rules": 4,
+"violations": []
+},
+"0633-sum-of-square-numbers": {
+"rules": 1,
+"violations": []
+},
+"0636-exclusive-time-of-functions": {
+"rules": 2,
+"violations": []
+},
+"0638-shopping-offers": {
+"rules": 7,
+"violations": []
+},
+"0640-solve-the-equation": {
+"rules": 1,
+"violations": []
+},
+"0646-maximum-length-of-pair-chain": {
+"rules": 2,
+"violations": []
+},
+"0647-palindromic-substrings": {
+"rules": 2,
+"violations": []
+},
+"0648-replace-words": {
+"rules": 3,
+"violations": []
+},
+"0649-dota2-senate": {
+"rules": 3,
+"violations": []
+},
+"0650-2-keys-keyboard": {
+"rules": 1,
+"violations": []
+},
+"0654-maximum-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"0655-print-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"0658-find-k-closest-elements": {
+"rules": 5,
+"violations": []
+},
+"0659-split-array-into-consecutive-subsequences": {
+"rules": 3,
+"violations": []
+},
+"0662-maximum-width-of-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"0665-non-decreasing-array": {
+"rules": 3,
+"violations": []
+},
+"0667-beautiful-arrangement-ii": {
+"rules": 1,
+"violations": []
+},
+"0669-trim-a-binary-search-tree": {
+"rules": 4,
+"violations": [
+{
+"i": 9,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 19,
+"why": [
+"tree is not a valid BST"
+]
+},
+{
+"i": 25,
+"why": [
+"tree is not a valid BST"
+]
+}
+]
+},
+"0670-maximum-swap": {
+"rules": 1,
+"violations": []
+},
+"0672-bulb-switcher-ii": {
+"rules": 2,
+"violations": []
+},
+"0673-number-of-longest-increasing-subsequence": {
+"rules": 2,
+"violations": []
+},
+"0678-valid-parenthesis-string": {
+"rules": 1,
+"violations": []
+},
+"0684-redundant-connection": {
+"rules": 4,
+"violations": [
+{
+"i": 19,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 25,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 52,
+"why": [
+"edges has a repeated row"
+]
+}
+]
+},
+"0686-repeated-string-match": {
+"rules": 4,
+"violations": []
+},
+"0687-longest-univalue-path": {
+"rules": 2,
+"violations": []
+},
+"0688-knight-probability-in-chessboard": {
+"rules": 4,
+"violations": []
+},
+"0692-top-k-frequent-words": {
+"rules": 3,
+"violations": []
+},
+"0695-max-area-of-island": {
+"rules": 5,
+"violations": []
+},
+"0698-partition-to-k-equal-sum-subsets": {
+"rules": 2,
+"violations": []
+},
+"0701-insert-into-a-binary-search-tree": {
+"rules": 3,
+"violations": [
+{
+"i": 12,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 47,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"0712-minimum-ascii-delete-sum-for-two-strings": {
+"rules": 4,
+"violations": []
+},
+"0713-subarray-product-less-than-k": {
+"rules": 3,
+"violations": []
+},
+"0714-best-time-to-buy-and-sell-stock-with-transaction-fee": {
+"rules": 3,
+"violations": []
+},
+"0718-maximum-length-of-repeated-subarray": {
+"rules": 4,
+"violations": []
+},
+"0720-longest-word-in-dictionary": {
+"rules": 3,
+"violations": []
+},
+"0721-accounts-merge": {
+"rules": 3,
+"violations": []
+},
+"0722-remove-comments": {
+"rules": 2,
+"violations": []
+},
+"0735-asteroid-collision": {
+"rules": 2,
+"violations": []
+},
+"0738-monotone-increasing-digits": {
+"rules": 1,
+"violations": []
+},
+"0739-daily-temperatures": {
+"rules": 2,
+"violations": []
+},
+"0740-delete-and-earn": {
+"rules": 2,
+"violations": []
+},
+"0743-network-delay-time": {
+"rules": 3,
+"violations": []
+},
+"0752-open-the-lock": {
+"rules": 3,
+"violations": []
+},
+"0754-reach-a-number": {
+"rules": 1,
+"violations": []
+},
+"0756-pyramid-transition-matrix": {
+"rules": 4,
+"violations": []
+},
+"0763-partition-labels": {
+"rules": 2,
+"violations": []
+},
+"0764-largest-plus-sign": {
+"rules": 2,
+"violations": []
+},
+"0767-reorganize-string": {
+"rules": 2,
+"violations": []
+},
+"0769-max-chunks-to-make-sorted": {
+"rules": 4,
+"violations": []
+},
+"0775-global-and-local-inversions": {
+"rules": 4,
+"violations": []
+},
+"0777-swap-adjacent-in-lr-string": {
+"rules": 2,
+"violations": []
+},
+"0779-k-th-symbol-in-grammar": {
+"rules": 1,
+"violations": []
+},
+"0781-rabbits-in-forest": {
+"rules": 2,
+"violations": []
+},
+"0784-letter-case-permutation": {
+"rules": 1,
+"violations": []
+},
+"0785-is-graph-bipartite": {
+"rules": 0,
+"violations": []
+},
+"0786-k-th-smallest-prime-fraction": {
+"rules": 2,
+"violations": []
+},
+"0787-cheapest-flights-within-k-stops": {
+"rules": 5,
+"violations": []
+},
+"0788-rotated-digits": {
+"rules": 1,
+"violations": []
+},
+"0789-escape-the-ghosts": {
+"rules": 3,
+"violations": []
+},
+"0790-domino-and-tromino-tiling": {
+"rules": 1,
+"violations": []
+},
+"0791-custom-sort-string": {
+"rules": 5,
+"violations": []
+},
+"0792-number-of-matching-subsequences": {
+"rules": 3,
+"violations": []
+},
+"0794-valid-tic-tac-toe-state": {
+"rules": 2,
+"violations": []
+},
+"0795-number-of-subarrays-with-bounded-maximum": {
+"rules": 3,
+"violations": []
+},
+"0797-all-paths-from-source-to-target": {
+"rules": 3,
+"violations": []
+},
+"0799-champagne-tower": {
+"rules": 2,
+"violations": []
+},
+"0802-find-eventual-safe-states": {
+"rules": 4,
+"violations": []
+},
+"0807-max-increase-to-keep-city-skyline": {
+"rules": 4,
+"violations": []
+},
+"0808-soup-servings": {
+"rules": 1,
+"violations": []
+},
+"0809-expressive-words": {
+"rules": 3,
+"violations": []
+},
+"0811-subdomain-visit-count": {
+"rules": 0,
+"violations": []
+},
+"0813-largest-sum-of-averages": {
+"rules": 3,
+"violations": []
+},
+"0814-binary-tree-pruning": {
+"rules": 1,
+"violations": []
+},
+"0816-ambiguous-coordinates": {
+"rules": 1,
+"violations": []
+},
+"0817-linked-list-components": {
+"rules": 2,
+"violations": []
+},
+"0820-short-encoding-of-words": {
+"rules": 2,
+"violations": []
+},
+"0822-card-flipping-game": {
+"rules": 4,
+"violations": []
+},
+"0823-binary-trees-with-factors": {
+"rules": 3,
+"violations": []
+},
+"0825-friends-of-appropriate-ages": {
+"rules": 3,
+"violations": []
+},
+"0826-most-profit-assigning-work": {
+"rules": 8,
+"violations": []
+},
+"0831-masking-personal-information": {
+"rules": 4,
+"violations": []
+},
+"0833-find-and-replace-in-string": {
+"rules": 6,
+"violations": []
+},
+"0835-image-overlap": {
+"rules": 5,
+"violations": []
+},
+"0837-new-21-game": {
+"rules": 2,
+"violations": []
+},
+"0838-push-dominoes": {
+"rules": 2,
+"violations": []
+},
+"0840-magic-squares-in-grid": {
+"rules": 5,
+"violations": []
+},
+"0841-keys-and-rooms": {
+"rules": 4,
+"violations": []
+},
+"0842-split-array-into-fibonacci-sequence": {
+"rules": 1,
+"violations": []
+},
+"0845-longest-mountain-in-array": {
+"rules": 2,
+"violations": []
+},
+"0846-hand-of-straights": {
+"rules": 3,
+"violations": []
+},
+"0848-shifting-letters": {
+"rules": 4,
+"violations": []
+},
+"0849-maximize-distance-to-closest-person": {
+"rules": 1,
+"violations": []
+},
+"0851-loud-and-rich": {
+"rules": 5,
+"violations": []
+},
+"0852-peak-index-in-a-mountain-array": {
+"rules": 2,
+"violations": []
+},
+"0853-car-fleet": {
+"rules": 6,
+"violations": []
+},
+"0856-score-of-parentheses": {
+"rules": 1,
+"violations": []
+},
+"0858-mirror-reflection": {
+"rules": 1,
+"violations": []
+},
+"0861-score-after-flipping-matrix": {
+"rules": 5,
+"violations": []
+},
+"0865-smallest-subtree-with-all-the-deepest-nodes": {
+"rules": 3,
+"violations": [
+{
+"i": 32,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 52,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 92,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"0866-prime-palindrome": {
+"rules": 1,
+"violations": []
+},
+"0869-reordered-power-of-2": {
+"rules": 1,
+"violations": []
+},
+"0870-advantage-shuffle": {
+"rules": 4,
+"violations": []
+},
+"0873-length-of-longest-fibonacci-subsequence": {
+"rules": 1,
+"violations": []
+},
+"0874-walking-robot-simulation": {
+"rules": 2,
+"violations": []
+},
+"0875-koko-eating-bananas": {
+"rules": 3,
+"violations": []
+},
+"0877-stone-game": {
+"rules": 2,
+"violations": []
+},
+"0880-decoded-string-at-index": {
+"rules": 2,
+"violations": []
+},
+"0881-boats-to-save-people": {
+"rules": 2,
+"violations": []
+},
+"0885-spiral-matrix-iii": {
+"rules": 4,
+"violations": []
+},
+"0886-possible-bipartition": {
+"rules": 4,
+"violations": []
+},
+"0889-construct-binary-tree-from-preorder-and-postorder-traversal": {
+"rules": 6,
+"violations": []
+},
+"0890-find-and-replace-pattern": {
+"rules": 3,
+"violations": []
+},
+"0893-groups-of-special-equivalent-strings": {
+"rules": 3,
+"violations": []
+},
+"0898-bitwise-ors-of-subarrays": {
+"rules": 2,
+"violations": []
+},
+"0904-fruit-into-baskets": {
+"rules": 2,
+"violations": []
+},
+"0907-sum-of-subarray-minimums": {
+"rules": 2,
+"violations": []
+},
+"0909-snakes-and-ladders": {
+"rules": 2,
+"violations": []
+},
+"0910-smallest-range-ii": {
+"rules": 3,
+"violations": []
+},
+"0912-sort-an-array": {
+"rules": 2,
+"violations": []
+},
+"0915-partition-array-into-disjoint-intervals": {
+"rules": 2,
+"violations": []
+},
+"0916-word-subsets": {
+"rules": 5,
+"violations": []
+},
+"0918-maximum-sum-circular-subarray": {
+"rules": 3,
+"violations": []
+},
+"0921-minimum-add-to-make-parentheses-valid": {
+"rules": 1,
+"violations": []
+},
+"0923-3sum-with-multiplicity": {
+"rules": 3,
+"violations": []
+},
+"0926-flip-string-to-monotone-increasing": {
+"rules": 2,
+"violations": []
+},
+"0930-binary-subarrays-with-sum": {
+"rules": 3,
+"violations": []
+},
+"0931-minimum-falling-path-sum": {
+"rules": 3,
+"violations": []
+},
+"0932-beautiful-array": {
+"rules": 1,
+"violations": []
+},
+"0934-shortest-bridge": {
+"rules": 3,
+"violations": []
+},
+"0935-knight-dialer": {
+"rules": 1,
+"violations": []
+},
+"0937-reorder-data-in-log-files": {
+"rules": 2,
+"violations": []
+},
+"0939-minimum-area-rectangle": {
+"rules": 3,
+"violations": []
+},
+"0945-minimum-increment-to-make-array-unique": {
+"rules": 2,
+"violations": []
+},
+"0946-validate-stack-sequences": {
+"rules": 4,
+"violations": []
+},
+"0947-most-stones-removed-with-same-row-or-column": {
+"rules": 1,
+"violations": []
+},
+"0948-bag-of-tokens": {
+"rules": 3,
+"violations": []
+},
+"0949-largest-time-for-given-digits": {
+"rules": 2,
+"violations": []
+},
+"0950-reveal-cards-in-increasing-order": {
+"rules": 3,
+"violations": []
+},
+"0951-flip-equivalent-binary-trees": {
+"rules": 1,
+"violations": []
+},
+"0954-array-of-doubled-pairs": {
+"rules": 2,
+"violations": []
+},
+"0955-delete-columns-to-make-sorted-ii": {
+"rules": 4,
+"violations": []
+},
+"0957-prison-cells-after-n-days": {
+"rules": 2,
+"violations": []
+},
+"0958-check-completeness-of-a-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"0959-regions-cut-by-slashes": {
+"rules": 2,
+"violations": []
+},
+"0962-maximum-width-ramp": {
+"rules": 2,
+"violations": []
+},
+"0963-minimum-area-rectangle-ii": {
+"rules": 3,
+"violations": []
+},
+"0966-vowel-spellchecker": {
+"rules": 4,
+"violations": []
+},
+"0967-numbers-with-same-consecutive-differences": {
+"rules": 2,
+"violations": []
+},
+"0969-pancake-sorting": {
+"rules": 2,
+"violations": []
+},
+"0970-powerful-integers": {
+"rules": 3,
+"violations": []
+},
+"0971-flip-binary-tree-to-match-preorder-traversal": {
+"rules": 3,
+"violations": []
+},
+"0973-k-closest-points-to-origin": {
+"rules": 1,
+"violations": []
+},
+"0974-subarray-sums-divisible-by-k": {
+"rules": 3,
+"violations": []
+},
+"0978-longest-turbulent-subarray": {
+"rules": 2,
+"violations": []
+},
+"0979-distribute-coins-in-binary-tree": {
+"rules": 0,
+"violations": []
+},
+"0983-minimum-cost-for-tickets": {
+"rules": 4,
+"violations": []
+},
+"0984-string-without-aaa-or-bbb": {
+"rules": 2,
+"violations": []
+},
+"0985-sum-of-even-numbers-after-queries": {
+"rules": 3,
+"violations": []
+},
+"0986-interval-list-intersections": {
+"rules": 2,
+"violations": []
+},
+"0988-smallest-string-starting-from-leaf": {
+"rules": 2,
+"violations": []
+},
+"0990-satisfiability-of-equality-equations": {
+"rules": 2,
+"violations": []
+},
+"0991-broken-calculator": {
+"rules": 2,
+"violations": []
+},
+"0994-rotting-oranges": {
+"rules": 4,
+"violations": []
+},
+"0998-maximum-binary-tree-ii": {
+"rules": 4,
+"violations": [
+{
+"i": 24,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 33,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 41,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"1003-check-if-word-is-valid-after-substitutions": {
+"rules": 1,
+"violations": []
+},
+"1004-max-consecutive-ones-iii": {
+"rules": 3,
+"violations": []
+},
+"1006-clumsy-factorial": {
+"rules": 1,
+"violations": []
+},
+"1007-minimum-domino-rotations-for-equal-row": {
+"rules": 4,
+"violations": []
+},
+"1008-construct-binary-search-tree-from-preorder-traversal": {
+"rules": 3,
+"violations": []
+},
+"1010-pairs-of-songs-with-total-durations-divisible-by-60": {
+"rules": 2,
+"violations": []
+},
+"1011-capacity-to-ship-packages-within-d-days": {
+"rules": 2,
+"violations": []
+},
+"1014-best-sightseeing-pair": {
+"rules": 2,
+"violations": []
+},
+"1015-smallest-integer-divisible-by-k": {
+"rules": 1,
+"violations": []
+},
+"1016-binary-string-with-substrings-representing-1-to-n": {
+"rules": 3,
+"violations": []
+},
+"1017-convert-to-base-2": {
+"rules": 1,
+"violations": []
+},
+"1019-next-greater-node-in-linked-list": {
+"rules": 1,
+"violations": []
+},
+"1020-number-of-enclaves": {
+"rules": 5,
+"violations": []
+},
+"1023-camelcase-matching": {
+"rules": 3,
+"violations": []
+},
+"1024-video-stitching": {
+"rules": 2,
+"violations": []
+},
+"1026-maximum-difference-between-node-and-ancestor": {
+"rules": 2,
+"violations": []
+},
+"1027-longest-arithmetic-subsequence": {
+"rules": 2,
+"violations": []
+},
+"1029-two-city-scheduling": {
+"rules": 1,
+"violations": []
+},
+"1031-maximum-sum-of-two-non-overlapping-subarrays": {
+"rules": 3,
+"violations": []
+},
+"1033-moving-stones-until-consecutive": {
+"rules": 3,
+"violations": []
+},
+"1034-coloring-a-border": {
+"rules": 8,
+"violations": []
+},
+"1035-uncrossed-lines": {
+"rules": 4,
+"violations": []
+},
+"1038-binary-search-tree-to-greater-sum-tree": {
+"rules": 3,
+"violations": [
+{
+"i": 37,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"1039-minimum-score-triangulation-of-polygon": {
+"rules": 3,
+"violations": []
+},
+"1040-moving-stones-until-consecutive-ii": {
+"rules": 3,
+"violations": []
+},
+"1041-robot-bounded-in-circle": {
+"rules": 1,
+"violations": []
+},
+"1042-flower-planting-with-no-adjacent": {
+"rules": 3,
+"violations": []
+},
+"1043-partition-array-for-maximum-sum": {
+"rules": 3,
+"violations": []
+},
+"1048-longest-string-chain": {
+"rules": 2,
+"violations": []
+},
+"1049-last-stone-weight-ii": {
+"rules": 2,
+"violations": []
+},
+"1052-grumpy-bookstore-owner": {
+"rules": 4,
+"violations": []
+},
+"1053-previous-permutation-with-one-swap": {
+"rules": 2,
+"violations": []
+},
+"1054-distant-barcodes": {
+"rules": 2,
+"violations": []
+},
+"1061-lexicographically-smallest-equivalent-string": {
+"rules": 4,
+"violations": []
+},
+"1072-flip-columns-for-maximum-number-of-equal-rows": {
+"rules": 4,
+"violations": []
+},
+"1073-adding-two-negabinary-numbers": {
+"rules": 2,
+"violations": []
+},
+"1079-letter-tile-possibilities": {
+"rules": 2,
+"violations": []
+},
+"1080-insufficient-nodes-in-root-to-leaf-paths": {
+"rules": 3,
+"violations": []
+},
+"1081-smallest-subsequence-of-distinct-characters": {
+"rules": 2,
+"violations": []
+},
+"1090-largest-values-from-labels": {
+"rules": 6,
+"violations": []
+},
+"1091-shortest-path-in-binary-matrix": {
+"rules": 3,
+"violations": []
+},
+"1093-statistics-from-a-large-sample": {
+"rules": 2,
+"violations": []
+},
+"1094-car-pooling": {
+"rules": 3,
+"violations": []
+},
+"1104-path-in-zigzag-labelled-binary-tree": {
+"rules": 0,
+"violations": []
+},
+"1105-filling-bookcase-shelves": {
+"rules": 1,
+"violations": []
+},
+"1109-corporate-flight-bookings": {
+"rules": 3,
+"violations": []
+},
+"1111-maximum-nesting-depth-of-two-valid-parentheses-strings": {
+"rules": 0,
+"violations": []
+},
+"1123-lowest-common-ancestor-of-deepest-leaves": {
+"rules": 3,
+"violations": [
+{
+"i": 40,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 85,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"1124-longest-well-performing-interval": {
+"rules": 2,
+"violations": []
+},
+"1129-shortest-path-with-alternating-colors": {
+"rules": 4,
+"violations": []
+},
+"1130-minimum-cost-tree-from-leaf-values": {
+"rules": 2,
+"violations": []
+},
+"1131-maximum-of-absolute-value-expression": {
+"rules": 1,
+"violations": []
+},
+"1138-alphabet-board-path": {
+"rules": 1,
+"violations": []
+},
+"1139-largest-1-bordered-square": {
+"rules": 1,
+"violations": []
+},
+"1140-stone-game-ii": {
+"rules": 2,
+"violations": []
+},
+"1143-longest-common-subsequence": {
+"rules": 2,
+"violations": []
+},
+"1144-decrease-elements-to-make-array-zigzag": {
+"rules": 2,
+"violations": []
+},
+"1145-binary-tree-coloring-game": {
+"rules": 2,
+"violations": [
+{
+"i": 21,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 22,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 23,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 24,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 25,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 26,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 27,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 29,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"1155-number-of-dice-rolls-with-target-sum": {
+"rules": 3,
+"violations": []
+},
+"1156-swap-for-longest-repeated-character-substring": {
+"rules": 1,
+"violations": []
+},
+"1161-maximum-level-sum-of-a-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"1162-as-far-from-land-as-possible": {
+"rules": 3,
+"violations": []
+},
+"1169-invalid-transactions": {
+"rules": 1,
+"violations": []
+},
+"1170-compare-strings-by-frequency-of-the-smallest-character": {
+"rules": 4,
+"violations": []
+},
+"1171-remove-zero-sum-consecutive-nodes-from-linked-list": {
+"rules": 0,
+"violations": []
+},
+"1177-can-make-palindrome-from-substring": {
+"rules": 3,
+"violations": []
+},
+"1186-maximum-subarray-sum-with-one-deletion": {
+"rules": 2,
+"violations": []
+},
+"1190-reverse-substrings-between-each-pair-of-parentheses": {
+"rules": 1,
+"violations": []
+},
+"1191-k-concatenation-maximum-sum": {
+"rules": 3,
+"violations": []
+},
+"1201-ugly-number-iii": {
+"rules": 4,
+"violations": []
+},
+"1202-smallest-string-with-swaps": {
+"rules": 0,
+"violations": []
+},
+"1208-get-equal-substrings-within-budget": {
+"rules": 5,
+"violations": []
+},
+"1209-remove-all-adjacent-duplicates-in-string-ii": {
+"rules": 2,
+"violations": []
+},
+"1218-longest-arithmetic-subsequence-of-given-difference": {
+"rules": 3,
+"violations": []
+},
+"1219-path-with-maximum-gold": {
+"rules": 5,
+"violations": []
+},
+"1222-queens-that-can-attack-the-king": {
+"rules": 2,
+"violations": []
+},
+"1227-airplane-seat-assignment-probability": {
+"rules": 1,
+"violations": []
+},
+"1233-remove-sub-folders-from-the-filesystem": {
+"rules": 2,
+"violations": []
+},
+"1234-replace-the-substring-for-balanced-string": {
+"rules": 2,
+"violations": []
+},
+"1238-circular-permutation-in-binary-representation": {
+"rules": 1,
+"violations": []
+},
+"1239-maximum-length-of-a-concatenated-string-with-unique-characters": {
+"rules": 2,
+"violations": []
+},
+"1247-minimum-swaps-to-make-strings-equal": {
+"rules": 3,
+"violations": []
+},
+"1248-count-number-of-nice-subarrays": {
+"rules": 2,
+"violations": []
+},
+"1249-minimum-remove-to-make-valid-parentheses": {
+"rules": 1,
+"violations": []
+},
+"1253-reconstruct-a-2-row-binary-matrix": {
+"rules": 3,
+"violations": []
+},
+"1254-number-of-closed-islands": {
+"rules": 1,
+"violations": []
+},
+"1262-greatest-sum-divisible-by-three": {
+"rules": 2,
+"violations": []
+},
+"1267-count-servers-that-communicate": {
+"rules": 4,
+"violations": []
+},
+"1268-search-suggestions-system": {
+"rules": 6,
+"violations": []
+},
+"1276-number-of-burgers-with-no-waste-of-ingredients": {
+"rules": 2,
+"violations": []
+},
+"1277-count-square-submatrices-with-all-ones": {
+"rules": 0,
+"violations": []
+},
+"1282-group-the-people-given-the-group-size-they-belong-to": {
+"rules": 0,
+"violations": []
+},
+"1283-find-the-smallest-divisor-given-a-threshold": {
+"rules": 3,
+"violations": []
+},
+"1288-remove-covered-intervals": {
+"rules": 3,
+"violations": []
+},
+"1291-sequential-digits": {
+"rules": 0,
+"violations": []
+},
+"1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold": {
+"rules": 6,
+"violations": []
+},
+"1296-divide-array-in-sets-of-k-consecutive-numbers": {
+"rules": 2,
+"violations": []
+},
+"1297-maximum-number-of-occurrences-of-a-substring": {
+"rules": 3,
+"violations": []
+},
+"1300-sum-of-mutated-array-closest-to-target": {
+"rules": 3,
+"violations": []
+},
+"1302-deepest-leaves-sum": {
+"rules": 2,
+"violations": []
+},
+"1305-all-elements-in-two-binary-search-trees": {
+"rules": 2,
+"violations": []
+},
+"1306-jump-game-iii": {
+"rules": 3,
+"violations": []
+},
+"1310-xor-queries-of-a-subarray": {
+"rules": 4,
+"violations": []
+},
+"1311-get-watched-videos-by-your-friends": {
+"rules": 2,
+"violations": []
+},
+"1314-matrix-block-sum": {
+"rules": 1,
+"violations": []
+},
+"1315-sum-of-nodes-with-even-valued-grandparent": {
+"rules": 2,
+"violations": []
+},
+"1318-minimum-flips-to-make-a-or-b-equal-to-c": {
+"rules": 0,
+"violations": []
+},
+"1319-number-of-operations-to-make-network-connected": {
+"rules": 2,
+"violations": []
+},
+"1324-print-words-vertically": {
+"rules": 1,
+"violations": []
+},
+"1325-delete-leaves-with-a-given-value": {
+"rules": 1,
+"violations": []
+},
+"1328-break-a-palindrome": {
+"rules": 2,
+"violations": []
+},
+"1329-sort-the-matrix-diagonally": {
+"rules": 5,
+"violations": []
+},
+"1333-filter-restaurants-by-vegan-friendly-price-and-distance": {
+"rules": 1,
+"violations": []
+},
+"1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
+"rules": 3,
+"violations": []
+},
+"1338-reduce-array-size-to-the-half": {
+"rules": 2,
+"violations": []
+},
+"1339-maximum-product-of-splitted-binary-tree": {
+"rules": 1,
+"violations": []
+},
+"1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": {
+"rules": 4,
+"violations": []
+},
+"1344-angle-between-hands-of-a-clock": {
+"rules": 2,
+"violations": []
+},
+"1347-minimum-number-of-steps-to-make-two-strings-anagram": {
+"rules": 2,
+"violations": []
+},
+"1353-maximum-number-of-events-that-can-be-attended": {
+"rules": 2,
+"violations": []
+},
+"1358-number-of-substrings-containing-all-three-characters": {
+"rules": 0,
+"violations": []
+},
+"1361-validate-binary-tree-nodes": {
+"rules": 4,
+"violations": []
+},
+"1362-closest-divisors": {
+"rules": 0,
+"violations": []
+},
+"1366-rank-teams-by-votes": {
+"rules": 2,
+"violations": []
+},
+"1367-linked-list-in-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"1371-find-the-longest-substring-containing-vowels-in-even-counts": {
+"rules": 0,
+"violations": []
+},
+"1372-longest-zigzag-path-in-a-binary-tree": {
+"rules": 1,
+"violations": []
+},
+"1375-number-of-times-binary-string-is-prefix-aligned": {
+"rules": 2,
+"violations": []
+},
+"1376-time-needed-to-inform-all-employees": {
+"rules": 5,
+"violations": []
+},
+"1382-balance-a-binary-search-tree": {
+"rules": 2,
+"violations": []
+},
+"1386-cinema-seat-allocation": {
+"rules": 1,
+"violations": []
+},
+"1387-sort-integers-by-the-power-value": {
+"rules": 1,
+"violations": []
+},
+"1390-four-divisors": {
+"rules": 2,
+"violations": []
+},
+"1391-check-if-there-is-a-valid-path-in-a-grid": {
+"rules": 5,
+"violations": []
+},
+"1395-count-number-of-teams": {
+"rules": 3,
+"violations": []
+},
+"1400-construct-k-palindrome-strings": {
+"rules": 3,
+"violations": []
+},
+"1401-circle-and-rectangle-overlapping": {
+"rules": 5,
+"violations": []
+},
+"1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one": {
+"rules": 1,
+"violations": []
+},
+"1405-longest-happy-string": {
+"rules": 3,
+"violations": []
+},
+"1409-queries-on-a-permutation-with-key": {
+"rules": 2,
+"violations": []
+},
+"1410-html-entity-parser": {
+"rules": 1,
+"violations": []
+},
+"1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k": {
+"rules": 1,
+"violations": []
+},
+"1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n": {
+"rules": 2,
+"violations": []
+},
+"1418-display-table-of-food-orders-in-a-restaurant": {
+"rules": 1,
+"violations": []
+},
+"1419-minimum-number-of-frogs-croaking": {
+"rules": 1,
+"violations": []
+},
+"1423-maximum-points-you-can-obtain-from-cards": {
+"rules": 3,
+"violations": []
+},
+"1424-diagonal-traverse-ii": {
+"rules": 3,
+"violations": []
+},
+"1432-max-difference-you-can-get-from-changing-an-integer": {
+"rules": 1,
+"violations": []
+},
+"1433-check-if-a-string-can-break-another-string": {
+"rules": 0,
+"violations": []
+},
+"1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
+"rules": 3,
+"violations": []
+},
+"1441-build-an-array-with-stack-operations": {
+"rules": 3,
+"violations": []
+},
+"1442-count-triplets-that-can-form-two-arrays-of-equal-xor": {
+"rules": 2,
+"violations": []
+},
+"1447-simplified-fractions": {
+"rules": 1,
+"violations": []
+},
+"1448-count-good-nodes-in-binary-tree": {
+"rules": 0,
+"violations": []
+},
+"1451-rearrange-words-in-a-sentence": {
+"rules": 0,
+"violations": []
+},
+"1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list": {
+"rules": 3,
+"violations": []
+},
+"1456-maximum-number-of-vowels-in-a-substring-of-given-length": {
+"rules": 3,
+"violations": []
+},
+"1461-check-if-a-string-contains-all-binary-codes-of-size-k": {
+"rules": 3,
+"violations": []
+},
+"1462-course-schedule-iv": {
+"rules": 4,
+"violations": [
+{
+"i": 40,
+"why": [
+"prerequisites has a repeated row"
+]
+}
+]
+},
+"1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
+"rules": 4,
+"violations": []
+},
+"1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero": {
+"rules": 3,
+"violations": []
+},
+"1471-the-k-strongest-values-in-an-array": {
+"rules": 3,
+"violations": []
+},
+"1477-find-two-non-overlapping-sub-arrays-each-with-target-sum": {
+"rules": 3,
+"violations": []
+},
+"1481-least-number-of-unique-integers-after-k-removals": {
+"rules": 1,
+"violations": []
+},
+"1482-minimum-number-of-days-to-make-m-bouquets": {
+"rules": 2,
+"violations": []
+},
+"1487-making-file-names-unique": {
+"rules": 2,
+"violations": []
+},
+"1488-avoid-flood-in-the-city": {
+"rules": 2,
+"violations": []
+},
+"1492-the-kth-factor-of-n": {
+"rules": 1,
+"violations": []
+},
+"1493-longest-subarray-of-1s-after-deleting-one-element": {
+"rules": 2,
+"violations": []
+},
+"1497-check-if-array-pairs-are-divisible-by-k": {
+"rules": 2,
+"violations": []
+},
+"1498-number-of-subsequences-that-satisfy-the-given-sum-condition": {
+"rules": 3,
+"violations": []
+},
+"1503-last-moment-before-all-ants-fall-out-of-a-plank": {
+"rules": 5,
+"violations": []
+},
+"1504-count-submatrices-with-all-ones": {
+"rules": 1,
+"violations": []
+},
+"1508-range-sum-of-sorted-subarray-sums": {
+"rules": 3,
+"violations": []
+},
+"1509-minimum-difference-between-largest-and-smallest-value-in-three-moves": {
+"rules": 2,
+"violations": []
+},
+"1513-number-of-substrings-with-only-1s": {
+"rules": 2,
+"violations": []
+},
+"1514-path-with-maximum-probability": {
+"rules": 1,
+"violations": []
+},
+"1519-number-of-nodes-in-the-sub-tree-with-the-same-label": {
+"rules": 4,
+"violations": []
+},
+"1524-number-of-sub-arrays-with-odd-sum": {
+"rules": 2,
+"violations": []
+},
+"1525-number-of-good-ways-to-split-a-string": {
+"rules": 2,
+"violations": []
+},
+"1529-minimum-suffix-flips": {
+"rules": 3,
+"violations": []
+},
+"1530-number-of-good-leaf-nodes-pairs": {
+"rules": 3,
+"violations": []
+},
+"1535-find-the-winner-of-an-array-game": {
+"rules": 3,
+"violations": []
+},
+"1536-minimum-swaps-to-arrange-a-binary-grid": {
+"rules": 3,
+"violations": []
+},
+"1540-can-convert-string-in-k-moves": {
+"rules": 0,
+"violations": []
+},
+"1541-minimum-insertions-to-balance-a-parentheses-string": {
+"rules": 1,
+"violations": []
+},
+"1545-find-kth-bit-in-nth-binary-string": {
+"rules": 1,
+"violations": []
+},
+"1546-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target": {
+"rules": 3,
+"violations": []
+},
+"1551-minimum-operations-to-make-array-equal": {
+"rules": 1,
+"violations": []
+},
+"1552-magnetic-force-between-two-balls": {
+"rules": 4,
+"violations": []
+},
+"1557-minimum-number-of-vertices-to-reach-all-nodes": {
+"rules": 2,
+"violations": []
+},
+"1558-minimum-numbers-of-function-calls-to-make-target-array": {
+"rules": 2,
+"violations": []
+},
+"1559-detect-cycles-in-2d-grid": {
+"rules": 5,
+"violations": []
+},
+"1561-maximum-number-of-coins-you-can-get": {
+"rules": 2,
+"violations": []
+},
+"1562-find-latest-group-of-size-m": {
+"rules": 3,
+"violations": []
+},
+"1567-maximum-length-of-subarray-with-positive-product": {
+"rules": 2,
+"violations": []
+},
+"1573-number-of-ways-to-split-a-string": {
+"rules": 2,
+"violations": []
+},
+"1574-shortest-subarray-to-be-removed-to-make-array-sorted": {
+"rules": 2,
+"violations": []
+},
+"1577-number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers": {
+"rules": 4,
+"violations": []
+},
+"1578-minimum-time-to-make-rope-colorful": {
+"rules": 3,
+"violations": []
+},
+"1583-count-unhappy-friends": {
+"rules": 5,
+"violations": []
+},
+"1584-min-cost-to-connect-all-points": {
+"rules": 2,
+"violations": [
+{
+"i": 57,
+"why": [
+"points has a repeated row"
+]
+}
+]
+},
+"1589-maximum-sum-obtained-of-any-permutation": {
+"rules": 5,
+"violations": []
+},
+"1590-make-sum-divisible-by-p": {
+"rules": 3,
+"violations": []
+},
+"1593-split-a-string-into-the-max-number-of-unique-substrings": {
+"rules": 1,
+"violations": []
+},
+"1594-maximum-non-negative-product-in-a-matrix": {
+"rules": 5,
+"violations": []
+},
+"1599-maximum-profit-of-operating-a-centennial-wheel": {
+"rules": 5,
+"violations": []
+},
+"1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period": {
+"rules": 4,
+"violations": []
+},
+"1605-find-valid-matrix-given-row-and-column-sums": {
+"rules": 4,
+"violations": []
+},
+"1609-even-odd-tree": {
+"rules": 2,
+"violations": []
+},
+"1615-maximal-network-rank": {
+"rules": 2,
+"violations": []
+},
+"1616-split-two-strings-to-make-palindrome": {
+"rules": 5,
+"violations": []
+},
+"1620-coordinate-with-maximum-network-quality": {
+"rules": 3,
+"violations": []
+},
+"1621-number-of-sets-of-k-non-overlapping-line-segments": {
+"rules": 2,
+"violations": []
+},
+"1625-lexicographically-smallest-string-after-applying-operations": {
+"rules": 2,
+"violations": []
+},
+"1626-best-team-with-no-conflicts": {
+"rules": 5,
+"violations": []
+},
+"1630-arithmetic-subarrays": {
+"rules": 7,
+"violations": []
+},
+"1631-path-with-minimum-effort": {
+"rules": 5,
+"violations": []
+},
+"1638-count-substrings-that-differ-by-one-character": {
+"rules": 2,
+"violations": []
+},
+"1641-count-sorted-vowel-strings": {
+"rules": 1,
+"violations": []
+},
+"1642-furthest-building-you-can-reach": {
+"rules": 4,
+"violations": []
+},
+"1647-minimum-deletions-to-make-character-frequencies-unique": {
+"rules": 1,
+"violations": []
+},
+"1648-sell-diminishing-valued-colored-balls": {
+"rules": 2,
+"violations": []
+},
+"1653-minimum-deletions-to-make-string-balanced": {
+"rules": 1,
+"violations": []
+},
+"1654-minimum-jumps-to-reach-home": {
+"rules": 5,
+"violations": []
+},
+"1657-determine-if-two-strings-are-close": {
+"rules": 2,
+"violations": []
+},
+"1658-minimum-operations-to-reduce-x-to-zero": {
+"rules": 3,
+"violations": []
+},
+"1663-smallest-string-with-a-given-numeric-value": {
+"rules": 1,
+"violations": []
+},
+"1664-ways-to-make-a-fair-array": {
+"rules": 2,
+"violations": []
+},
+"1669-merge-in-between-linked-lists": {
+"rules": 2,
+"violations": []
+},
+"1673-find-the-most-competitive-subsequence": {
+"rules": 3,
+"violations": []
+},
+"1674-minimum-moves-to-make-array-complementary": {
+"rules": 3,
+"violations": []
+},
+"1679-max-number-of-k-sum-pairs": {
+"rules": 3,
+"violations": []
+},
+"1680-concatenation-of-consecutive-binary-numbers": {
+"rules": 1,
+"violations": []
+},
+"1685-sum-of-absolute-differences-in-a-sorted-array": {
+"rules": 1,
+"violations": []
+},
+"1686-stone-game-vi": {
+"rules": 4,
+"violations": []
+},
+"1689-partitioning-into-minimum-number-of-deci-binary-numbers": {
+"rules": 2,
+"violations": []
+},
+"1690-stone-game-vii": {
+"rules": 3,
+"violations": []
+},
+"1695-maximum-erasure-value": {
+"rules": 2,
+"violations": []
+},
+"1696-jump-game-vi": {
+"rules": 3,
+"violations": []
+},
+"1701-average-waiting-time": {
+"rules": 1,
+"violations": []
+},
+"1702-maximum-binary-string-after-change": {
+"rules": 1,
+"violations": []
+},
+"1705-maximum-number-of-eaten-apples": {
+"rules": 4,
+"violations": []
+},
+"1706-where-will-the-ball-fall": {
+"rules": 4,
+"violations": []
+},
+"1711-count-good-meals": {
+"rules": 2,
+"violations": []
+},
+"1712-ways-to-split-array-into-three-subarrays": {
+"rules": 2,
+"violations": []
+},
+"1717-maximum-score-from-removing-substrings": {
+"rules": 4,
+"violations": []
+},
+"1718-construct-the-lexicographically-largest-valid-sequence": {
+"rules": 1,
+"violations": []
+},
+"1721-swapping-nodes-in-a-linked-list": {
+"rules": 1,
+"violations": []
+},
+"1722-minimize-hamming-distance-after-swap-operations": {
+"rules": 6,
+"violations": []
+},
+"1726-tuple-with-same-product": {
+"rules": 2,
+"violations": []
+},
+"1727-largest-submatrix-with-rearrangements": {
+"rules": 3,
+"violations": []
+},
+"1733-minimum-number-of-people-to-teach": {
+"rules": 4,
+"violations": []
+},
+"1734-decode-xored-permutation": {
+"rules": 0,
+"violations": []
+},
+"1737-change-minimum-characters-to-satisfy-one-of-three-conditions": {
+"rules": 2,
+"violations": []
+},
+"1738-find-kth-largest-xor-coordinate-value": {
+"rules": 5,
+"violations": []
+},
+"1743-restore-the-array-from-adjacent-pairs": {
+"rules": 1,
+"violations": []
+},
+"1744-can-you-eat-your-favorite-candy-on-your-favorite-day": {
+"rules": 4,
+"violations": []
+},
+"1749-maximum-absolute-sum-of-any-subarray": {
+"rules": 2,
+"violations": []
+},
+"1750-minimum-length-of-string-after-deleting-similar-ends": {
+"rules": 1,
+"violations": []
+},
+"1753-maximum-score-from-removing-stones": {
+"rules": 3,
+"violations": []
+},
+"1754-largest-merge-of-two-strings": {
+"rules": 4,
+"violations": []
+},
+"1759-count-number-of-homogenous-substrings": {
+"rules": 1,
+"violations": []
+},
+"1760-minimum-limit-of-balls-in-a-bag": {
+"rules": 3,
+"violations": []
+},
+"1764-form-array-by-concatenating-subarrays-of-another-array": {
+"rules": 3,
+"violations": []
+},
+"1765-map-of-highest-peak": {
+"rules": 4,
+"violations": []
+},
+"1769-minimum-number-of-operations-to-move-all-balls-to-each-box": {
+"rules": 3,
+"violations": []
+},
+"1774-closest-dessert-cost": {
+"rules": 7,
+"violations": []
+},
+"1775-equal-sum-arrays-with-minimum-number-of-operations": {
+"rules": 4,
+"violations": []
+},
+"1780-check-if-number-is-a-sum-of-powers-of-three": {
+"rules": 1,
+"violations": []
+},
+"1781-sum-of-beauty-of-all-substrings": {
+"rules": 2,
+"violations": []
+},
+"1785-minimum-elements-to-add-to-form-a-given-sum": {
+"rules": 3,
+"violations": []
+},
+"1786-number-of-restricted-paths-from-first-to-last-node": {
+"rules": 3,
+"violations": []
+},
+"1792-maximum-average-pass-ratio": {
+"rules": 3,
+"violations": []
+},
+"1798-maximum-number-of-consecutive-values-you-can-make": {
+"rules": 1,
+"violations": []
+},
+"1801-number-of-orders-in-the-backlog": {
+"rules": 2,
+"violations": []
+},
+"1802-maximum-value-at-a-given-index-in-a-bounded-array": {
+"rules": 2,
+"violations": []
+},
+"1806-minimum-number-of-operations-to-reinitialize-a-permutation": {
+"rules": 1,
+"violations": []
+},
+"1807-evaluate-the-bracket-pairs-of-a-string": {
+"rules": 3,
+"violations": []
+},
+"1813-sentence-similarity-iii": {
+"rules": 2,
+"violations": []
+},
+"1814-count-nice-pairs-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"1817-finding-the-users-active-minutes": {
+"rules": 1,
+"violations": []
+},
+"1818-minimum-absolute-sum-difference": {
+"rules": 5,
+"violations": []
+},
+"1823-find-the-winner-of-the-circular-game": {
+"rules": 1,
+"violations": []
+},
+"1824-minimum-sideway-jumps": {
+"rules": 1,
+"violations": []
+},
+"1828-queries-on-number-of-points-inside-a-circle": {
+"rules": 4,
+"violations": []
+},
+"1829-maximum-xor-for-each-query": {
+"rules": 1,
+"violations": []
+},
+"1833-maximum-ice-cream-bars": {
+"rules": 2,
+"violations": []
+},
+"1834-single-threaded-cpu": {
+"rules": 0,
+"violations": []
+},
+"1838-frequency-of-the-most-frequent-element": {
+"rules": 3,
+"violations": []
+},
+"1839-longest-substring-of-all-vowels-in-order": {
+"rules": 1,
+"violations": []
+},
+"1846-maximum-element-after-decreasing-and-rearranging": {
+"rules": 2,
+"violations": []
+},
+"1849-splitting-a-string-into-descending-consecutive-values": {
+"rules": 1,
+"violations": []
+},
+"1850-minimum-adjacent-swaps-to-reach-the-kth-smallest-number": {
+"rules": 2,
+"violations": []
+},
+"1855-maximum-distance-between-a-pair-of-values": {
+"rules": 4,
+"violations": []
+},
+"1856-maximum-subarray-min-product": {
+"rules": 2,
+"violations": []
+},
+"1860-incremental-memory-leak": {
+"rules": 2,
+"violations": []
+},
+"1861-rotating-the-box": {
+"rules": 4,
+"violations": []
+},
+"1864-minimum-number-of-swaps-to-make-the-binary-string-alternating": {
+"rules": 2,
+"violations": []
+},
+"1870-minimum-speed-to-arrive-on-time": {
+"rules": 4,
+"violations": []
+},
+"1871-jump-game-vii": {
+"rules": 3,
+"violations": []
+},
+"1877-minimize-maximum-pair-sum-in-array": {
+"rules": 3,
+"violations": []
+},
+"1878-get-biggest-three-rhombus-sums-in-a-grid": {
+"rules": 5,
+"violations": []
+},
+"1881-maximum-value-after-insertion": {
+"rules": 2,
+"violations": []
+},
+"1882-process-tasks-using-servers": {
+"rules": 2,
+"violations": []
+},
+"1884-egg-drop-with-2-eggs-and-n-floors": {
+"rules": 1,
+"violations": []
+},
+"1887-reduction-operations-to-make-the-array-elements-equal": {
+"rules": 2,
+"violations": []
+},
+"1888-minimum-number-of-flips-to-make-the-binary-string-alternating": {
+"rules": 2,
+"violations": []
+},
+"1894-find-the-student-that-will-replace-the-chalk": {
+"rules": 2,
+"violations": []
+},
+"1895-largest-magic-square": {
+"rules": 5,
+"violations": []
+},
+"1898-maximum-number-of-removable-characters": {
+"rules": 3,
+"violations": []
+},
+"1899-merge-triplets-to-form-target-triplet": {
+"rules": 2,
+"violations": []
+},
+"1901-find-a-peak-element-ii": {
+"rules": 5,
+"violations": []
+},
+"1904-the-number-of-full-rounds-you-have-played": {
+"rules": 0,
+"violations": []
+},
+"1905-count-sub-islands": {
+"rules": 4,
+"violations": []
+},
+"1906-minimum-absolute-difference-queries": {
+"rules": 3,
+"violations": []
+},
+"1910-remove-all-occurrences-of-a-substring": {
+"rules": 2,
+"violations": []
+},
+"1911-maximum-alternating-subsequence-sum": {
+"rules": 2,
+"violations": []
+},
+"1914-cyclically-rotating-a-grid": {
+"rules": 6,
+"violations": []
+},
+"1915-number-of-wonderful-substrings": {
+"rules": 1,
+"violations": []
+},
+"1921-eliminate-maximum-number-of-monsters": {
+"rules": 4,
+"violations": []
+},
+"1922-count-good-numbers": {
+"rules": 1,
+"violations": []
+},
+"1926-nearest-exit-from-entrance-in-maze": {
+"rules": 1,
+"violations": []
+},
+"1927-sum-game": {
+"rules": 1,
+"violations": []
+},
+"1930-unique-length-3-palindromic-subsequences": {
+"rules": 2,
+"violations": []
+},
+"1936-add-minimum-number-of-rungs": {
+"rules": 3,
+"violations": []
+},
+"1937-maximum-number-of-points-with-cost": {
+"rules": 5,
+"violations": []
+},
+"1942-the-number-of-the-smallest-unoccupied-chair": {
+"rules": 4,
+"violations": []
+},
+"1943-describe-the-painting": {
+"rules": 2,
+"violations": []
+},
+"1946-largest-number-after-mutating-substring": {
+"rules": 3,
+"violations": []
+},
+"1947-maximum-compatibility-score-sum": {
+"rules": 6,
+"violations": []
+},
+"1953-maximum-number-of-weeks-for-which-you-can-work": {
+"rules": 3,
+"violations": []
+},
+"1954-minimum-garden-perimeter-to-collect-enough-apples": {
+"rules": 1,
+"violations": []
+},
+"1958-check-if-move-is-legal": {
+"rules": 4,
+"violations": []
+},
+"1959-minimum-total-space-wasted-with-k-resizing-operations": {
+"rules": 2,
+"violations": []
+},
+"1962-remove-stones-to-minimize-the-total": {
+"rules": 3,
+"violations": []
+},
+"1963-minimum-number-of-swaps-to-make-the-string-balanced": {
+"rules": 2,
+"violations": []
+},
+"1968-array-with-elements-not-equal-to-average-of-neighbors": {
+"rules": 2,
+"violations": []
+},
+"1975-maximum-matrix-sum": {
+"rules": 3,
+"violations": []
+},
+"1976-number-of-ways-to-arrive-at-destination": {
+"rules": 2,
+"violations": []
+},
+"1980-find-unique-binary-string": {
+"rules": 5,
+"violations": []
+},
+"1981-minimize-the-difference-between-target-and-chosen-elements": {
+"rules": 6,
+"violations": []
+},
+"1985-find-the-kth-largest-integer-in-the-array": {
+"rules": 3,
+"violations": []
+},
+"1986-minimum-number-of-work-sessions-to-finish-the-tasks": {
+"rules": 3,
+"violations": []
+},
+"1992-find-all-groups-of-farmland": {
+"rules": 4,
+"violations": []
+},
+"1996-the-number-of-weak-characters-in-the-game": {
+"rules": 2,
+"violations": []
+},
+"1997-first-day-where-you-have-been-in-all-the-rooms": {
+"rules": 2,
+"violations": []
+},
+"2001-number-of-pairs-of-interchangeable-rectangles": {
+"rules": 3,
+"violations": []
+},
+"2002-maximum-product-of-the-length-of-two-palindromic-subsequences": {
+"rules": 1,
+"violations": []
+},
+"2007-find-original-array-from-doubled-array": {
+"rules": 2,
+"violations": []
+},
+"2008-maximum-earnings-from-taxi": {
+"rules": 3,
+"violations": []
+},
+"2012-sum-of-beauty-in-the-array": {
+"rules": 2,
+"violations": []
+},
+"2017-grid-game": {
+"rules": 4,
+"violations": []
+},
+"2018-check-if-word-can-be-placed-in-crossword": {
+"rules": 2,
+"violations": []
+},
+"2023-number-of-pairs-of-strings-with-concatenation-equal-to-target": {
+"rules": 3,
+"violations": []
+},
+"2024-maximize-the-confusion-of-an-exam": {
+"rules": 4,
+"violations": []
+},
+"2028-find-missing-observations": {
+"rules": 5,
+"violations": []
+},
+"2029-stone-game-ix": {
+"rules": 2,
+"violations": []
+},
+"2033-minimum-operations-to-make-a-uni-value-grid": {
+"rules": 6,
+"violations": []
+},
+"2038-remove-colored-pieces-if-both-neighbors-are-the-same-color": {
+"rules": 1,
+"violations": []
+},
+"2039-the-time-when-the-network-becomes-idle": {
+"rules": 4,
+"violations": []
+},
+"2044-count-number-of-maximum-bitwise-or-subsets": {
+"rules": 2,
+"violations": []
+},
+"2048-next-greater-numerically-balanced-number": {
+"rules": 1,
+"violations": []
+},
+"2049-count-nodes-with-the-highest-score": {
+"rules": 2,
+"violations": []
+},
+"2054-two-best-non-overlapping-events": {
+"rules": 2,
+"violations": []
+},
+"2055-plates-between-candles": {
+"rules": 3,
+"violations": []
+},
+"2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+"rules": 2,
+"violations": []
+},
+"2059-minimum-operations-to-convert-number": {
+"rules": 4,
+"violations": []
+},
+"2063-vowels-of-all-substrings": {
+"rules": 2,
+"violations": []
+},
+"2064-minimized-maximum-of-products-distributed-to-any-store": {
+"rules": 3,
+"violations": []
+},
+"2070-most-beautiful-item-for-each-query": {
+"rules": 3,
+"violations": []
+},
+"2074-reverse-nodes-in-even-length-groups": {
+"rules": 2,
+"violations": []
+},
+"2075-decode-the-slanted-ciphertext": {
+"rules": 2,
+"violations": []
+},
+"2079-watering-plants": {
+"rules": 3,
+"violations": []
+},
+"2086-minimum-number-of-food-buckets-to-feed-the-hamsters": {
+"rules": 1,
+"violations": []
+},
+"2087-minimum-cost-homecoming-of-a-robot-in-a-grid": {
+"rules": 8,
+"violations": []
+},
+"2090-k-radius-subarray-averages": {
+"rules": 4,
+"violations": []
+},
+"2091-removing-minimum-and-maximum-from-array": {
+"rules": 2,
+"violations": []
+},
+"2095-delete-the-middle-node-of-a-linked-list": {
+"rules": 2,
+"violations": []
+},
+"2096-step-by-step-directions-from-a-binary-tree-node-to-another": {
+"rules": 1,
+"violations": [
+{
+"i": 12,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 26,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 30,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 64,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 85,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"2100-find-good-days-to-rob-the-bank": {
+"rules": 3,
+"violations": []
+},
+"2101-detonate-the-maximum-bombs": {
+"rules": 2,
+"violations": []
+},
+"2104-sum-of-subarray-ranges": {
+"rules": 2,
+"violations": []
+},
+"2105-watering-plants-ii": {
+"rules": 3,
+"violations": []
+},
+"2109-adding-spaces-to-a-string": {
+"rules": 2,
+"violations": []
+},
+"2110-number-of-smooth-descent-periods-of-a-stock": {
+"rules": 2,
+"violations": []
+},
+"2115-find-all-possible-recipes-from-given-supplies": {
+"rules": 7,
+"violations": []
+},
+"2116-check-if-a-parentheses-string-can-be-valid": {
+"rules": 3,
+"violations": []
+},
+"2120-execution-of-all-suffix-instructions-staying-in-a-grid": {
+"rules": 4,
+"violations": []
+},
+"2121-intervals-between-identical-elements": {
+"rules": 3,
+"violations": []
+},
+"2125-number-of-laser-beams-in-a-bank": {
+"rules": 5,
+"violations": []
+},
+"2126-destroying-asteroids": {
+"rules": 3,
+"violations": []
+},
+"2130-maximum-twin-sum-of-a-linked-list": {
+"rules": 2,
+"violations": []
+},
+"2131-longest-palindrome-by-concatenating-two-letter-words": {
+"rules": 3,
+"violations": []
+},
+"2134-minimum-swaps-to-group-all-1s-together-ii": {
+"rules": 2,
+"violations": []
+},
+"2135-count-words-obtained-after-adding-a-letter": {
+"rules": 4,
+"violations": []
+},
+"2139-minimum-moves-to-reach-target-score": {
+"rules": 2,
+"violations": []
+},
+"2140-solving-questions-with-brainpower": {
+"rules": 2,
+"violations": []
+},
+"2145-count-the-hidden-sequences": {
+"rules": 4,
+"violations": []
+},
+"2146-k-highest-ranked-items-within-a-price-range": {
+"rules": 7,
+"violations": []
+},
+"2149-rearrange-array-elements-by-sign": {
+"rules": 1,
+"violations": []
+},
+"2150-find-all-lonely-numbers-in-the-array": {
+"rules": 2,
+"violations": []
+},
+"2155-all-divisions-with-the-highest-score-of-a-binary-array": {
+"rules": 3,
+"violations": []
+},
+"2161-partition-array-according-to-given-pivot": {
+"rules": 2,
+"violations": []
+},
+"2162-minimum-cost-to-set-cooking-time": {
+"rules": 4,
+"violations": []
+},
+"2165-smallest-value-of-the-rearranged-number": {
+"rules": 1,
+"violations": []
+},
+"2170-minimum-operations-to-make-the-array-alternating": {
+"rules": 2,
+"violations": []
+},
+"2171-removing-minimum-number-of-magic-beans": {
+"rules": 2,
+"violations": []
+},
+"2177-find-three-consecutive-integers-that-sum-to-a-given-number": {
+"rules": 1,
+"violations": []
+},
+"2178-maximum-split-of-positive-even-integers": {
+"rules": 1,
+"violations": []
+},
+"2181-merge-nodes-in-between-zeros": {
+"rules": 1,
+"violations": []
+},
+"2182-construct-string-with-repeat-limit": {
+"rules": 2,
+"violations": []
+},
+"2186-minimum-number-of-steps-to-make-two-strings-anagram-ii": {
+"rules": 4,
+"violations": []
+},
+"2187-minimum-time-to-complete-trips": {
+"rules": 3,
+"violations": []
+},
+"2191-sort-the-jumbled-numbers": {
+"rules": 4,
+"violations": []
+},
+"2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph": {
+"rules": 3,
+"violations": [
+{
+"i": 64,
+"why": [
+"edges has a repeated row"
+]
+}
+]
+},
+"2195-append-k-integers-with-minimal-sum": {
+"rules": 3,
+"violations": []
+},
+"2196-create-binary-tree-from-descriptions": {
+"rules": 2,
+"violations": []
+},
+"2201-count-artifacts-that-can-be-extracted": {
+"rules": 3,
+"violations": []
+},
+"2202-maximize-the-topmost-element-after-k-moves": {
+"rules": 3,
+"violations": []
+},
+"2207-maximize-number-of-subsequences-in-a-string": {
+"rules": 4,
+"violations": []
+},
+"2208-minimum-operations-to-halve-array-sum": {
+"rules": 2,
+"violations": []
+},
+"2211-count-collisions-on-a-road": {
+"rules": 1,
+"violations": []
+},
+"2212-maximum-points-in-an-archery-competition": {
+"rules": 1,
+"violations": []
+},
+"2216-minimum-deletions-to-make-array-beautiful": {
+"rules": 2,
+"violations": []
+},
+"2217-find-palindrome-with-fixed-length": {
+"rules": 3,
+"violations": []
+},
+"2221-find-triangular-sum-of-an-array": {
+"rules": 2,
+"violations": []
+},
+"2222-number-of-ways-to-select-buildings": {
+"rules": 2,
+"violations": []
+},
+"2225-find-players-with-zero-or-one-losses": {
+"rules": 2,
+"violations": []
+},
+"2226-maximum-candies-allocated-to-k-children": {
+"rules": 3,
+"violations": []
+},
+"2232-minimize-result-by-adding-parentheses-to-expression": {
+"rules": 1,
+"violations": []
+},
+"2233-maximum-product-after-k-increments": {
+"rules": 3,
+"violations": []
+},
+"2240-number-of-ways-to-buy-pens-and-pencils": {
+"rules": 3,
+"violations": []
+},
+"2244-minimum-rounds-to-complete-all-tasks": {
+"rules": 2,
+"violations": []
+},
+"2245-maximum-trailing-zeros-in-a-cornered-path": {
+"rules": 5,
+"violations": []
+},
+"2249-count-lattice-points-inside-a-circle": {
+"rules": 2,
+"violations": []
+},
+"2250-count-number-of-rectangles-containing-each-point": {
+"rules": 5,
+"violations": []
+},
+"2256-minimum-average-difference": {
+"rules": 2,
+"violations": []
+},
+"2257-count-unguarded-cells-in-the-grid": {
+"rules": 5,
+"violations": []
+},
+"2260-minimum-consecutive-cards-to-pick-up": {
+"rules": 2,
+"violations": []
+},
+"2261-k-divisible-elements-subarrays": {
+"rules": 4,
+"violations": []
+},
+"2265-count-nodes-equal-to-average-of-subtree": {
+"rules": 2,
+"violations": []
+},
+"2266-count-number-of-texts": {
+"rules": 1,
+"violations": []
+},
+"2270-number-of-ways-to-split-array": {
+"rules": 2,
+"violations": []
+},
+"2271-maximum-white-tiles-covered-by-a-carpet": {
+"rules": 3,
+"violations": []
+},
+"2274-maximum-consecutive-floors-without-special-floors": {
+"rules": 3,
+"violations": []
+},
+"2275-largest-combination-with-bitwise-and-greater-than-zero": {
+"rules": 2,
+"violations": []
+},
+"2279-maximum-bags-with-full-capacity-of-rocks": {
+"rules": 5,
+"violations": []
+},
+"2280-minimum-lines-to-represent-a-line-chart": {
+"rules": 2,
+"violations": []
+},
+"2284-sender-with-largest-word-count": {
+"rules": 4,
+"violations": []
+},
+"2285-maximum-total-importance-of-roads": {
+"rules": 3,
+"violations": []
+},
+"2288-apply-discount-to-prices": {
+"rules": 2,
+"violations": []
+},
+"2289-steps-to-make-array-non-decreasing": {
+"rules": 2,
+"violations": []
+},
+"2294-partition-array-such-that-maximum-difference-is-k": {
+"rules": 3,
+"violations": []
+},
+"2295-replace-elements-in-an-array": {
+"rules": 6,
+"violations": []
+},
+"2300-successful-pairs-of-spells-and-potions": {
+"rules": 7,
+"violations": []
+},
+"2304-minimum-path-cost-in-a-grid": {
+"rules": 6,
+"violations": []
+},
+"2305-fair-distribution-of-cookies": {
+"rules": 3,
+"violations": []
+},
+"2310-sum-of-numbers-with-units-digit-k": {
+"rules": 2,
+"violations": []
+},
+"2311-longest-binary-subsequence-less-than-or-equal-to-k": {
+"rules": 3,
+"violations": []
+},
+"2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph": {
+"rules": 4,
+"violations": []
+},
+"2317-maximum-xor-after-operations": {
+"rules": 2,
+"violations": []
+},
+"2320-count-number-of-ways-to-place-houses": {
+"rules": 1,
+"violations": []
+},
+"2326-spiral-matrix-iv": {
+"rules": 3,
+"violations": []
+},
+"2327-number-of-people-aware-of-a-secret": {
+"rules": 2,
+"violations": []
+},
+"2332-the-latest-time-to-catch-a-bus": {
+"rules": 7,
+"violations": []
+},
+"2333-minimum-sum-of-squared-difference": {
+"rules": 6,
+"violations": []
+},
+"2337-move-pieces-to-obtain-a-string": {
+"rules": 2,
+"violations": []
+},
+"2342-max-sum-of-a-pair-with-equal-sum-of-digits": {
+"rules": 2,
+"violations": []
+},
+"2343-query-kth-smallest-trimmed-number": {
+"rules": 5,
+"violations": []
+},
+"2348-number-of-zero-filled-subarrays": {
+"rules": 2,
+"violations": []
+},
+"2352-equal-row-and-column-pairs": {
+"rules": 3,
+"violations": []
+},
+"2358-maximum-number-of-groups-entering-a-competition": {
+"rules": 2,
+"violations": []
+},
+"2359-find-closest-node-to-given-two-nodes": {
+"rules": 5,
+"violations": []
+},
+"2364-count-number-of-bad-pairs": {
+"rules": 2,
+"violations": []
+},
+"2365-task-scheduler-ii": {
+"rules": 3,
+"violations": []
+},
+"2368-reachable-nodes-with-restrictions": {
+"rules": 7,
+"violations": []
+},
+"2369-check-if-there-is-a-valid-partition-for-the-array": {
+"rules": 2,
+"violations": []
+},
+"2370-longest-ideal-subsequence": {
+"rules": 3,
+"violations": []
+},
+"2374-node-with-highest-edge-score": {
+"rules": 3,
+"violations": []
+},
+"2375-construct-smallest-number-from-di-string": {
+"rules": 1,
+"violations": []
+},
+"2380-time-needed-to-rearrange-a-binary-string": {
+"rules": 2,
+"violations": []
+},
+"2381-shifting-letters-ii": {
+"rules": 4,
+"violations": []
+},
+"2384-largest-palindromic-number": {
+"rules": 2,
+"violations": []
+},
+"2385-amount-of-time-for-binary-tree-to-be-infected": {
+"rules": 2,
+"violations": []
+},
+"2390-removing-stars-from-a-string": {
+"rules": 1,
+"violations": []
+},
+"2391-minimum-amount-of-time-to-collect-garbage": {
+"rules": 3,
+"violations": []
+},
+"2396-strictly-palindromic-number": {
+"rules": 1,
+"violations": []
+},
+"2397-maximum-rows-covered-by-columns": {
+"rules": 6,
+"violations": []
+},
+"2400-number-of-ways-to-reach-a-position-after-exactly-k-steps": {
+"rules": 3,
+"violations": []
+},
+"2401-longest-nice-subarray": {
+"rules": 2,
+"violations": []
+},
+"2405-optimal-partition-of-string": {
+"rules": 1,
+"violations": []
+},
+"2406-divide-intervals-into-minimum-number-of-groups": {
+"rules": 2,
+"violations": []
+},
+"2410-maximum-matching-of-players-with-trainers": {
+"rules": 4,
+"violations": []
+},
+"2411-smallest-subarrays-with-maximum-bitwise-or": {
+"rules": 3,
+"violations": []
+},
+"2414-length-of-the-longest-alphabetical-continuous-substring": {
+"rules": 1,
+"violations": []
+},
+"2415-reverse-odd-levels-of-binary-tree": {
+"rules": 2,
+"violations": []
+},
+"2419-longest-subarray-with-maximum-bitwise-and": {
+"rules": 2,
+"violations": []
+},
+"2420-find-all-good-indices": {
+"rules": 3,
+"violations": []
+},
+"2425-bitwise-xor-of-all-pairings": {
+"rules": 4,
+"violations": []
+},
+"2428-maximum-sum-of-an-hourglass": {
+"rules": 5,
+"violations": []
+},
+"2429-minimize-xor": {
+"rules": 2,
+"violations": []
+},
+"2433-find-the-original-array-of-prefix-xor": {
+"rules": 2,
+"violations": []
+},
+"2434-using-a-robot-to-print-the-lexicographically-smallest-string": {
+"rules": 1,
+"violations": []
+},
+"2438-range-product-queries-of-powers": {
+"rules": 2,
+"violations": []
+},
+"2439-minimize-maximum-of-array": {
+"rules": 3,
+"violations": []
+},
+"2442-count-number-of-distinct-integers-after-reverse-operations": {
+"rules": 2,
+"violations": []
+},
+"2443-sum-of-number-and-its-reverse": {
+"rules": 1,
+"violations": []
+},
+"2447-number-of-subarrays-with-gcd-equal-to-k": {
+"rules": 3,
+"violations": []
+},
+"2452-words-within-two-edits-of-dictionary": {
+"rules": 4,
+"violations": []
+},
+"2453-destroy-sequential-targets": {
+"rules": 3,
+"violations": []
+},
+"2456-most-popular-video-creator": {
+"rules": 5,
+"violations": []
+},
+"2457-minimum-addition-to-make-integer-beautiful": {
+"rules": 2,
+"violations": []
+},
+"2461-maximum-sum-of-distinct-subarrays-with-length-k": {
+"rules": 2,
+"violations": []
+},
+"2462-total-cost-to-hire-k-workers": {
+"rules": 4,
+"violations": []
+},
+"2466-count-ways-to-build-good-strings": {
+"rules": 3,
+"violations": []
+},
+"2467-most-profitable-path-in-a-tree": {
+"rules": 2,
+"violations": []
+},
+"2470-number-of-subarrays-with-lcm-equal-to-k": {
+"rules": 3,
+"violations": []
+},
+"2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level": {
+"rules": 3,
+"violations": [
+{
+"i": 17,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 24,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 28,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 29,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 32,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 33,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 53,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 62,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 63,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 70,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 80,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 81,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 90,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 93,
+"why": [
+"node values not unique"
+]
+},
+{
+"i": 94,
+"why": [
+"node values not unique"
+]
+}
+]
+},
+"2476-closest-nodes-queries-in-a-binary-search-tree": {
+"rules": 5,
+"violations": []
+},
+"2477-minimum-fuel-cost-to-report-to-the-capital": {
+"rules": 3,
+"violations": [
+{
+"i": 66,
+"why": [
+"roads is not a valid tree"
+]
+},
+{
+"i": 67,
+"why": [
+"roads is not a valid tree"
+]
+}
+]
+},
+"2482-difference-between-ones-and-zeros-in-row-and-column": {
+"rules": 5,
+"violations": []
+},
+"2483-minimum-penalty-for-a-shop": {
+"rules": 1,
+"violations": []
+},
+"2486-append-characters-to-string-to-make-subsequence": {
+"rules": 4,
+"violations": []
+},
+"2487-remove-nodes-from-linked-list": {
+"rules": 1,
+"violations": []
+},
+"2491-divide-players-into-teams-of-equal-skill": {
+"rules": 2,
+"violations": []
+},
+"2492-minimum-score-of-a-path-between-two-cities": {
+"rules": 3,
+"violations": []
+},
+"2497-maximum-star-sum-of-a-graph": {
+"rules": 5,
+"violations": []
+},
+"2498-frog-jump-ii": {
+"rules": 2,
+"violations": []
+},
+"2501-longest-square-streak-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"2507-smallest-value-after-replacing-with-sum-of-prime-factors": {
+"rules": 1,
+"violations": []
+},
+"2512-reward-top-k-students": {
+"rules": 9,
+"violations": []
+},
+"2513-minimize-the-maximum-of-two-arrays": {
+"rules": 4,
+"violations": []
+},
+"2516-take-k-of-each-character-from-left-and-right": {
+"rules": 2,
+"violations": []
+},
+"2517-maximum-tastiness-of-candy-basket": {
+"rules": 2,
+"violations": []
+},
+"2521-distinct-prime-factors-of-product-of-array": {
+"rules": 2,
+"violations": []
+},
+"2522-partition-string-into-substrings-with-values-at-most-k": {
+"rules": 2,
+"violations": []
+},
+"2523-closest-prime-numbers-in-range": {
+"rules": 1,
+"violations": []
+},
+"2527-find-xor-beauty-of-array": {
+"rules": 2,
+"violations": []
+},
+"2530-maximal-score-after-applying-k-operations": {
+"rules": 3,
+"violations": []
+},
+"2531-make-number-of-distinct-characters-equal": {
+"rules": 4,
+"violations": []
+},
+"2536-increment-submatrices-by-one": {
+"rules": 2,
+"violations": []
+},
+"2537-count-the-number-of-good-subarrays": {
+"rules": 3,
+"violations": []
+},
+"2541-minimum-operations-to-make-array-equal-ii": {
+"rules": 5,
+"violations": []
+},
+"2542-maximum-subsequence-score": {
+"rules": 5,
+"violations": []
+},
+"2545-sort-the-students-by-their-kth-score": {
+"rules": 6,
+"violations": []
+},
+"2546-apply-bitwise-operations-to-make-strings-equal": {
+"rules": 2,
+"violations": []
+},
+"2554-maximum-number-of-integers-to-choose-from-a-range-i": {
+"rules": 4,
+"violations": []
+},
+"2555-maximize-win-from-two-segments": {
+"rules": 4,
+"violations": []
+},
+"2556-disconnect-path-in-a-binary-matrix-by-at-most-one-flip": {
+"rules": 5,
+"violations": []
+},
+"2559-count-vowel-strings-in-ranges": {
+"rules": 4,
+"violations": []
+},
+"2560-house-robber-iv": {
+"rules": 2,
+"violations": []
+},
+"2563-count-the-number-of-fair-pairs": {
+"rules": 3,
+"violations": []
+},
+"2564-substring-xor-queries": {
+"rules": 3,
+"violations": []
+},
+"2567-minimum-score-by-changing-two-elements": {
+"rules": 2,
+"violations": []
+},
+"2568-minimum-impossible-or": {
+"rules": 2,
+"violations": []
+},
+"2571-minimum-operations-to-reduce-an-integer-to-0": {
+"rules": 1,
+"violations": []
+},
+"2572-count-the-number-of-square-free-subsets": {
+"rules": 2,
+"violations": []
+},
+"2575-find-the-divisibility-array-of-a-string": {
+"rules": 1,
+"violations": []
+},
+"2576-find-the-maximum-number-of-marked-indices": {
+"rules": 2,
+"violations": []
+},
+"2579-count-total-number-of-colored-cells": {
+"rules": 1,
+"violations": []
+},
+"2583-kth-largest-sum-in-a-binary-tree": {
+"rules": 1,
+"violations": []
+},
+"2587-rearrange-array-to-maximize-prefix-score": {
+"rules": 2,
+"violations": []
+},
+"2588-count-the-number-of-beautiful-subarrays": {
+"rules": 2,
+"violations": []
+},
+"2592-maximize-greatness-of-an-array": {
+"rules": 2,
+"violations": []
+},
+"2593-find-score-of-an-array-after-marking-all-elements": {
+"rules": 2,
+"violations": []
+},
+"2594-minimum-time-to-repair-cars": {
+"rules": 3,
+"violations": []
+},
+"2596-check-knight-tour-configuration": {
+"rules": 2,
+"violations": []
+},
+"2597-the-number-of-beautiful-subsets": {
+"rules": 3,
+"violations": []
+},
+"2598-smallest-missing-non-negative-integer-after-operations": {
+"rules": 3,
+"violations": []
+},
+"2601-prime-subtraction-operation": {
+"rules": 2,
+"violations": []
+},
+"2602-minimum-operations-to-make-all-array-elements-equal": {
+"rules": 6,
+"violations": []
+},
+"2606-find-the-substring-with-maximum-cost": {
+"rules": 5,
+"violations": []
+},
+"2607-make-k-subarray-sums-equal": {
+"rules": 2,
+"violations": []
+},
+"2610-convert-an-array-into-a-2d-array-with-conditions": {
+"rules": 2,
+"violations": []
+},
+"2611-mice-and-cheese": {
+"rules": 2,
+"violations": []
+},
+"2615-sum-of-distances": {
+"rules": 2,
+"violations": []
+},
+"2616-minimize-the-maximum-difference-of-pairs": {
+"rules": 2,
+"violations": []
+},
+"2640-find-the-score-of-all-prefixes-of-an-array": {
+"rules": 2,
+"violations": []
+},
+"2641-cousins-in-binary-tree-ii": {
+"rules": 2,
+"violations": []
+},
+"2645-minimum-additions-to-make-valid-string": {
+"rules": 1,
+"violations": []
+},
+"2653-sliding-subarray-beauty": {
+"rules": 5,
+"violations": []
+},
+"2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1": {
+"rules": 2,
+"violations": []
+},
+"2657-find-the-prefix-common-array-of-two-arrays": {
+"rules": 0,
+"violations": []
+},
+"2658-maximum-number-of-fish-in-a-grid": {
+"rules": 5,
+"violations": []
+},
+"2661-first-completely-painted-row-or-column": {
+"rules": 3,
+"violations": []
+},
+"2662-minimum-cost-of-a-path-with-special-roads": {
+"rules": 3,
+"violations": []
+},
+"2672-number-of-adjacent-elements-with-the-same-color": {
+"rules": 3,
+"violations": []
+},
+"2673-make-costs-of-paths-equal-in-a-binary-tree": {
+"rules": 3,
+"violations": []
+},
+"2679-sum-in-a-matrix": {
+"rules": 3,
+"violations": []
+},
+"2680-maximum-or": {
+"rules": 3,
+"violations": []
+},
+"2683-neighboring-bitwise-xor": {
+"rules": 2,
+"violations": []
+},
+"2684-maximum-number-of-moves-in-a-grid": {
+"rules": 5,
+"violations": []
+},
+"2685-count-the-number-of-complete-components": {
+"rules": 3,
+"violations": [
+{
+"i": 10,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 37,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 39,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 41,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 53,
+"why": [
+"edges has a repeated row"
+]
+},
+{
+"i": 70,
+"why": [
+"edges has a repeated row"
+]
+}
+]
+},
+"2698-find-the-punishment-number-of-an-integer": {
+"rules": 1,
+"violations": []
+},
+"2707-extra-characters-in-a-string": {
+"rules": 3,
+"violations": []
+},
+"2708-maximum-strength-of-a-group": {
+"rules": 2,
+"violations": []
+},
+"2711-difference-of-number-of-distinct-values-on-diagonals": {
+"rules": 5,
+"violations": []
+},
+"2712-minimum-cost-to-make-all-characters-equal": {
+"rules": 1,
+"violations": []
+},
+"2718-sum-of-matrix-after-queries": {
+"rules": 3,
+"violations": []
+},
+"2730-find-the-longest-semi-repetitive-substring": {
+"rules": 1,
+"violations": []
+},
+"2731-movement-of-robots": {
+"rules": 4,
+"violations": []
+},
+"2734-lexicographically-smallest-string-after-substring-operation": {
+"rules": 2,
+"violations": []
+},
+"2735-collecting-chocolates": {
+"rules": 3,
+"violations": []
+},
+"2740-find-the-value-of-the-partition": {
+"rules": 2,
+"violations": []
+},
+"2741-special-permutations": {
+"rules": 2,
+"violations": []
+},
+"2745-construct-the-longest-new-string": {
+"rules": 3,
+"violations": []
+},
+"2746-decremental-string-concatenation": {
+"rules": 2,
+"violations": []
+},
+"2747-count-zero-request-servers": {
+"rules": 6,
+"violations": []
+},
+"2749-minimum-operations-to-make-the-integer-zero": {
+"rules": 2,
+"violations": []
+},
+"2750-ways-to-split-array-into-good-subarrays": {
+"rules": 2,
+"violations": []
+},
+"2761-prime-pairs-with-target-sum": {
+"rules": 1,
+"violations": []
+},
+"2762-continuous-subarrays": {
+"rules": 2,
+"violations": []
+},
+"2766-relocate-marbles": {
+"rules": 6,
+"violations": []
+},
+"2767-partition-string-into-minimum-beautiful-substrings": {
+"rules": 2,
+"violations": []
+},
+"2768-number-of-black-blocks": {
+"rules": 4,
+"violations": []
+},
+"2770-maximum-number-of-jumps-to-reach-the-last-index": {
+"rules": 2,
+"violations": []
+},
+"2771-longest-non-decreasing-subarray-from-two-arrays": {
+"rules": 2,
+"violations": []
+},
+"2772-apply-operations-to-make-all-array-elements-equal-to-zero": {
+"rules": 2,
+"violations": []
+},
+"2779-maximum-beauty-of-an-array-after-applying-operation": {
+"rules": 3,
+"violations": []
+},
+"2780-minimum-index-of-a-valid-split": {
+"rules": 2,
+"violations": []
+},
+"2785-sort-vowels-in-a-string": {
+"rules": 1,
+"violations": []
+},
+"2786-visit-array-positions-to-maximize-score": {
+"rules": 3,
+"violations": []
+},
+"2787-ways-to-express-an-integer-as-sum-of-powers": {
+"rules": 2,
+"violations": []
+},
+"2789-largest-element-in-an-array-after-merge-operations": {
+"rules": 2,
+"violations": []
+},
+"2799-count-complete-subarrays-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"2800-shortest-string-that-contains-three-strings": {
+"rules": 3,
+"violations": []
+},
+"2807-insert-greatest-common-divisors-in-linked-list": {
+"rules": 2,
+"violations": []
+},
+"2808-minimum-seconds-to-equalize-a-circular-array": {
+"rules": 2,
+"violations": []
+},
+"2811-check-if-it-is-possible-to-split-array": {
+"rules": 3,
+"violations": []
+},
+"2812-find-the-safest-path-in-a-grid": {
+"rules": 1,
+"violations": []
+},
+"2816-double-a-number-represented-as-a-linked-list": {
+"rules": 2,
+"violations": []
+},
+"2817-minimum-absolute-difference-between-elements-with-constraint": {
+"rules": 3,
+"violations": []
+},
+"2825-make-string-a-subsequence-using-cyclic-increments": {
+"rules": 4,
+"violations": []
+},
+"2826-sorting-three-groups": {
+"rules": 2,
+"violations": []
+},
+"2829-determine-the-minimum-sum-of-a-k-avoiding-array": {
+"rules": 2,
+"violations": []
+},
+"2830-maximize-the-profit-as-the-salesman": {
+"rules": 3,
+"violations": []
+},
+"2831-find-the-longest-equal-subarray": {
+"rules": 3,
+"violations": []
+},
+"2834-find-the-minimum-possible-sum-of-a-beautiful-array": {
+"rules": 2,
+"violations": []
+},
+"2840-check-if-strings-can-be-made-equal-with-operations-ii": {
+"rules": 4,
+"violations": []
+},
+"2841-maximum-sum-of-almost-unique-subarray": {
+"rules": 3,
+"violations": []
+},
+"2844-minimum-operations-to-make-a-special-number": {
+"rules": 1,
+"violations": []
+},
+"2845-count-of-interesting-subarrays": {
+"rules": 4,
+"violations": []
+},
+"2849-determine-if-a-cell-is-reachable-at-a-given-time": {
+"rules": 5,
+"violations": []
+},
+"2850-minimum-moves-to-spread-stones-over-grid": {
+"rules": 2,
+"violations": []
+},
+"2856-minimum-array-length-after-pair-removals": {
+"rules": 3,
+"violations": []
+},
+"2857-count-pairs-of-points-with-distance-k": {
+"rules": 2,
+"violations": []
+},
+"2860-happy-students": {
+"rules": 2,
+"violations": []
+},
+"2861-maximum-number-of-alloys": {
+"rules": 9,
+"violations": []
+},
+"2865-beautiful-towers-i": {
+"rules": 2,
+"violations": []
+},
+"2866-beautiful-towers-ii": {
+"rules": 2,
+"violations": []
+},
+"2870-minimum-number-of-operations-to-make-array-empty": {
+"rules": 2,
+"violations": []
+},
+"2871-split-array-into-maximum-number-of-subarrays": {
+"rules": 2,
+"violations": []
+},
+"2874-maximum-value-of-an-ordered-triplet-ii": {
+"rules": 2,
+"violations": []
+},
+"2875-minimum-size-subarray-in-infinite-array": {
+"rules": 3,
+"violations": []
+},
+"2895-minimum-processing-time": {
+"rules": 4,
+"violations": []
+},
+"2896-apply-operations-to-make-two-strings-equal": {
+"rules": 3,
+"violations": []
+},
+"2901-longest-unequal-adjacent-groups-subsequence-ii": {
+"rules": 2,
+"violations": []
+},
+"2904-shortest-and-lexicographically-smallest-beautiful-string": {
+"rules": 2,
+"violations": []
+},
+"2905-find-indices-with-index-and-value-difference-ii": {
+"rules": 4,
+"violations": []
+},
+"2906-construct-product-matrix": {
+"rules": 3,
+"violations": []
+},
+"2909-minimum-sum-of-mountain-triplets-ii": {
+"rules": 2,
+"violations": []
+},
+"2914-minimum-number-of-changes-to-make-binary-string-beautiful": {
+"rules": 2,
+"violations": []
+},
+"2915-length-of-the-longest-subsequence-that-sums-to-target": {
+"rules": 3,
+"violations": []
+},
+"2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros": {
+"rules": 4,
+"violations": []
+},
+"2919-minimum-increment-operations-to-make-array-beautiful": {
+"rules": 3,
+"violations": []
+},
+"2924-find-champion-ii": {
+"rules": 3,
+"violations": []
+},
+"2925-maximum-score-after-applying-operations-on-a-tree": {
+"rules": 3,
+"violations": []
+},
+"2929-distribute-candies-among-children-ii": {
+"rules": 2,
+"violations": []
+},
+"2930-number-of-strings-which-can-be-rearranged-to-contain-substring": {
+"rules": 1,
+"violations": []
+},
+"2933-high-access-employees": {
+"rules": 2,
+"violations": []
+},
+"2934-minimum-operations-to-maximize-last-elements-in-arrays": {
+"rules": 2,
+"violations": []
+},
+"2938-separate-black-and-white-balls": {
+"rules": 2,
+"violations": []
+},
+"2939-maximum-xor-product": {
+"rules": 3,
+"violations": []
+},
+"2943-maximize-area-of-square-hole-in-grid": {
+"rules": 6,
+"violations": []
+},
+"2944-minimum-number-of-coins-for-fruits": {
+"rules": 2,
+"violations": []
+},
+"2947-count-beautiful-substrings-i": {
+"rules": 2,
+"violations": []
+},
+"2948-make-lexicographically-smallest-array-by-swapping-elements": {
+"rules": 3,
+"violations": []
+},
+"2952-minimum-number-of-coins-to-be-added": {
+"rules": 3,
+"violations": []
+},
+"2957-remove-adjacent-almost-equal-characters": {
+"rules": 2,
+"violations": []
+},
+"2958-length-of-longest-subarray-with-at-most-k-frequency": {
+"rules": 3,
+"violations": []
+},
+"2962-count-subarrays-where-max-element-appears-at-least-k-times": {
+"rules": 3,
+"violations": []
+},
+"2966-divide-array-into-arrays-with-max-difference": {
+"rules": 4,
+"violations": []
+},
+"2967-minimum-cost-to-make-array-equalindromic": {
+"rules": 1,
+"violations": []
+},
+"2971-find-polygon-with-the-largest-perimeter": {
+"rules": 1,
+"violations": []
+},
+"2975-maximum-square-area-by-removing-fences-from-a-field": {
+"rules": 6,
+"violations": []
+},
+"2976-minimum-cost-to-convert-string-i": {
+"rules": 3,
+"violations": []
+},
+"2981-find-longest-special-substring-that-occurs-thrice-i": {
+"rules": 2,
+"violations": []
+},
+"2982-find-longest-special-substring-that-occurs-thrice-ii": {
+"rules": 2,
+"violations": []
+},
+"2997-minimum-number-of-operations-to-make-array-xor-equal-to-k": {
+"rules": 3,
+"violations": []
+},
+"2998-minimum-number-of-operations-to-make-x-and-y-equal": {
+"rules": 2,
+"violations": []
+},
+"3001-minimum-moves-to-capture-the-queen": {
+"rules": 6,
+"violations": []
+},
+"3002-maximum-size-of-a-set-after-removals": {
+"rules": 4,
+"violations": []
+},
+"3006-find-beautiful-indices-in-the-given-array-i": {
+"rules": 3,
+"violations": []
+},
+"3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k": {
+"rules": 2,
+"violations": []
+},
+"3011-find-if-array-can-be-sorted": {
+"rules": 2,
+"violations": []
+},
+"3012-minimize-length-of-array-using-operations": {
+"rules": 2,
+"violations": []
+},
+"3015-count-the-number-of-houses-at-a-certain-distance-i": {
+"rules": 3,
+"violations": []
+},
+"3016-minimum-number-of-pushes-to-type-word-ii": {
+"rules": 2,
+"violations": []
+},
+"3020-find-the-maximum-number-of-elements-in-subset": {
+"rules": 2,
+"violations": []
+},
+"3021-alice-and-bob-playing-flower-game": {
+"rules": 2,
+"violations": []
+},
+"3025-find-the-number-of-ways-to-place-people-i": {
+"rules": 1,
+"violations": []
+},
+"3026-maximum-good-subarray-sum": {
+"rules": 3,
+"violations": []
+},
+"3029-minimum-time-to-revert-word-to-initial-state-i": {
+"rules": 3,
+"violations": []
+},
+"3030-find-the-grid-of-region-average": {
+"rules": 2,
+"violations": []
+},
+"3034-number-of-subarrays-that-match-a-pattern-i": {
+"rules": 4,
+"violations": []
+},
+"3035-maximum-palindromes-after-operations": {
+"rules": 3,
+"violations": []
+},
+"3039-apply-operations-to-make-string-empty": {
+"rules": 2,
+"violations": []
+},
+"3040-maximum-number-of-operations-with-the-same-score-ii": {
+"rules": 2,
+"violations": []
+},
+"3043-find-the-length-of-the-longest-common-prefix": {
+"rules": 4,
+"violations": []
+},
+"3044-most-frequent-prime": {
+"rules": 5,
+"violations": []
+},
+"3047-find-the-largest-area-of-square-inside-two-rectangles": {
+"rules": 3,
+"violations": []
+},
+"3048-earliest-second-to-mark-indices-i": {
+"rules": 4,
+"violations": []
+},
+"3066-minimum-operations-to-exceed-threshold-value-ii": {
+"rules": 3,
+"violations": []
+},
+"3067-count-pairs-of-connectable-servers-in-a-weighted-tree-network": {
+"rules": 3,
+"violations": []
+},
+"3070-count-submatrices-with-top-left-element-and-sum-less-than-k": {
+"rules": 6,
+"violations": []
+},
+"3071-minimum-operations-to-write-the-letter-y-on-a-grid": {
+"rules": 3,
+"violations": []
+},
+"3075-maximize-happiness-of-selected-children": {
+"rules": 3,
+"violations": []
+},
+"3076-shortest-uncommon-substring-in-an-array": {
+"rules": 4,
+"violations": []
+},
+"3080-mark-elements-on-array-by-performing-queries": {
+"rules": 5,
+"violations": []
+},
+"3081-replace-question-marks-in-string-to-minimize-its-value": {
+"rules": 1,
+"violations": []
+},
+"3084-count-substrings-starting-and-ending-with-given-character": {
+"rules": 1,
+"violations": []
+},
+"3085-minimum-deletions-to-make-string-k-special": {
+"rules": 3,
+"violations": []
+},
+"3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k": {
+"rules": 1,
+"violations": []
+},
+"3092-most-frequent-ids": {
+"rules": 3,
+"violations": []
+},
+"3096-minimum-levels-to-gain-more-points": {
+"rules": 2,
+"violations": []
+},
+"3097-shortest-subarray-with-or-at-least-k-ii": {
+"rules": 3,
+"violations": []
+},
+"3100-water-bottles-ii": {
+"rules": 2,
+"violations": []
+},
+"3101-count-alternating-subarrays": {
+"rules": 2,
+"violations": []
+},
+"3106-lexicographically-smallest-string-after-operations-with-constraint": {
+"rules": 3,
+"violations": []
+},
+"3107-minimum-operations-to-make-median-of-array-equal-to-k": {
+"rules": 3,
+"violations": []
+},
+"3111-minimum-rectangles-to-cover-points": {
+"rules": 4,
+"violations": [
+{
+"i": 98,
+"why": [
+"points has a repeated row"
+]
+}
+]
+},
+"3112-minimum-time-to-visit-disappearing-nodes": {
+"rules": 4,
+"violations": []
+},
+"3115-maximum-prime-difference": {
+"rules": 2,
+"violations": []
+},
+"3121-count-the-number-of-special-characters-ii": {
+"rules": 1,
+"violations": []
+},
+"3122-minimum-number-of-operations-to-satisfy-conditions": {
+"rules": 1,
+"violations": []
+},
+"3128-right-triangles": {
+"rules": 3,
+"violations": []
+},
+"3129-find-all-possible-stable-binary-arrays-i": {
+"rules": 3,
+"violations": []
+},
+"3132-find-the-integer-added-to-array-ii": {
+"rules": 3,
+"violations": []
+},
+"3133-minimum-array-end": {
+"rules": 2,
+"violations": []
+},
+"3137-minimum-number-of-operations-to-make-word-k-periodic": {
+"rules": 3,
+"violations": []
+},
+"3138-minimum-length-of-anagram-concatenation": {
+"rules": 2,
+"violations": []
+},
+"3143-maximum-points-inside-the-square": {
+"rules": 5,
+"violations": []
+},
+"3144-minimum-substring-partition-of-equal-character-frequency": {
+"rules": 1,
+"violations": []
+},
+"3147-taking-maximum-energy-from-the-mystic-dungeon": {
+"rules": 2,
+"violations": []
+},
+"3148-maximum-difference-score-in-a-grid": {
+"rules": 5,
+"violations": []
+},
+"3152-special-array-ii": {
+"rules": 4,
+"violations": []
+},
+"3153-sum-of-digit-differences-of-all-pairs": {
+"rules": 2,
+"violations": []
+},
+"3159-find-occurrences-of-an-element-in-an-array": {
+"rules": 5,
+"violations": []
+},
+"3160-find-the-number-of-distinct-colors-among-the-balls": {
+"rules": 3,
+"violations": []
+},
+"3163-string-compression-iii": {
+"rules": 2,
+"violations": []
+},
+"3164-find-the-number-of-good-pairs-ii": {
+"rules": 3,
+"violations": []
+},
+"3169-count-days-without-meetings": {
+"rules": 3,
+"violations": []
+},
+"3170-lexicographically-minimum-string-after-removing-stars": {
+"rules": 1,
+"violations": []
+},
+"3175-find-the-first-player-to-win-k-games-in-a-row": {
+"rules": 4,
+"violations": []
+},
+"3176-find-the-maximum-length-of-a-good-subsequence-i": {
+"rules": 2,
+"violations": []
+},
+"3179-find-the-n-th-value-after-k-seconds": {
+"rules": 2,
+"violations": []
+},
+"3180-maximum-total-reward-using-operations-i": {
+"rules": 2,
+"violations": []
+},
+"3185-count-pairs-that-form-a-complete-day-ii": {
+"rules": 2,
+"violations": []
+},
+"3186-maximum-total-damage-with-spell-casting": {
+"rules": 2,
+"violations": []
+},
+"3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
+"rules": 2,
+"violations": []
+},
+"3192-minimum-operations-to-make-binary-array-elements-equal-to-one-ii": {
+"rules": 2,
+"violations": []
+},
+"3195-find-the-minimum-area-to-cover-all-ones-i": {
+"rules": 3,
+"violations": []
+},
+"3196-maximize-total-cost-of-alternating-subarrays": {
+"rules": 2,
+"violations": []
+},
+"3201-find-the-maximum-length-of-valid-subsequence-i": {
+"rules": 2,
+"violations": []
+},
+"3202-find-the-maximum-length-of-valid-subsequence-ii": {
+"rules": 3,
+"violations": []
+},
+"3207-maximum-points-after-enemy-battles": {
+"rules": 3,
+"violations": []
+},
+"3208-alternating-groups-ii": {
+"rules": 3,
+"violations": []
+},
+"3211-generate-binary-strings-without-adjacent-zeros": {
+"rules": 1,
+"violations": []
+},
+"3212-count-submatrices-with-equal-frequency-of-x-and-y": {
+"rules": 2,
+"violations": []
+},
+"3217-delete-nodes-from-linked-list-present-in-array": {
+"rules": 4,
+"violations": []
+},
+"3218-minimum-cost-for-cutting-cake-i": {
+"rules": 6,
+"violations": []
+},
+"3223-minimum-length-of-string-after-operations": {
+"rules": 2,
+"violations": []
+},
+"3224-minimum-array-changes-to-make-differences-equal": {
+"rules": 2,
+"violations": []
+},
+"3227-vowels-game-in-a-string": {
+"rules": 2,
+"violations": []
+},
+"3228-maximum-number-of-operations-to-move-ones-to-the-end": {
+"rules": 2,
+"violations": []
+},
+"3233-find-the-count-of-numbers-which-are-not-special": {
+"rules": 1,
+"violations": []
+},
+"3234-count-the-number-of-substrings-with-dominant-ones": {
+"rules": 1,
+"violations": []
+},
+"3239-minimum-number-of-flips-to-make-binary-grid-palindromic-i": {
+"rules": 3,
+"violations": []
+},
+"3240-minimum-number-of-flips-to-make-binary-grid-palindromic-ii": {
+"rules": 3,
+"violations": []
+},
+"3243-shortest-distance-after-road-addition-queries-i": {
+"rules": 3,
+"violations": []
+},
+"3249-count-the-number-of-good-nodes": {
+"rules": 2,
+"violations": []
+},
+"3254-find-the-power-of-k-size-subarrays-i": {
+"rules": 3,
+"violations": []
+},
+"3255-find-the-power-of-k-size-subarrays-ii": {
+"rules": 3,
+"violations": []
+},
+"3259-maximum-energy-boost-from-two-drinks": {
+"rules": 4,
+"violations": []
+},
+"3265-count-almost-equal-pairs-i": {
+"rules": 2,
+"violations": []
+},
+"3271-hash-divided-string": {
+"rules": 3,
+"violations": []
+},
+"3275-k-th-nearest-obstacle-queries": {
+"rules": 2,
+"violations": []
+},
+"3281-maximize-score-of-numbers-in-ranges": {
+"rules": 3,
+"violations": []
+},
+"3282-reach-end-of-array-with-max-score": {
+"rules": 2,
+"violations": []
+},
+"3286-find-a-safe-walk-through-a-grid": {
+"rules": 5,
+"violations": []
+},
+"3290-maximum-multiplication-score": {
+"rules": 4,
+"violations": []
+},
+"3291-minimum-number-of-valid-strings-to-form-target-i": {
+"rules": 5,
+"violations": []
+},
+"3295-report-spam-message": {
+"rules": 4,
+"violations": []
+},
+"3296-minimum-number-of-seconds-to-make-mountain-height-zero": {
+"rules": 3,
+"violations": []
+},
+"3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i": {
+"rules": 4,
+"violations": []
+},
+"3301-maximize-the-total-height-of-unique-towers": {
+"rules": 2,
+"violations": []
+},
+"3302-find-the-lexicographically-smallest-valid-sequence": {
+"rules": 3,
+"violations": []
+},
+"3305-count-of-substrings-containing-every-vowel-and-k-consonants-i": {
+"rules": 2,
+"violations": []
+},
+"3306-count-of-substrings-containing-every-vowel-and-k-consonants-ii": {
+"rules": 2,
+"violations": []
+},
+"3309-maximum-possible-number-by-binary-concatenation": {
+"rules": 2,
+"violations": []
+},
+"3310-remove-methods-from-project": {
+"rules": 3,
+"violations": []
+},
+"3315-construct-the-minimum-bitwise-array-ii": {
+"rules": 2,
+"violations": []
+},
+"3316-find-maximum-removals-from-source-string": {
+"rules": 6,
+"violations": []
+},
+"3319-k-th-largest-perfect-subtree-size-in-binary-tree": {
+"rules": 3,
+"violations": []
+},
+"3324-find-the-sequence-of-strings-appeared-on-the-screen": {
+"rules": 2,
+"violations": []
+},
+"3325-count-substrings-with-k-frequency-characters-i": {
+"rules": 3,
+"violations": []
+},
+"3326-minimum-division-operations-to-make-array-non-decreasing": {
+"rules": 2,
+"violations": []
+},
+"3331-find-subtree-sizes-after-changes": {
+"rules": 4,
+"violations": []
+},
+"3332-maximum-points-tourist-can-earn": {
+"rules": 6,
+"violations": []
+},
+"3334-find-the-maximum-factor-score-of-array": {
+"rules": 2,
+"violations": []
+},
+"3335-total-characters-in-string-after-transformations-i": {
+"rules": 3,
+"violations": []
+},
+"3341-find-minimum-time-to-reach-last-room-i": {
+"rules": 3,
+"violations": []
+},
+"3342-find-minimum-time-to-reach-last-room-ii": {
+"rules": 3,
+"violations": []
+},
+"3346-maximum-frequency-of-an-element-after-performing-operations-i": {
+"rules": 4,
+"violations": []
+},
+"3350-adjacent-increasing-subarrays-detection-ii": {
+"rules": 2,
+"violations": []
+},
+"3355-zero-array-transformation-i": {
+"rules": 4,
+"violations": []
+},
+"3356-zero-array-transformation-ii": {
+"rules": 4,
+"violations": []
+},
+"3361-shift-distance-between-two-strings": {
+"rules": 6,
+"violations": []
+},
+"3362-zero-array-transformation-iii": {
+"rules": 4,
+"violations": []
+},
+"3365-rearrange-k-substrings-to-form-target-string": {
+"rules": 4,
+"violations": []
+},
+"3366-minimum-array-sum": {
+"rules": 5,
+"violations": []
+},
+"3371-identify-the-largest-outlier-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"3372-maximize-the-number-of-target-nodes-after-connecting-trees-i": {
+"rules": 2,
+"violations": []
+},
+"3376-minimum-time-to-break-locks-i": {
+"rules": 3,
+"violations": []
+},
+"3377-digit-operations-to-make-two-integers-equal": {
+"rules": 2,
+"violations": []
+},
+"3380-maximum-area-rectangle-with-point-constraints-i": {
+"rules": 3,
+"violations": []
+},
+"3381-maximum-subarray-sum-with-length-divisible-by-k": {
+"rules": 2,
+"violations": []
+},
+"3387-maximize-amount-after-two-days-of-conversions": {
+"rules": 6,
+"violations": []
+},
+"3388-count-beautiful-splits-in-an-array": {
+"rules": 2,
+"violations": []
+},
+"3393-count-paths-with-the-given-xor-value": {
+"rules": 4,
+"violations": []
+},
+"3394-check-if-grid-can-be-cut-into-sections": {
+"rules": 2,
+"violations": []
+},
+"3397-maximum-number-of-distinct-elements-after-operations": {
+"rules": 3,
+"violations": []
+},
+"3403-find-the-lexicographically-largest-string-from-the-box-i": {
+"rules": 3,
+"violations": []
+},
+"3404-count-special-subsequences": {
+"rules": 2,
+"violations": []
+},
+"3409-longest-subsequence-with-decreasing-adjacent-difference": {
+"rules": 2,
+"violations": []
+},
+"3412-find-mirror-score-of-a-string": {
+"rules": 2,
+"violations": []
+},
+"3413-maximum-coins-from-k-consecutive-bags": {
+"rules": 2,
+"violations": []
+},
+"3418-maximum-amount-of-money-robot-can-earn": {
+"rules": 5,
+"violations": []
+},
+"3419-minimize-the-maximum-edge-weight-of-graph": {
+"rules": 3,
+"violations": []
+},
+"3424-minimum-cost-to-make-arrays-identical": {
+"rules": 4,
+"violations": []
+},
+"3428-maximum-and-minimum-sums-of-at-most-size-k-subsequences": {
+"rules": 2,
+"violations": []
+},
+"3429-paint-house-iv": {
+"rules": 4,
+"violations": []
+},
+"3433-count-mentions-per-user": {
+"rules": 3,
+"violations": []
+},
+"3434-maximum-frequency-after-subarray-operation": {
+"rules": 3,
+"violations": []
+},
+"3439-reschedule-meetings-for-maximum-free-time-i": {
+"rules": 5,
+"violations": []
+},
+"3440-reschedule-meetings-for-maximum-free-time-ii": {
+"rules": 4,
+"violations": []
+},
+"3443-maximum-manhattan-distance-after-k-changes": {
+"rules": 2,
+"violations": []
+},
+"3446-sort-matrix-by-diagonals": {
+"rules": 1,
+"violations": []
+},
+"3447-assign-elements-to-groups-with-constraints": {
+"rules": 4,
+"violations": []
+},
+"3453-separate-squares-i": {
+"rules": 2,
+"violations": []
+},
+"3457-eat-pizzas": {
+"rules": 2,
+"violations": []
+},
+"3458-select-k-disjoint-special-substrings": {
+"rules": 3,
+"violations": []
+},
+"3462-maximum-sum-with-at-most-k-elements": {
+"rules": 6,
+"violations": []
+},
+"3468-find-the-number-of-copy-arrays": {
+"rules": 4,
+"violations": []
+},
+"3469-find-minimum-cost-to-remove-array-elements": {
+"rules": 2,
+"violations": []
+},
+"3472-longest-palindromic-subsequence-after-at-most-k-operations": {
+"rules": 3,
+"violations": []
+},
+"3473-sum-of-k-subarrays-with-length-at-least-m": {
+"rules": 3,
+"violations": []
+},
+"3478-choose-k-elements-with-maximum-sum": {
+"rules": 5,
+"violations": []
+},
+"3479-fruits-into-baskets-iii": {
+"rules": 4,
+"violations": []
+},
+"3488-closest-equal-element-queries": {
+"rules": 3,
+"violations": []
+},
+"3489-zero-array-transformation-iv": {
+"rules": 3,
+"violations": []
+},
+"3493-properties-graph": {
+"rules": 4,
+"violations": []
+},
+"3494-find-the-minimum-amount-of-time-to-brew-potions": {
+"rules": 6,
+"violations": []
+},
+"3499-maximize-active-section-with-trade-i": {
+"rules": 2,
+"violations": []
+},
+"3503-longest-palindrome-after-substring-concatenation-i": {
+"rules": 4,
+"violations": []
+}
+}

@@ -1,0 +1,1 @@
+{"slug":"partition-string","method":"PartitionString","params":["s"],"inplace":false,"tests":[{"a":["abbccccd"],"e":["a","b","bc","c","cc","d"],"g":"example"},{"a":["aaaa"],"e":["a","aa"],"g":"example"}],"examplesOnly":true,"audit":{"source":"README examples","added_generated":2}}
