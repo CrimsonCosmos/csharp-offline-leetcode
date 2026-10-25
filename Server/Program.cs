@@ -52,6 +52,7 @@ app.Use(async (ctx, next) => {
 });
 
 var store = new Store(root, dataDir);
+var sync = new CloudSync(dataDir);
 
 var web = Path.Combine(root, "web");
 var files = new PhysicalFileProvider(web);
@@ -76,6 +77,10 @@ app.MapPost("/api/problems/{folder}/mark", (string folder, JsonElement body) => 
     store.Mark(folder, body.GetProperty("solved").GetBoolean());
     return Results.NoContent();
 });
+app.MapGet("/api/sync", () => sync.Status());
+app.MapPost("/api/sync/setup", async (JsonElement body) => Results.Json(await sync.Setup(body.GetProperty("remote").GetString())));
+app.MapPost("/api/sync/now", () => { sync.Trigger("Manual backup"); return Results.Json(sync.Status()); });
+app.MapDelete("/api/sync", () => { sync.Disable(); return Results.NoContent(); });
 app.MapPost("/api/problems/{folder}/run", async (string folder, JsonElement body) => {
     if (store.ProblemDir(folder) == null) return Results.NotFound();
     var code = body.GetProperty("code").GetString();
@@ -83,7 +88,10 @@ app.MapPost("/api/problems/{folder}/run", async (string folder, JsonElement body
     var unordered = body.TryGetProperty("unordered", out var u) && u.GetBoolean();
     store.SaveCode(folder, code);
     var result = await Runner.Run(root, dataDir, folder, code, submit, unordered);
-    if (submit) store.RecordSubmission(folder, code, result);
+    if (submit) {
+        store.RecordSubmission(folder, code, result);
+        if (result["status"]?.GetValue<string>() == "accepted") sync.Trigger($"Solved {folder}");   // back up in the background
+    }
     return Results.Json(result);
 });
 
@@ -234,6 +242,126 @@ class Store {
 class ProblemInfo { public int Id; public string Title, Folder; public string[] Topics; public int Tests; }
 class Progress { public string Status { get; set; } public List<Submission> Submissions { get; set; } = new(); }
 class Submission { public DateTime Time { get; set; } public string Status { get; set; } public int Passed { get; set; } public int Total { get; set; } public long Ms { get; set; } public string Code { get; set; } }
+
+
+// ---------------------------------------------------------------------------------------------
+
+/// <summary>
+/// Backs the userdata folder up to a private Git repository (free on GitHub/GitLab/Bitbucket) after every accepted
+/// submission. userdata becomes its own git repo; the remote is set once from the UI. Uses the machine's existing git
+/// credentials, never blocks the app, and never deletes local data (on conflicts the local copy wins).
+/// </summary>
+class CloudSync {
+    readonly string dir;
+    readonly SemaphoreSlim gate = new(1);
+    volatile string state = "idle";            // idle | running | ok | error
+    volatile string message = "";
+    DateTime? last;
+    int pending;
+
+    public CloudSync(string dir) { this.dir = dir; }
+
+    bool IsRepo => Directory.Exists(Path.Combine(dir, ".git"));
+
+    string Remote() {
+        if (!IsRepo) return null;
+        var r = Git("remote get-url origin").Result;
+        return r.code == 0 ? r.output.Trim() : null;
+    }
+    bool HasRemote() => Remote() != null;
+
+    public object Status() {
+        var remote = Remote();
+        return new { gitAvailable = GitAvailable(), enabled = remote != null, remote, state, message, last };
+    }
+
+    static bool GitAvailable() {
+        try { using var p = Process.Start(new ProcessStartInfo("git", "--version") { RedirectStandardOutput = true, RedirectStandardError = true, UseShellExecute = false }); p.WaitForExit(5000); return p.ExitCode == 0; }
+        catch { return false; }
+    }
+
+    public void Disable() {
+        if (IsRepo) Git("remote remove origin").Wait();
+        state = "idle"; message = "";
+    }
+
+    public async Task<object> Setup(string remote) {
+        remote = (remote ?? "").Trim();
+        if (remote.Length == 0) return new { ok = false, error = "Paste the URL of an empty private repository." };
+        if (!GitAvailable()) return new { ok = false, error = "Git is not installed. Install it from https://git-scm.com and try again." };
+        await gate.WaitAsync();
+        try {
+            Directory.CreateDirectory(dir);
+            if (!IsRepo) { await Git("init"); await Git("checkout -B main"); }
+            File.WriteAllText(Path.Combine(dir, ".gitignore"), "build/\nserver.url\n*.tmp\n");
+            await Git("remote remove origin");
+            var add = await Git("remote add origin", remote);
+            if (add.code != 0) return new { ok = false, error = add.output.Trim() };
+            var probe = await Git("ls-remote --heads origin", timeoutSec: 60);
+            if (probe.code != 0) return new { ok = false, error = "Could not reach the repository. Check the URL, and that git is signed in (try `git ls-remote " + remote + "` in a terminal).\n" + Tail(probe.output) };
+            // Remote already has backups (e.g. a new computer): merge them in; local files win on conflicts.
+            if (probe.output.Contains("refs/heads/main")) {
+                await Git("fetch origin main", timeoutSec: 120);
+                await Commit("Backup before merge");
+                var m = await Git("merge origin/main --allow-unrelated-histories -X ours --no-edit -m", "Merge cloud backup");
+                if (m.code != 0) { await Git("merge --abort"); return new { ok = false, error = "Could not merge the cloud backup:\n" + Tail(m.output) }; }
+            }
+        } finally { gate.Release(); }
+        Trigger("Set up cloud backup");
+        return new { ok = true };
+    }
+
+    /// <summary>Queue a backup; returns immediately. Bursts are coalesced into one more run.</summary>
+    public void Trigger(string reason) {
+        if (!HasRemote()) return;
+        Interlocked.Exchange(ref pending, 1);
+        state = "running"; message = "Backing up...";
+        _ = Task.Run(async () => {
+            await gate.WaitAsync();
+            try {
+                while (Interlocked.Exchange(ref pending, 0) == 1) await Run(reason);
+            } finally { gate.Release(); }
+        });
+    }
+
+    async Task Run(string reason) {
+        try {
+            await Commit(reason);
+            var push = await Git("push -u origin main", timeoutSec: 120);
+            if (push.code != 0) {
+                // remote moved on (another computer): merge, local wins, push again
+                await Git("fetch origin main", timeoutSec: 120);
+                var m = await Git("merge origin/main --allow-unrelated-histories -X ours --no-edit -m", "Merge cloud backup");
+                if (m.code != 0) await Git("merge --abort");
+                push = await Git("push -u origin main", timeoutSec: 120);
+            }
+            if (push.code == 0) { state = "ok"; message = "Backed up to the cloud"; last = DateTime.UtcNow; }
+            else { state = "error"; message = "Backup failed: " + Tail(push.output); }
+        } catch (Exception e) { state = "error"; message = "Backup failed: " + e.Message; }
+    }
+
+    async Task Commit(string msg) {
+        await Git("add -A");
+        var diff = await Git("diff --cached --quiet");
+        if (diff.code != 0) await Git("commit -m", msg);
+    }
+
+    static string Tail(string s) { s = s.Trim(); return s.Length > 400 ? s[^400..] : s; }
+
+    async Task<(int code, string output)> Git(string args, string lastArg = null, int timeoutSec = 30) {
+        var psi = new ProcessStartInfo("git") { WorkingDirectory = dir, RedirectStandardOutput = true, RedirectStandardError = true, UseShellExecute = false };
+        foreach (var a in new[] { "-c", "user.name=C# LeetCode Backup", "-c", "user.email=backup@localhost", "-c", "core.autocrlf=false" }) psi.ArgumentList.Add(a);
+        foreach (var a in args.Split(' ')) psi.ArgumentList.Add(a);
+        if (lastArg != null) psi.ArgumentList.Add(lastArg);      // message / URL passed as one argument
+        psi.Environment["GIT_TERMINAL_PROMPT"] = "0";             // fail instead of hanging on a password prompt
+        using var p = Process.Start(psi);
+        var o = p.StandardOutput.ReadToEndAsync(); var e = p.StandardError.ReadToEndAsync();
+        using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(timeoutSec));
+        try { await p.WaitForExitAsync(cts.Token); }
+        catch (OperationCanceledException) { try { p.Kill(true); } catch { } return (-1, "git timed out"); }
+        return (p.ExitCode, (await o) + (await e));
+    }
+}
 
 // ---------------------------------------------------------------------------------------------
 

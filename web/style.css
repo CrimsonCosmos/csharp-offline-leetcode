@@ -114,3 +114,8 @@ td.topics { color: var(--muted); font-size: 12px; }
 #toast.show { opacity: 1; }
 .fatal { padding: 60px 20px; text-align: center; color: var(--muted); }
 @media (max-width: 900px) { .split { flex-direction: column; } #left { flex: 0 0 40%; } .gutter.v { width: auto; height: 8px; } }
+
+#sync { font-size: 20px; opacity: .55; }
+#sync.ok { color: var(--green); opacity: 1; }
+#sync.running { color: var(--accent); opacity: 1; }
+#sync.error { color: var(--red); opacity: 1; }

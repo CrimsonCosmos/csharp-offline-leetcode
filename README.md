@@ -20,12 +20,23 @@ It starts the local server on a free port (5180 by default) and opens your defau
 
 - **Problem list:** search, filter by topic/status, pick a random problem.
 - **Run** (`Ctrl+'`) checks the first 10 test cases; **Submit** (`Ctrl+Enter`) checks all of them. Compile errors show as squiggles in the editor; failures show input / output / expected; `Console.WriteLine` output appears under Stdout.
-- Code autosaves to `userdata/code/`; progress and submission history live in `userdata/progress.json` (git-ignored). Delete `userdata/` to start fresh.
+- Code autosaves to `userdata/code/` (back it up with the ☁ button, see below); progress and submission history live in `userdata/progress.json` (git-ignored). Delete `userdata/` to start fresh.
 - Tick **ignore result order** for problems that accept answers in any order.
 - Problems without a test suite can be marked solved by hand. Problems tagged *examples only* use the statement's examples as tests; design problems (e.g. LRU Cache) run the example operation sequences.
 - Known gaps: 10 problems that need a `Node` class (n-ary trees, quad trees, random-pointer lists, ...) and a few random/interactive problems have no tests (their `Node`/`Employee` classes are now uncommented so the code compiles, but you check them against the statement examples).
 
 The tests started as LLM-generated cases from the open LeetCodeDataset, not LeetCode's hidden tests. They have since been audited (invalid cases removed, large and generated cases added, in-place and design problems verified); see [TEST_QUALITY.md](TEST_QUALITY.md) for what was done and what it does and does not prove, and [PRACTICE_PACK_README.md](PRACTICE_PACK_README.md) for the original caveats. The original CLI (`./run.sh 2`, `.\run.ps1 2`) still works.
+
+## Cloud backup (free, optional)
+
+Click the **☁** icon (top right) once to back up `userdata/` (your code, progress and submission history) to a private Git repository. After that it backs up automatically in the background every time a problem is **Accepted**, and the icon turns green. A failed backup never interrupts you; it just shows red with the reason.
+
+1. Install [git](https://git-scm.com) if you don't have it (macOS asks for the developer tools the first time).
+2. Create an **empty private** repository on GitHub (free), e.g. `leetcode-backup`.
+3. Make sure git can push there from this computer (GitHub Desktop, `gh auth login`, or a saved credential; if unsure, run `git ls-remote <repo url>` in a terminal once and sign in).
+4. Click ☁ and paste the repository URL (HTTPS or SSH).
+
+**New computer:** set up the same repo URL in the same way; your backed-up code and progress are merged in (if both sides have different data, the local copy wins, nothing is deleted). **Turn off:** click ☁, type `off`. Each solve is one git commit, so the full history is in the repo.
 
 ## Layout
 

@@ -27,6 +27,45 @@ let theme = store.get('theme', 'dark');
 applyTheme(theme);
 $('#theme').onclick = () => { theme = theme === 'dark' ? 'light' : 'dark'; store.set('theme', theme); applyTheme(theme); };
 
+// ---------- cloud backup (git remote for userdata/, see README) ----------
+let syncInfo = null;
+function paintSync(i) {
+  syncInfo = i;
+  const b = $('#sync');
+  b.className = 'icon-btn' + (i.enabled ? ' ' + (i.state === 'idle' ? 'ok' : i.state) : '');
+  b.title = !i.gitAvailable ? 'Cloud backup needs git (https://git-scm.com)' : !i.enabled ? 'Cloud backup: not set up (click)'
+    : `Cloud backup → ${i.remote}\n${i.message || 'ready'}${i.last ? '\nlast: ' + new Date(i.last).toLocaleString() : ''}`;
+}
+async function refreshSync() { try { paintSync(await api('/sync')); } catch { } }
+async function watchSync() {      // after a successful submission: wait for the background backup and report
+  if (!syncInfo || !syncInfo.enabled) return;
+  for (let k = 0; k < 40; k++) {
+    await new Promise(r => setTimeout(r, 1500));
+    const i = await api('/sync').catch(() => null); if (!i) return; paintSync(i);
+    if (i.state === 'ok') return toast('☁ Backed up to the cloud');
+    if (i.state === 'error') return toast('☁ ' + i.message);
+  }
+}
+$('#sync').onclick = async () => {
+  const i = await api('/sync');
+  if (!i.gitAvailable) return alert('Cloud backup needs git. Install it from https://git-scm.com, then restart this app.');
+  if (!i.enabled) {
+    const url = prompt('Back up your code and progress to a private Git repository after every solved problem.\n\n' +
+      '1. Create an EMPTY PRIVATE repository (free) on GitHub / GitLab / Bitbucket.\n' +
+      '2. Paste its URL here (https://github.com/you/leetcode-backup.git).\n\n' +
+      'It uses the git login already on this computer. See README for details.');
+    if (!url) return;
+    toast('Connecting…');
+    const r = await api('/sync/setup', jsonBody({ remote: url }));
+    if (!r.ok) return alert(r.error);
+    toast('☁ Cloud backup is on'); watchSync(); return refreshSync();
+  }
+  const a = prompt(`Cloud backup is on (${i.remote}).\n${i.message || ''}\n\nType  now  to back up right now, or  off  to disconnect. Leave empty to cancel.`, 'now');
+  if (a === 'now') { await api('/sync/now', { method: 'POST' }); toast('Backing up…'); paintSync({ ...i, state: 'running', message: 'Backing up...' }); watchSync(); }
+  else if (a === 'off') { await api('/sync', { method: 'DELETE' }); toast('Cloud backup disconnected (your data stays on this computer and in the repo)'); refreshSync(); }
+};
+refreshSync();
+
 // ---------- state ----------
 let problems = [];
 async function loadProblems() {
@@ -245,6 +284,7 @@ async function problemPage(folder) {
     try {
       const r = await api(`/problems/${encodeURIComponent(folder)}/run`, jsonBody({ code: editor.getValue(), submit, unordered: $('#unordered').checked }));
       showResult(r, submit);
+      if (r.status === 'accepted' && submit) watchSync();
       if (submit) { const fresh = await api('/problems/' + encodeURIComponent(folder)); p.status = fresh.status; p.submissions = fresh.submissions; await loadProblems(); if (document.querySelector('#left .tab.active').dataset.tab === 'subs') showSubs(); }
     } catch (e) { out.innerHTML = `<div class="box err">${esc(e.message)}</div>`; }
     busy = false; $('#run').disabled = $('#submit').disabled = false;
