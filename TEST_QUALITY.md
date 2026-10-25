@@ -8,7 +8,7 @@ reproducible. Summary of what was found and done:
 
 | Finding | Original | Now |
 |---|---|---|
-| Tests whose input **violates the README constraints** (lengths, value ranges, uniqueness, `n == nums.length`, node values...), which no LeetCode judge would ever send. A correct solution can fail them or time out on them. | 5,627 tests in 643 problems (4.6%) | removed (logged in `tools/testaudit/report/removed_tests.json.gz`); every remaining test satisfies every constraint the checker understands |
+| Tests whose input **violates the README constraints** (lengths, value ranges, uniqueness, `n == nums.length`, node values...), which no LeetCode judge would ever send. A correct solution can fail them or time out on them. | 5,832 tests in 660 problems (4.8%), including arrays that are not really "rotated sorted", trees that are not BSTs, repeated edges | removed (logged in `tools/testaudit/report/removed_tests.json.gz`); every remaining test satisfies every constraint the checker understands |
 | Duplicate inputs | 2,377 | removed |
 | Tests the C# runner **silently skipped** (value does not fit `int`, etc.) | 272 in 47 problems | removed; `check_csharp.py` proves all 1,376 suites now deserialize into the real C# types with nothing skipped |
 | **In-place problems** (Sort Colors, Rotate Image, ...) only checked "does not throw" | 11 problems | 10 are verified against the reference's final state (Wiggle Sort II has many valid outputs, so it still only checks that the code runs) |

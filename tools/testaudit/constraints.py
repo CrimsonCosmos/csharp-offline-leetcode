@@ -116,6 +116,33 @@ def parse(readme, params, folder=''):
         m = re.fullmatch(r"(\w+(?:\[\w\])*) is either '?(\w)'? or '?(\w)'?\.?", line)
         if m and ACC.match(m.group(1)) and ACC.match(m.group(1)).group(1) in names:
             a = ACC.match(m.group(1)); rules.append(('oneof', a.group(1), a.group(2).count('['), {m.group(2), m.group(3)})); continue
+        # --- structural guarantees stated in prose ---------------------------------------------------------
+        mm = re.search(r'\b(\w+) is (?:an? |guaranteed to be |sorted and )?(?:ascending |sorted )?(?:array )?(?:that is )?(?:possibly |guaranteed to be )?rotated', line)
+        if mm and mm.group(1) in names: rules.append(('rotated', mm.group(1))); continue
+        mm = re.fullmatch(r'(\w+) is sorted and rotated.*', line)
+        if mm and mm.group(1) in names: rules.append(('rotated', mm.group(1))); continue
+        mm = re.fullmatch(r'(\w+) is (?:a )?(non-decreasing|non-increasing|sorted|ascending) (?:array|list)\.?', line)
+        if mm and mm.group(1) in names: rules.append(('sorted', mm.group(1), 'non-increasing' if mm.group(2) == 'non-increasing' else 'non-decreasing')); continue
+        mm = re.fullmatch(r'(?:The list|(\w+)) is guaranteed to be sorted in (ascending|non-decreasing|descending) order\.?', line)
+        if mm:
+            tgt = mm.group(1) or next((n for n in names if n in ('head', 'list1')), None)
+            if tgt in names: rules.append(('sorted', tgt, 'descending' if mm.group(2) == 'descending' else 'non-decreasing')); continue
+        mm = re.fullmatch(r'(\w+) is sorted by \w+ in (ascending|non-decreasing) order\.?', line)
+        if mm and mm.group(1) in names: rules.append(('sortedby0', mm.group(1))); continue
+        mm = re.fullmatch(r'All the (?:values|integers)(?: of| in)? (?:the )?(?:Node\.val|tree|list|nodes|BST)?\s*(?:are|is) (?:unique|distinct)\.?|All the values Node\.val are unique\.|The values of the nodes in the tree are unique\.|All the values of the tree are unique\.|All the values in the tree are unique\.', line)
+        if mm: rules.append(('nodeunique',)); continue
+        mm = re.fullmatch(r'All (?:the )?pairs? (?:\[?\w+, ?\w+\]?|\(\w+, ?\w+\)|\w+\[\w\])\s*(?:are|is) (?:unique|distinct)\.?', line)
+        if mm:
+            tgt = next((n for n in names if n in ('prerequisites', 'edges', 'roads', 'connections', 'flights', 'points', 'times', 'relations')), None)
+            if tgt: rules.append(('rowsunique', tgt)); continue
+        mm = re.fullmatch(r'There are no (?:repeated|duplicate) edges\.?', line)
+        if mm and 'edges' in names: rules.append(('rowsunique', 'edges', True)); continue
+        mm = re.fullmatch(r'(\w+)\[i\] != \1\[i \+ 1\] for all valid i\.?', line)
+        if mm and mm.group(1) in names: rules.append(('adjdistinct', mm.group(1))); continue
+        mm = re.search(r'(?:valid binary search tree|is a BST)', line)
+        if mm: rules.append(('bst',)); continue
+        mm = re.fullmatch(r'(\w+) represents a valid tree\.?|The input is generated such that (\w+) represents a valid tree\.?', line)
+        if mm and (mm.group(1) or mm.group(2)) in names: rules.append(('validtree', mm.group(1) or mm.group(2))); continue
         # relational chain
         if ',' in line and re.search(r'<=?', line):
             m = re.fullmatch(r'(.+?)\s*(<=?)\s*([\w\[\]\.]+(?:\s*,\s*[\w\[\]\.]+)+)\s*(<=?)\s*(.+)', line)
@@ -152,6 +179,34 @@ def collect(v, depth):
     if isinstance(v, (list, tuple)):
         for x in v: out.extend(collect(x, depth - 1))
     return out
+
+
+def _is_bst(vals):
+    """Level-order list (None = missing) -> is it a valid binary search tree (strict)?"""
+    if not vals or vals[0] is None: return True
+    nodes = [[vals[0], None, None]]; q = [nodes[0]]; i = 1; k = 0
+    while k < len(q) and i < len(vals):
+        n = q[k]; k += 1
+        for side in (1, 2):
+            if i < len(vals):
+                if vals[i] is not None: c = [vals[i], None, None]; n[side] = c; q.append(c)
+                i += 1
+    out, st, cur = [], [], nodes[0]
+    while cur or st:
+        while cur: st.append(cur); cur = cur[1]
+        cur = st.pop(); out.append(cur[0]); cur = cur[2]
+    return all(a < b for a, b in zip(out, out[1:]))
+
+def _connected(n, edges):
+    par = list(range(n))
+    def f(x):
+        while par[x] != x: par[x] = par[par[x]]; x = par[x]
+        return x
+    for e in edges:
+        a, b = e[0], e[1]
+        if not (0 <= a < n and 0 <= b < n): return False
+        par[f(a)] = f(b)
+    return len({f(x) for x in range(n)}) == 1
 
 def check(rules, params, args, kinds):
     """-> list of violation strings for one test case."""
@@ -200,6 +255,39 @@ def check(rules, params, args, kinds):
             flat = [c for x in flat for c in (x if isinstance(x, str) else [x])]
             for x in flat:
                 if str(x) not in allowed: bad.append(f'value {name}={x!r} not one of {sorted(allowed)}'); break
+        elif r[0] == 'rotated':
+            v = A[r[1]]
+            if isinstance(v, list) and v:
+                srt = sorted(v)
+                if not any(v == srt[k:] + srt[:k] for k in range(len(v))): bad.append(f'{r[1]} is not a rotation of a sorted array')
+        elif r[0] == 'sortedby0':
+            v = A[r[1]]
+            if isinstance(v, list) and all(isinstance(x, list) and x for x in v):
+                if any(a[0] > b[0] for a, b in zip(v, v[1:])): bad.append(f'{r[1]} not sorted by start')
+        elif r[0] in ('nodeunique', 'bst'):
+            for n, k in K.items():
+                if k == 'tree' and A[n]:
+                    vals = [x for x in A[n] if x is not None]
+                    if r[0] == 'nodeunique' and len(set(vals)) != len(vals): bad.append('node values not unique'); break
+                    if r[0] == 'bst' and not _is_bst(A[n]): bad.append('tree is not a valid BST'); break
+                elif k == 'list' and A[n] and r[0] == 'nodeunique' and len(set(A[n])) != len(A[n]): bad.append('node values not unique'); break
+        elif r[0] == 'rowsunique':
+            v = A[r[1]]
+            if isinstance(v, list) and all(isinstance(x, list) for x in v):
+                seen = set()
+                for x in v:
+                    key = tuple(sorted(x)) if len(r) > 2 else tuple(x)
+                    if key in seen: bad.append(f'{r[1]} has a repeated row'); break
+                    seen.add(key)
+        elif r[0] == 'adjdistinct':
+            v = A[r[1]]
+            if isinstance(v, list) and any(a == b for a, b in zip(v, v[1:])): bad.append(f'{r[1]} has equal neighbours')
+        elif r[0] == 'validtree':
+            e = A[r[1]]
+            n = A.get('n')
+            if isinstance(e, list) and all(isinstance(x, list) and len(x) >= 2 for x in e):
+                nodes = n if isinstance(n, int) else len({y for x in e for y in x[:2]}) if e else 1
+                if len(e) != nodes - 1 or not _connected(nodes, e): bad.append(f'{r[1]} is not a valid tree')
         elif r[0] == 'unique':
             v = A[r[1]]
             if isinstance(v, list) and all(not isinstance(x, (list, dict)) for x in v) and len(set(v)) != len(v): bad.append(f'{r[1]} not unique')

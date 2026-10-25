@@ -21,8 +21,8 @@ Tests = number of automated test cases available for `./run.sh`.
 | 24 | Swap Nodes in Pairs | Linked List, Recursion | 82 | 0024-swap-nodes-in-pairs |
 | 29 | Divide Two Integers | Math, Bit Manipulation | 134 | 0029-divide-two-integers |
 | 31 | Next Permutation | Array, Two Pointers | 98 | 0031-next-permutation |
-| 33 | Search in Rotated Sorted Array | Array, Binary Search | 131 | 0033-search-in-rotated-sorted-array |
-| 34 | Find First and Last Position of Element in Sorted Array | Array, Binary Search | 131 | 0034-find-first-and-last-position-of-element-in-sorted-array |
+| 33 | Search in Rotated Sorted Array | Array, Binary Search | 122 | 0033-search-in-rotated-sorted-array |
+| 34 | Find First and Last Position of Element in Sorted Array | Array, Binary Search | 130 | 0034-find-first-and-last-position-of-element-in-sorted-array |
 | 36 | Valid Sudoku | Array, Hash Table, Matrix | 29 | 0036-valid-sudoku |
 | 38 | Count and Say | String | 30 | 0038-count-and-say |
 | 39 | Combination Sum | Array, Backtracking | 30 | 0039-combination-sum |
@@ -53,8 +53,8 @@ Tests = number of automated test cases available for `./run.sh`.
 | 78 | Subsets | Array, Backtracking, Bit Manipulation | 60 | 0078-subsets |
 | 79 | Word Search | Array, String, Backtracking, Depth-First Search, Matrix | 30 | 0079-word-search |
 | 80 | Remove Duplicates from Sorted Array II | Array, Two Pointers | 129 | 0080-remove-duplicates-from-sorted-array-ii |
-| 81 | Search in Rotated Sorted Array II | Array, Binary Search | 77 | 0081-search-in-rotated-sorted-array-ii |
-| 82 | Remove Duplicates from Sorted List II | Linked List, Two Pointers | 105 | 0082-remove-duplicates-from-sorted-list-ii |
+| 81 | Search in Rotated Sorted Array II | Array, Binary Search | 74 | 0081-search-in-rotated-sorted-array-ii |
+| 82 | Remove Duplicates from Sorted List II | Linked List, Two Pointers | 104 | 0082-remove-duplicates-from-sorted-list-ii |
 | 86 | Partition List | Linked List, Two Pointers | 96 | 0086-partition-list |
 | 89 | Gray Code | Math, Backtracking, Bit Manipulation | 12 | 0089-gray-code |
 | 90 | Subsets II | Array, Backtracking, Bit Manipulation | 93 | 0090-subsets-ii |
@@ -95,9 +95,9 @@ Tests = number of automated test cases available for `./run.sh`.
 | 150 | Evaluate Reverse Polish Notation | Array, Math, Stack | 97 | 0150-evaluate-reverse-polish-notation |
 | 151 | Reverse Words in a String | Two Pointers, String | 30 | 0151-reverse-words-in-a-string |
 | 152 | Maximum Product Subarray | Array, Dynamic Programming | 70 | 0152-maximum-product-subarray |
-| 153 | Find Minimum in Rotated Sorted Array | Array, Binary Search | 97 | 0153-find-minimum-in-rotated-sorted-array |
+| 153 | Find Minimum in Rotated Sorted Array | Array, Binary Search | 87 | 0153-find-minimum-in-rotated-sorted-array |
 | 155 | Min Stack | Stack, Design | 1 | 0155-min-stack |
-| 162 | Find Peak Element | Array, Binary Search | 94 | 0162-find-peak-element |
+| 162 | Find Peak Element | Array, Binary Search | 91 | 0162-find-peak-element |
 | 164 | Maximum Gap | Array, Sorting, Bucket Sort, Radix Sort | 110 | 0164-maximum-gap |
 | 165 | Compare Version Numbers | Two Pointers, String | 119 | 0165-compare-version-numbers |
 | 166 | Fraction to Recurring Decimal | Hash Table, Math, String | 83 | 0166-fraction-to-recurring-decimal |
@@ -206,7 +206,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 445 | Add Two Numbers II | Linked List, Math, Stack | 60 | 0445-add-two-numbers-ii |
 | 447 | Number of Boomerangs | Array, Hash Table, Math | 101 | 0447-number-of-boomerangs |
 | 449 | Serialize and Deserialize BST | String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Search Tree, Binary Tree | none | 0449-serialize-and-deserialize-bst |
-| 450 | Delete Node in a BST | Tree, Binary Search Tree, Binary Tree | 137 | 0450-delete-node-in-a-bst |
+| 450 | Delete Node in a BST | Tree, Binary Search Tree, Binary Tree | 59 | 0450-delete-node-in-a-bst |
 | 451 | Sort Characters By Frequency | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting | 53 | 0451-sort-characters-by-frequency |
 | 452 | Minimum Number of Arrows to Burst Balloons | Array, Greedy, Sorting | 106 | 0452-minimum-number-of-arrows-to-burst-balloons |
 | 453 | Minimum Moves to Equal Array Elements | Array, Math | 70 | 0453-minimum-moves-to-equal-array-elements |
@@ -246,7 +246,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 532 | K-diff Pairs in an Array | Array, Hash Table, Two Pointers, Binary Search, Sorting | 107 | 0532-k-diff-pairs-in-an-array |
 | 535 | Encode and Decode TinyURL | Hash Table, String, Design, Hash Function | none | 0535-encode-and-decode-tinyurl |
 | 537 | Complex Number Multiplication | Math, String, Simulation | 62 | 0537-complex-number-multiplication |
-| 538 | Convert BST to Greater Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 95 | 0538-convert-bst-to-greater-tree |
+| 538 | Convert BST to Greater Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 52 | 0538-convert-bst-to-greater-tree |
 | 539 | Minimum Time Difference | Array, Math, String, Sorting | 85 | 0539-minimum-time-difference |
 | 540 | Single Element in a Sorted Array | Array, Binary Search | 133 | 0540-single-element-in-a-sorted-array |
 | 542 | 01 Matrix | Array, Dynamic Programming, Breadth-First Search, Matrix | 69 | 0542-01-matrix |
@@ -288,14 +288,14 @@ Tests = number of automated test cases available for `./run.sh`.
 | 662 | Maximum Width of Binary Tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | 96 | 0662-maximum-width-of-binary-tree |
 | 665 | Non-decreasing Array | Array | 159 | 0665-non-decreasing-array |
 | 667 | Beautiful Arrangement II | Array, Math | 71 | 0667-beautiful-arrangement-ii |
-| 669 | Trim a Binary Search Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 27 | 0669-trim-a-binary-search-tree |
+| 669 | Trim a Binary Search Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 24 | 0669-trim-a-binary-search-tree |
 | 670 | Maximum Swap | Math, Greedy | 60 | 0670-maximum-swap |
 | 672 | Bulb Switcher II | Math, Bit Manipulation, Depth-First Search, Breadth-First Search | 90 | 0672-bulb-switcher-ii |
 | 673 | Number of Longest Increasing Subsequence | Array, Dynamic Programming, Binary Indexed Tree, Segment Tree | 102 | 0673-number-of-longest-increasing-subsequence |
 | 676 | Implement Magic Dictionary | Hash Table, String, Depth-First Search, Design, Trie | 1 | 0676-implement-magic-dictionary |
 | 677 | Map Sum Pairs | Hash Table, String, Design, Trie | 1 | 0677-map-sum-pairs |
 | 678 | Valid Parenthesis String | String, Dynamic Programming, Stack, Greedy | 181 | 0678-valid-parenthesis-string |
-| 684 | Redundant Connection | Depth-First Search, Breadth-First Search, Union Find, Graph | 76 | 0684-redundant-connection |
+| 684 | Redundant Connection | Depth-First Search, Breadth-First Search, Union Find, Graph | 73 | 0684-redundant-connection |
 | 686 | Repeated String Match | String, String Matching | 144 | 0686-repeated-string-match |
 | 687 | Longest Univalue Path | Tree, Depth-First Search, Binary Tree | 107 | 0687-longest-univalue-path |
 | 688 | Knight Probability in Chessboard | Dynamic Programming | 79 | 0688-knight-probability-in-chessboard |
@@ -303,7 +303,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 692 | Top K Frequent Words | Array, Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting | 90 | 0692-top-k-frequent-words |
 | 695 | Max Area of Island | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | 60 | 0695-max-area-of-island |
 | 698 | Partition to K Equal Sum Subsets | Array, Dynamic Programming, Backtracking, Bit Manipulation, Memoization, Bitmask | 84 | 0698-partition-to-k-equal-sum-subsets |
-| 701 | Insert into a Binary Search Tree | Tree, Binary Search Tree, Binary Tree | 89 | 0701-insert-into-a-binary-search-tree |
+| 701 | Insert into a Binary Search Tree | Tree, Binary Search Tree, Binary Tree | 87 | 0701-insert-into-a-binary-search-tree |
 | 707 | Design Linked List | Linked List, Design | 1 | 0707-design-linked-list |
 | 712 | Minimum ASCII Delete Sum for Two Strings | String, Dynamic Programming | 113 | 0712-minimum-ascii-delete-sum-for-two-strings |
 | 713 | Subarray Product Less Than K | Array, Binary Search, Sliding Window, Prefix Sum | 113 | 0713-subarray-product-less-than-k |
@@ -378,7 +378,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 858 | Mirror Reflection | Math, Geometry, Number Theory | 84 | 0858-mirror-reflection |
 | 861 | Score After Flipping Matrix | Array, Greedy, Bit Manipulation, Matrix | 80 | 0861-score-after-flipping-matrix |
 | 863 | All Nodes Distance K in Binary Tree | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 2 | 0863-all-nodes-distance-k-in-binary-tree |
-| 865 | Smallest Subtree with all the Deepest Nodes | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 113 | 0865-smallest-subtree-with-all-the-deepest-nodes |
+| 865 | Smallest Subtree with all the Deepest Nodes | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 110 | 0865-smallest-subtree-with-all-the-deepest-nodes |
 | 866 | Prime Palindrome | Math, Number Theory | 44 | 0866-prime-palindrome |
 | 869 | Reordered Power of 2 | Hash Table, Math, Sorting, Counting, Enumeration | 79 | 0869-reordered-power-of-2 |
 | 870 | Advantage Shuffle | Array, Two Pointers, Greedy, Sorting | 97 | 0870-advantage-shuffle |
@@ -449,7 +449,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 990 | Satisfiability of Equality Equations | Array, String, Union Find, Graph | 77 | 0990-satisfiability-of-equality-equations |
 | 991 | Broken Calculator | Math, Greedy | 95 | 0991-broken-calculator |
 | 994 | Rotting Oranges | Array, Breadth-First Search, Matrix | 96 | 0994-rotting-oranges |
-| 998 | Maximum Binary Tree II | Tree, Binary Tree | 74 | 0998-maximum-binary-tree-ii |
+| 998 | Maximum Binary Tree II | Tree, Binary Tree | 71 | 0998-maximum-binary-tree-ii |
 | 1003 | Check If Word Is Valid After Substitutions | String, Stack | 140 | 1003-check-if-word-is-valid-after-substitutions |
 | 1004 | Max Consecutive Ones III | Array, Binary Search, Sliding Window, Prefix Sum | 78 | 1004-max-consecutive-ones-iii |
 | 1006 | Clumsy Factorial | Math, Stack, Simulation | 38 | 1006-clumsy-factorial |
@@ -472,7 +472,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 1033 | Moving Stones Until Consecutive | Math, Brainteaser | 130 | 1033-moving-stones-until-consecutive |
 | 1034 | Coloring A Border | Array, Depth-First Search, Breadth-First Search, Matrix | 78 | 1034-coloring-a-border |
 | 1035 | Uncrossed Lines | Array, Dynamic Programming | 100 | 1035-uncrossed-lines |
-| 1038 | Binary Search Tree to Greater Sum Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 84 | 1038-binary-search-tree-to-greater-sum-tree |
+| 1038 | Binary Search Tree to Greater Sum Tree | Tree, Depth-First Search, Binary Search Tree, Binary Tree | 83 | 1038-binary-search-tree-to-greater-sum-tree |
 | 1039 | Minimum Score Triangulation of Polygon | Array, Dynamic Programming | 87 | 1039-minimum-score-triangulation-of-polygon |
 | 1040 | Moving Stones Until Consecutive II | Array, Math, Sliding Window, Sorting | 136 | 1040-moving-stones-until-consecutive-ii |
 | 1041 | Robot Bounded In Circle | Math, String, Simulation | 140 | 1041-robot-bounded-in-circle |
@@ -501,7 +501,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 1115 | Print FooBar Alternately | Concurrency | none | 1115-print-foobar-alternately |
 | 1116 | Print Zero Even Odd | Concurrency | none | 1116-print-zero-even-odd |
 | 1117 | Building H2O | Concurrency | none | 1117-building-h2o |
-| 1123 | Lowest Common Ancestor of Deepest Leaves | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 94 | 1123-lowest-common-ancestor-of-deepest-leaves |
+| 1123 | Lowest Common Ancestor of Deepest Leaves | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 92 | 1123-lowest-common-ancestor-of-deepest-leaves |
 | 1124 | Longest Well-Performing Interval | Array, Hash Table, Stack, Monotonic Stack, Prefix Sum | 98 | 1124-longest-well-performing-interval |
 | 1129 | Shortest Path with Alternating Colors | Breadth-First Search, Graph | 97 | 1129-shortest-path-with-alternating-colors |
 | 1130 | Minimum Cost Tree From Leaf Values | Array, Dynamic Programming, Stack, Greedy, Monotonic Stack | 90 | 1130-minimum-cost-tree-from-leaf-values |
@@ -511,7 +511,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 1140 | Stone Game II | Array, Math, Dynamic Programming, Prefix Sum, Game Theory | 91 | 1140-stone-game-ii |
 | 1143 | Longest Common Subsequence | String, Dynamic Programming | 142 | 1143-longest-common-subsequence |
 | 1144 | Decrease Elements To Make Array Zigzag | Array, Greedy | 144 | 1144-decrease-elements-to-make-array-zigzag |
-| 1145 | Binary Tree Coloring Game | Tree, Depth-First Search, Binary Tree | 29 | 1145-binary-tree-coloring-game |
+| 1145 | Binary Tree Coloring Game | Tree, Depth-First Search, Binary Tree | 21 | 1145-binary-tree-coloring-game |
 | 1146 | Snapshot Array | Array, Hash Table, Binary Search, Design | none | 1146-snapshot-array |
 | 1155 | Number of Dice Rolls With Target Sum | Dynamic Programming | 108 | 1155-number-of-dice-rolls-with-target-sum |
 | 1156 | Swap For Longest Repeated Character Substring | Hash Table, String, Sliding Window | 58 | 1156-swap-for-longest-repeated-character-substring |
@@ -624,7 +624,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 1456 | Maximum Number of Vowels in a Substring of Given Length | String, Sliding Window | 80 | 1456-maximum-number-of-vowels-in-a-substring-of-given-length |
 | 1457 | Pseudo-Palindromic Paths in a Binary Tree | Bit Manipulation, Tree, Depth-First Search, Breadth-First Search, Binary Tree | 3 | 1457-pseudo-palindromic-paths-in-a-binary-tree |
 | 1461 | Check If a String Contains All Binary Codes of Size K | Hash Table, String, Bit Manipulation, Rolling Hash, Hash Function | 106 | 1461-check-if-a-string-contains-all-binary-codes-of-size-k |
-| 1462 | Course Schedule IV | Depth-First Search, Breadth-First Search, Graph, Topological Sort | 181 | 1462-course-schedule-iv |
+| 1462 | Course Schedule IV | Depth-First Search, Breadth-First Search, Graph, Topological Sort | 180 | 1462-course-schedule-iv |
 | 1465 | Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts | Array, Greedy, Sorting | 91 | 1465-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts |
 | 1466 | Reorder Routes to Make All Paths Lead to the City Zero | Depth-First Search, Breadth-First Search, Graph | 56 | 1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero |
 | 1471 | The k Strongest Values in an Array | Array, Two Pointers, Sorting | 92 | 1471-the-k-strongest-values-in-an-array |
@@ -669,7 +669,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 1577 | Number of Ways Where Square of Number Is Equal to Product of Two Numbers | Array, Hash Table, Math, Two Pointers | 107 | 1577-number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers |
 | 1578 | Minimum Time to Make Rope Colorful | Array, String, Dynamic Programming, Greedy | 77 | 1578-minimum-time-to-make-rope-colorful |
 | 1583 | Count Unhappy Friends | Array, Simulation | 30 | 1583-count-unhappy-friends |
-| 1584 | Min Cost to Connect All Points | Array, Union Find, Graph, Minimum Spanning Tree | 104 | 1584-min-cost-to-connect-all-points |
+| 1584 | Min Cost to Connect All Points | Array, Union Find, Graph, Minimum Spanning Tree | 103 | 1584-min-cost-to-connect-all-points |
 | 1589 | Maximum Sum Obtained of Any Permutation | Array, Greedy, Sorting, Prefix Sum | 97 | 1589-maximum-sum-obtained-of-any-permutation |
 | 1590 | Make Sum Divisible by P | Array, Hash Table, Prefix Sum | 64 | 1590-make-sum-divisible-by-p |
 | 1593 | Split a String Into the Max Number of Unique Substrings | Hash Table, String, Backtracking | 72 | 1593-split-a-string-into-the-max-number-of-unique-substrings |
@@ -859,7 +859,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 2090 | K Radius Subarray Averages | Array, Sliding Window | 86 | 2090-k-radius-subarray-averages |
 | 2091 | Removing Minimum and Maximum From Array | Array, Greedy | 100 | 2091-removing-minimum-and-maximum-from-array |
 | 2095 | Delete the Middle Node of a Linked List | Linked List, Two Pointers | 55 | 2095-delete-the-middle-node-of-a-linked-list |
-| 2096 | Step-By-Step Directions From a Binary Tree Node to Another | String, Tree, Depth-First Search, Binary Tree | 85 | 2096-step-by-step-directions-from-a-binary-tree-node-to-another |
+| 2096 | Step-By-Step Directions From a Binary Tree Node to Another | String, Tree, Depth-First Search, Binary Tree | 80 | 2096-step-by-step-directions-from-a-binary-tree-node-to-another |
 | 2100 | Find Good Days to Rob the Bank | Array, Dynamic Programming, Prefix Sum | 124 | 2100-find-good-days-to-rob-the-bank |
 | 2101 | Detonate the Maximum Bombs | Array, Math, Depth-First Search, Breadth-First Search, Graph, Geometry | 113 | 2101-detonate-the-maximum-bombs |
 | 2104 | Sum of Subarray Ranges | Array, Stack, Monotonic Stack | 114 | 2104-sum-of-subarray-ranges |
@@ -896,7 +896,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 2186 | Minimum Number of Steps to Make Two Strings Anagram II | Hash Table, String, Counting | 103 | 2186-minimum-number-of-steps-to-make-two-strings-anagram-ii |
 | 2187 | Minimum Time to Complete Trips | Array, Binary Search | 99 | 2187-minimum-time-to-complete-trips |
 | 2191 | Sort the Jumbled Numbers | Array, Sorting | 63 | 2191-sort-the-jumbled-numbers |
-| 2192 | All Ancestors of a Node in a Directed Acyclic Graph | Depth-First Search, Breadth-First Search, Graph, Topological Sort | 64 | 2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph |
+| 2192 | All Ancestors of a Node in a Directed Acyclic Graph | Depth-First Search, Breadth-First Search, Graph, Topological Sort | 63 | 2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph |
 | 2195 | Append K Integers With Minimal Sum | Array, Math, Greedy, Sorting | 96 | 2195-append-k-integers-with-minimal-sum |
 | 2196 | Create Binary Tree From Descriptions | Array, Hash Table, Tree, Binary Tree | 48 | 2196-create-binary-tree-from-descriptions |
 | 2201 | Count Artifacts That Can Be Extracted | Array, Hash Table, Simulation | 66 | 2201-count-artifacts-that-can-be-extracted |
@@ -1004,9 +1004,9 @@ Tests = number of automated test cases available for `./run.sh`.
 | 2466 | Count Ways To Build Good Strings | Dynamic Programming | 40 | 2466-count-ways-to-build-good-strings |
 | 2467 | Most Profitable Path in a Tree | Array, Tree, Depth-First Search, Breadth-First Search, Graph | 55 | 2467-most-profitable-path-in-a-tree |
 | 2470 | Number of Subarrays With LCM Equal to K | Array, Math, Number Theory | 100 | 2470-number-of-subarrays-with-lcm-equal-to-k |
-| 2471 | Minimum Number of Operations to Sort a Binary Tree by Level | Tree, Breadth-First Search, Binary Tree | 94 | 2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level |
+| 2471 | Minimum Number of Operations to Sort a Binary Tree by Level | Tree, Breadth-First Search, Binary Tree | 79 | 2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level |
 | 2476 | Closest Nodes Queries in a Binary Search Tree | Array, Binary Search, Tree, Depth-First Search, Binary Search Tree, Binary Tree | 47 | 2476-closest-nodes-queries-in-a-binary-search-tree |
-| 2477 | Minimum Fuel Cost to Report to the Capital | Tree, Depth-First Search, Breadth-First Search, Graph | 67 | 2477-minimum-fuel-cost-to-report-to-the-capital |
+| 2477 | Minimum Fuel Cost to Report to the Capital | Tree, Depth-First Search, Breadth-First Search, Graph | 65 | 2477-minimum-fuel-cost-to-report-to-the-capital |
 | 2482 | Difference Between Ones and Zeros in Row and Column | Array, Matrix, Simulation | 68 | 2482-difference-between-ones-and-zeros-in-row-and-column |
 | 2483 | Minimum Penalty for a Shop | String, Prefix Sum | 153 | 2483-minimum-penalty-for-a-shop |
 | 2486 | Append Characters to String to Make Subsequence | Two Pointers, String, Greedy | 147 | 2486-append-characters-to-string-to-make-subsequence |
@@ -1084,7 +1084,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 2680 | Maximum OR | Array, Greedy, Bit Manipulation, Prefix Sum | 112 | 2680-maximum-or |
 | 2683 | Neighboring Bitwise XOR | Array, Bit Manipulation | 92 | 2683-neighboring-bitwise-xor |
 | 2684 | Maximum Number of Moves in a Grid | Array, Dynamic Programming, Matrix | 81 | 2684-maximum-number-of-moves-in-a-grid |
-| 2685 | Count the Number of Complete Components | Depth-First Search, Breadth-First Search, Union Find, Graph | 70 | 2685-count-the-number-of-complete-components |
+| 2685 | Count the Number of Complete Components | Depth-First Search, Breadth-First Search, Union Find, Graph | 64 | 2685-count-the-number-of-complete-components |
 | 2698 | Find the Punishment Number of an Integer | Math, Backtracking | 30 | 2698-find-the-punishment-number-of-an-integer |
 | 2707 | Extra Characters in a String | Array, Hash Table, String, Dynamic Programming, Trie | 95 | 2707-extra-characters-in-a-string |
 | 2708 | Maximum Strength of a Group | Array, Dynamic Programming, Backtracking, Greedy, Bit Manipulation, Sorting, Enumeration | 106 | 2708-maximum-strength-of-a-group |
@@ -1224,7 +1224,7 @@ Tests = number of automated test cases available for `./run.sh`.
 | 3101 | Count Alternating Subarrays | Array, Math | 111 | 3101-count-alternating-subarrays |
 | 3106 | Lexicographically Smallest String After Operations With Constraint | String, Greedy | 110 | 3106-lexicographically-smallest-string-after-operations-with-constraint |
 | 3107 | Minimum Operations to Make Median of Array Equal to K | Array, Greedy, Sorting | 84 | 3107-minimum-operations-to-make-median-of-array-equal-to-k |
-| 3111 | Minimum Rectangles to Cover Points | Array, Greedy, Sorting | 117 | 3111-minimum-rectangles-to-cover-points |
+| 3111 | Minimum Rectangles to Cover Points | Array, Greedy, Sorting | 116 | 3111-minimum-rectangles-to-cover-points |
 | 3112 | Minimum Time to Visit Disappearing Nodes | Array, Graph, Heap (Priority Queue), Shortest Path | 104 | 3112-minimum-time-to-visit-disappearing-nodes |
 | 3115 | Maximum Prime Difference | Array, Math, Number Theory | 37 | 3115-maximum-prime-difference |
 | 3121 | Count the Number of Special Characters II | Hash Table, String | 101 | 3121-count-the-number-of-special-characters-ii |
